@@ -1,0 +1,47 @@
+
+
+.GovCard{
+    border-radius: 13px;
+    background: #1B1B1B;
+    display: flex;
+    padding: 18px;
+    align-items: center;
+    gap: 1rem;
+    align-self: stretch;
+
+    .card_text{
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+        font-size: 0.7rem;
+
+        .card_type{
+            width: max-content;
+            min-width: 80px;
+            border-radius: 1.64756rem;
+            background: #B8CCFF;
+            display: flex;
+            padding: 0.3rem 0.85rem;
+            justify-content: center;
+            align-items: center;
+            font-weight: 500;
+        }
+        .card_datetime{
+            color: #747474;
+            font-weight: 500;
+            display: flex;
+            justify-content: space-between;
+            p{
+                line-height: 1rem;
+                letter-spacing: -0.00375rem;
+            }
+        }
+        .card_title{
+            color: #FFF;
+            font-size: 0.8rem;
+            font-weight: 700;
+            line-height: 106.2%;
+            font-family: 'Prompt', sans-serif;
+        }
+    }
+}

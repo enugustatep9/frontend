@@ -1,0 +1,25 @@
+.universities{
+    margin: 0 0 2.8rem 1.38rem;
+    border-radius: 0.91rem;
+    background: #EBEBEB;
+
+    .universities_header{
+        padding: 2.94rem 0 2.38rem 2.5rem;
+        h2{
+            font-size: 1.75rem;
+            font-weight: 800;
+            line-height: 1.1em;
+        }
+    }
+    .universities_content{
+        height: 740px;
+        overflow: hidden;
+        .universities_content_wrapper{
+            display: flex;
+            overflow-x: scroll;
+            gap: 0.81rem;
+            height: 760px;
+            margin-left: 1rem;
+        }
+    }
+}

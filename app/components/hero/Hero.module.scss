@@ -1,0 +1,218 @@
+
+
+.hero{
+    padding: 0.92rem .4rem;
+    height: 628px;
+    margin-bottom: 100px;
+    position: relative;
+    .hero_main_wrapper{
+        height: 628px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: 0 auto;
+        
+        .hero_main{
+            width: 100%;
+            height: 100%;
+            border-radius: 0.625rem;
+            background: linear-gradient(360deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.00) 100%);
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+    
+            .hero_img{
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto auto;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .hero_text{
+                position: relative;
+                margin-top: 6rem;
+    
+                h1{
+                    color: #FFF;
+                    width: 320px;
+                    text-align: center;
+                    font-size: 2rem;
+                    font-weight: 700;
+                    line-height: 2.25131rem;
+                    letter-spacing: -0.02rem;
+                    margin-bottom: 0.58rem;
+                    text-transform: uppercase;
+                }
+                .hero_text_btn{
+                    display: flex;
+                    gap: 0.38rem;
+                    justify-content: center;
+                    align-items: center;
+    
+                    img{
+                        width: 59.5px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+        
+    }
+    .hero1,
+    .hero2,
+    .hero3,
+    .hero4,
+    .hero5{
+        @extend .hero_main_wrapper;
+    }
+    .hero1{
+        animation: firstHero 50s linear 2s infinite normal none;
+    }
+    .hero2{
+        animation: secondHero 50s linear 2s infinite normal none;
+    }
+    .hero3{
+        animation: thirdHero 50s linear 2s infinite normal none;
+    }
+    .hero4{
+        animation: fourthHero 50s linear 2s infinite normal none;
+    }
+    .hero5{
+        animation: fifthHero 50s linear 2s infinite normal none;
+    }
+
+    .hero_stats{
+        width: 365px;
+        height: 195.8px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -60px;
+        margin: 0 auto;
+        .hero_stats_wrapper{
+            border-radius: 0.74506rem;
+            background: #FFF;
+            width: 100%;
+            padding: 1.4rem 1.2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.89rem;
+            .hero_stats_gallery{
+                display: flex;
+                justify-content: space-around;
+                gap: 0.61rem;
+
+                .hero_sm2,
+                .hero_sm3,
+                .hero_sm4,
+                .hero_sm5{
+                    width: 72.26px;
+                    height: 72.26px;
+                    border-radius: 0.3rem;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+            .hero_stats_data{
+                display: flex;
+                justify-content: space-around;
+                border-radius: 0.41625rem;
+                background: #F6F6F6;
+                padding: 1.17rem 1.7rem;
+                div{
+                    h4{
+                        font-size: 0.59031rem;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                    p{
+                        color: #0CAD8E;
+                        font-family: 'Clash Display', sans-serif;
+                        font-size: 0.49188rem;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes firstHero {
+    0% {
+        opacity: 1;
+    }
+    19% {opacity: 1;}
+    20% {
+        opacity: 0;
+    }
+    99% {
+        opacity: 0;
+    }
+}
+@keyframes secondHero {
+    0% {
+        opacity: 0;
+    }
+    19% {opacity: 0;}
+    20% {
+        opacity: 1;
+    }
+    39% {opacity: 1;}
+    40% {
+        opacity: 0;
+    }
+    99%{opacity: 0;}
+}
+@keyframes thirdHero {
+    0% {
+        opacity: 0;
+    }
+    39%{opacity: 0;}
+    40% {
+        opacity: 1;
+    }
+    59%{opacity: 1;}
+    60% {
+        opacity: 0;
+    }
+    99%{opacity: 0;}
+}
+@keyframes fourthHero {
+    0% {
+        opacity: 0;
+    }
+    59%{opacity: 0;}
+    60% {
+        opacity: 1;
+    }
+    79%{opacity: 1;}
+    80% {
+        opacity: 0;
+    }
+    99%{opacity: 0;}
+}
+@keyframes fifthHero {
+    0% {
+        opacity: 0;
+    }
+    79%{opacity: 0;}
+    80% {
+        opacity: 1;
+    }
+    99%{opacity: 1;}
+}

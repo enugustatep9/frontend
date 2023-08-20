@@ -1,0 +1,61 @@
+
+.university{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    border-radius: 1.5rem;
+    width: 346px;
+    height: 720px;
+    background: #F4F4F4;
+    padding: 1rem 1rem 1.4rem;
+
+    .gallery{
+        width: 314px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .main_image{
+            border-radius: 0.9375rem;
+            overflow: hidden;
+            img{
+                width: 100% !important;
+                height: auto;
+            }
+        }
+        .minor_images{
+            display: flex;
+            gap: 0.74rem;
+            img{
+                width: 93.5px;
+                height: auto;
+            }
+        }
+    }
+    .university_text{
+        border-radius: 0.65rem;
+        background: #FBFBFB;
+        backdrop-filter: blur(5px);
+        display: flex;
+        width: 19.0625rem;
+        padding: 1.9rem 2.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.833rem;
+        flex-shrink: 0;
+
+        h3{
+            font-size: 1.43rem;
+            font-weight: 700;
+            line-height: 95.5%;
+            margin-bottom: 0.8rem;
+        }
+        p{
+            color: var(--grey-txt, #888);
+            font-size: 0.714rem;
+            font-weight: 300;
+            line-height: 134.5%;
+            letter-spacing: -0.01425rem;
+        }
+    }
+}

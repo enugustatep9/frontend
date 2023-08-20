@@ -1,0 +1,38 @@
+
+.card_down, .card_up{
+    height: 272px;
+    min-width: 229px;
+    padding: 2rem 2rem;
+    border-radius: 0.62213rem;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .card_icon{
+        width: 44.8px;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .card_text{
+        h3{
+            font-size: 1.0665rem;
+            font-weight: 700;
+            line-height: 95.5%;
+            margin-bottom: 0.7rem;
+            text-transform: capitalize;
+        }
+        p{
+            font-size: 0.75rem;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 134.5%;
+            letter-spacing: -0.015rem;
+        }
+    }
+}
+.card_down{
+    margin-top: 2.7rem;
+}

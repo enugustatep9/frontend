@@ -1,0 +1,87 @@
+
+.footer{
+    width: 100vw;
+    height: 780px;
+    padding: 0 25px 0;
+    position: relative;
+
+    .footer_wrapper{
+        height: 844px;
+        width: 87%;
+        border-radius: 19px;
+        background: #FFF;
+        padding: 59px 35px 30px 33px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+
+        .footer_content{
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+            padding: 0 1.36rem;
+            margin-bottom: 1rem;
+            .logo{
+                display: flex;
+                flex-direction: column;
+                gap: 11px;
+
+                img{
+                    width: 74px;
+                    height: auto;
+                }
+                p{
+                    color: #888;
+                    font-size: 12px;
+                    font-weight: 300;
+                    line-height: 134.5%; /* 16.14px */
+                    letter-spacing: -0.24px;
+                }
+            }
+            .columns{
+                p{
+                    color: #CF8900;
+                    font-size: 0.75rem;
+                    font-weight: 600;
+                    line-height: 134.5%;
+                    letter-spacing: -0.015rem;
+                    margin-bottom: 1.25rem;
+                }
+                ul {
+                    list-style-type: none;
+                    color: #7B7B7B;
+                    font-size: 0.75rem;
+                    font-weight: 400;
+                    line-height: 143%;
+                    letter-spacing: -0.01875rem;
+
+                    li{
+                        margin-bottom: 0.75rem;
+                    }
+                }
+            }
+        }
+        .copyright{
+            border-top: 1px solid #DDD;
+            padding: 1.25rem 1.88rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.3rem;
+            color: #27292D;
+            font-size: 0.75rem;
+            font-weight: 400;
+            line-height: 1.25rem;
+            letter-spacing: 0.00375rem;
+
+            p>span{
+                color: #0AB28B;
+            }
+            .socials{
+                display: flex;
+                gap: 1rem;
+            }
+        }
+    }
+}

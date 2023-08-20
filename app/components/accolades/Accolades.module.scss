@@ -1,0 +1,115 @@
+
+
+.accolades{
+    border-radius: 1.3rem;
+    border: 4px solid #FFF;
+    background: #F2F2F2;
+    margin: 0 0.6rem 2.5rem;
+
+    .accolades_header{
+        margin: 2.3rem 1.3rem 1.75rem 2.4rem;
+        h4{
+            border-radius: 2.875rem;
+            display: inline-flex;
+            padding: 0.9375rem 1.4375rem;
+            justify-content: center;
+            align-items: center;
+            background: #0CAD8E;
+            font-family: 'Prompt', sans-serif;
+            text-transform: uppercase;
+            color: #FFF;
+            font-weight: 800;
+            font-size: 0.75rem;
+            margin-bottom: 1.3rem;
+        }
+        h2{
+            font-size: 1.75rem;
+            font-weight: 800;
+            line-height: 95.5%;
+        }
+    }
+    .accolades_content{
+        margin: 0 2.13rem 0 2.4rem;
+        
+        .acc_article{
+            border-radius: 1.1875rem;
+            background: #FFF;
+            padding: 2.25rem 0 1.12rem;
+            margin-bottom: 1.1rem;
+            h4{
+                font-size: 1.25rem;
+                font-weight: 800;
+                padding-left: 2rem;
+                padding-right: 2rem;
+                line-height: 95.5%;
+                margin-bottom: 1rem;
+            }
+            p{
+                color: #888;
+                font-size: 0.75rem;
+                padding-left: 2rem;
+                padding-right: 2rem;
+                font-weight: 300;
+                line-height: 134.5%;
+                letter-spacing: -0.015rem;
+                margin-bottom: 1.4rem;
+            }
+            img{
+                width: 100%;
+                padding-left: 1.19rem;
+                padding-right: 1.19rem;
+                height: auto;
+            }
+        }
+        .acc_names{
+            height: 130px;
+            overflow: hidden;
+            .acc_names_wrapper{
+                display: flex;
+                gap: 0.35rem;
+                overflow-x: scroll;
+                height: 150px;
+
+                .name, .name_active{
+                    min-width: 124px;
+                    text-transform: capitalize;
+                    border-radius: 0.34rem;
+
+                    h4{
+                        font-size: 0.7rem;
+                        font-weight: 700;
+                        line-height: 95.5%;
+                    }
+                }
+                .name_active{
+                    background: #0CAD8E;
+                    height: 95px;
+                    padding: 1.1rem 1.3rem;
+
+                    img{
+                        width: 21px;
+                        height: auto;
+                    }
+                    h4{
+                        color: #FFF;
+                        
+                    }
+                }
+                .name{
+                    background: #F6F6F6;
+                    display: flex;
+                    height: 51px;
+                    padding: 0.7rem 1.5rem;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 0.2rem;
+
+                    h4{
+                        color: #000;
+                    }
+                }
+
+            }
+        }
+    }
+}
