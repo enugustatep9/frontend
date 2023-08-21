@@ -20,8 +20,8 @@ export default function Universities() {
             about: 'Discover a campus that celebrates both tradition and progress, where history intertwines with the promise of a brighter tomorrow. The University of Nigeria, Nsukka, beckons you to join a legacy of brilliance, where dreams are nurtured, and futures are crafted with unwavering determination. Are you ready to embark on a life-changing adventure? Come, let your aspirations roar at UNN!'
         },
         {
-            mainImgUrl: '/images/unn_main.png',
-            minorUrls: ['/images/unn_minor.png', '/images/unn_minor.png', '/images/unn_minor.png'],
+            mainImgUrl: '/images/ccue_main.png',
+            minorUrls: ['/images/ccue_minor1.png', '/images/ccue_minor2.png', '/images/ccue_minor1.png'],
             name: 'Coal City University, Enugu',
             id: 3,
             about: "Coal City University, established in 2016, contributes to the academic fabric of Enugu State. This private institution aims to provide quality education and equip students with practical skills, fostering their development as well-rounded individuals. Located in the heart of Enugu, the university's focus on innovation and community engagement fosters a unique educational experience."

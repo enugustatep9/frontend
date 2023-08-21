@@ -6,12 +6,14 @@ import chevDown from '@/public/images/chev_down.svg'
 import Link from 'next/link'
 import accessWorld from '@/public/images/access_world.svg'
 import hamburger from '@/public/images/hamburger.svg'
+import {useState} from 'react';
 
 export default function TopMenu() {
+    const [ navActive, setNavActive ] = useState(false);
     const navItems = [
         {
             title: 'Home',
-            label: 'Home',
+            label: '',
             id: 1
         },
         {
@@ -48,13 +50,17 @@ export default function TopMenu() {
             </li>
         )
     })
+
+    function toggleMenu() {
+        setNavActive(prev => !prev)
+    }
     return (
         <>
             <header className={styles.mainheader}>
                 <div className={styles.logo}>
                     <Image src={logo} alt='logo' />
                 </div>
-                <nav >
+                <nav className={styles[`${navActive ? 'nav-show' : 'nav'}`]} >
                     <ul>
                         {navArray}
                     </ul>
@@ -69,7 +75,7 @@ export default function TopMenu() {
                         <Image src={chevDown} alt='dropdown' />
                         <Image src={globe} alt='the globe' />
                     </div>
-                    <div className={styles.hamburger}>
+                    <div className={styles.hamburger} onClick={toggleMenu}>
                         <Image src={hamburger} alt='hamburget menu' />
                     </div>
                 </div>
