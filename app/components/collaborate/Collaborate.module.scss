@@ -1,0 +1,91 @@
+.collaborate {
+    padding: 0 1.5rem;
+    overflow: hidden;
+
+    .collaborate_container{
+        height: 540px;
+        border-radius: 0.875rem;
+        border: 5px solid #FFF;
+        background: #EEFFFC;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        position: relative;
+        
+        .collaborate_bg{
+        position: absolute;
+        width: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        }
+        .collaborate_content{
+            display: flex;
+            flex-direction: column;
+            gap: 1.12rem;
+            padding: 2rem 2.9rem 0;
+            margin-top: 4rem;
+            z-index: 2;
+
+            h2{
+                color: #000;
+                font-size: 1.75rem;
+                font-weight: 700;
+                line-height: 95.5%;
+
+                span{
+                color: rgba(0, 0, 0, 0.50);
+                }
+            }
+            p{
+                color: #000;
+                font-size: 0.75rem;
+                font-weight: 300;
+                line-height: 134.5%;
+                letter-spacing: -0.015rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .collaborate{
+        .collaborate_container{
+          .collaborate_content{
+            h2{
+              max-width: 600px;
+              font-size: 2rem;
+            }
+            p{
+              font-size: 0.87rem;
+            }
+          }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .collaborate{
+        padding: 2rem 5rem;
+        margin-bottom: 8rem;
+        .collaborate_container{
+          height: 700px;
+          border-radius: 2rem;
+          .collaborate_content{
+            gap: 1.38rem;
+            padding: 5rem 7.8rem;
+            h2{
+              font-size: 3rem;
+              max-width: 590px;
+            }
+            p{
+              font-size: 1.125rem;
+              max-width: 500px;
+            }
+          }
+  
+        }
+    }
+}
