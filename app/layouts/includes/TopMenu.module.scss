@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 
     .logo{
         display: flex;
@@ -17,8 +18,46 @@
         }
     }
 
-    nav{
-        display: none;
+    // nav{
+    //     display: none;
+    // }
+    @media screen and (max-width: 767px) {
+        .navstyle{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            align-items: flex-start;
+            position: absolute;
+            top: 5rem;
+            right: 0.8rem;
+            z-index: 10;
+            border-radius: 0.5rem;
+            background: #FFF;
+            width: 10.5rem;
+            padding: 1.3rem 1.8rem;
+            transition: 0.8s ease-in-out;
+            
+
+            ul{
+                list-style-type: none;
+                li{
+                    color: #7B7B7B;
+                    font-size: 0.875rem;
+                    font-weight: 400;
+                    line-height: 163%;
+                    letter-spacing: -0.02188rem;
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+        .nav{
+            @extend .navstyle;
+            transform: translateX(200px);
+        }
+        .nav-show{
+            @extend .navstyle;
+            transform: translateX(0px);
+        }
     }
     .symbols{
         display: flex;

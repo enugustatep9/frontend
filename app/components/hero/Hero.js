@@ -27,7 +27,7 @@ export default function Hero() {
         {
             imgUrl: '/images/hero3.png',
             imgUrlsm: '/images/hero_bg_sm3.png',
-            text: 'Culinary Wonders of Enugu State',
+            text: 'Land of Investment Opportunities',
             showRoundBtn: false,
             label: 'hero3'
         },
