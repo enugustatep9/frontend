@@ -32,7 +32,7 @@
             display: flex;
             justify-content: space-between;
             p{
-                line-height: 1rem;
+                line-height: 100%;
                 letter-spacing: -0.00375rem;
             }
         }
@@ -42,6 +42,37 @@
             font-weight: 700;
             line-height: 106.2%;
             font-family: 'Prompt', sans-serif;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .GovCard{
+        max-width: 415px;
+        .card_text{
+            font-size: 0.9rem;
+            gap: 0.4rem;
+            
+            .card_title{
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .GovCard{
+        .card_text{
+            gap: 0.4rem;
+            font-size: 0.9rem;
+            .card_type{
+                max-width: max-content;
+                border-radius: 2.8rem;
+                padding: 0.56rem 0.85rem;
+            }
+            .card_title{
+                font-size: 1rem;
+            }
         }
     }
 }

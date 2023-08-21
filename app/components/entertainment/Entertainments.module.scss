@@ -23,13 +23,57 @@
 
         .entertainments_wrapper{
             height: 790px;
-            width: 92vw;
+            width: 95vw;
             overflow-y: scroll;
             padding: 1.5rem 0;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
             gap: 2.75rem;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .entertainments{
+        padding: 0 2rem;
+        .entertainments_header{
+            h2{
+                font-size: 2rem;
+            }
+        }
+        .entertainments_content{
+            height: 850px;
+            .entertainments_wrapper{
+                width: 94vw;
+                height: 900px;
+            }
+        }
+    }
+}
+@media screen and (min-width: 1024px) {
+    .entertainments{
+        padding: 0 4.4rem;
+        margin-bottom: 9rem;
+    
+        .entertainments_header{
+            padding-left: 0.7rem;
+            margin-bottom: 4rem;
+            h2{
+                font-size: 4rem;
+            }
+        }
+        
+        .entertainments_content{
+            border-radius: 2.8rem;
+            height: 1414px;
+    
+            .entertainments_wrapper{
+                height: 1500px;
+                width: 95vw;
+                padding: 1.5rem 0;
+                gap: 5rem;
+            }
         }
     }
 }

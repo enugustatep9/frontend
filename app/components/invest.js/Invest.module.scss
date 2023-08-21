@@ -41,3 +41,50 @@
         padding-bottom: 3.49rem;
     }
 }
+
+@media screen and (min-width: 768px) {
+    .invest{
+        .invest_header{
+            h2{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .invest{
+        .invest_header{
+            gap: 2.81rem;
+            padding: 7rem 7rem 5rem;
+            h2{
+                font-size: 4rem;
+            }
+            p{
+                font-size: 1.125rem;
+                letter-spacing: -0.015rem;
+            }
+        }
+        .invest_cards{
+            height: 720px;
+            overflow: hidden;
+            .invest_cards_wrapper{
+                height: 780px;
+                padding: 0 5.69rem;
+                gap: 3rem;
+            }
+        }
+        .invest_buttons{
+            padding: 0 5.69rem;
+            padding-bottom: 6.49rem;
+            img{
+                width: 78px;
+                height: auto;
+            }
+        }
+    }
+    
+}

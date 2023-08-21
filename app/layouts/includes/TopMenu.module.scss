@@ -52,24 +52,78 @@
     }
 }
 
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 768px) {
     .mainheader{
-        height: 110px;
-        max-width: 1400px;
-        margin: 0 auto;
-        padding: 0 9%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    
+        gap: 1.5rem;
         nav{
             flex-grow: 2;
-            max-width: 640px;
+            font-size: 0.8rem;
+            max-width: 500px;
             display: inline-block;
             ul{
                 list-style-type: none;
                 display: flex;
                 justify-content: space-around;
+                li{
+                    cursor: pointer;
+                }
+            }
+        }
+        .symbols{
+            .globe{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 0.3rem;
+                p{
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 0.9rem;
+                    letter-spacing: 0.0125rem;
+                }
+            }
+            .hamburger{
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .mainheader{
+        height: 110px;
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 9%;
+
+        .logo{
+            width: 62.3px;
+            img{
+                width: 100%;
+                height: 62.3px;
+            }
+        }
+    
+        nav{
+            font-size: 1rem;
+            max-width: 640px;
+        }
+        .symbols{ 
+            .accessglobe{
+                border-radius: 0.5rem;
+                padding: 0.6rem 1.25rem;
+                gap: 0.62rem;
+    
+                p{
+                    font-size: 1rem;
+                    line-height: 0.9rem;
+                    letter-spacing: 0.0125rem;
+                }
+            }
+            .globe{
+                p{
+                    font-size: 1rem;
+                }
             }
         }
     }

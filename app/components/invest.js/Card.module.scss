@@ -36,3 +36,47 @@
 .card_down{
     margin-top: 2.7rem;
 }
+
+@media screen and (min-width: 768px) {
+    .card_down, .card_up{
+        .card_text{
+            h3{
+                font-size: 1.3rem;
+            }
+            p{
+                font-size: 0.86rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card_down, .card_up{
+        height: 573px;
+        min-width: 484px;
+        padding: 4.6rem;
+        border-radius: 1.31rem;
+    
+        .card_icon{
+            width: 94.5px;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        .card_text{
+            h3{
+                font-size: 2.25rem;
+                margin-bottom: 1.4rem;
+            }
+            p{
+                font-size: 1.125rem;
+                font-style: normal;
+                letter-spacing: -0.0225rem;
+            }
+        }
+    }
+    .card_down{
+        margin-top: 5.7rem;
+    }
+}

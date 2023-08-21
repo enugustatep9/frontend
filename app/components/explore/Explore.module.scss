@@ -1,7 +1,7 @@
 
 .explore{
     padding: 2.5rem 1.5rem 0;
-    margin-bottom: 2.5rem;
+    margin-bottom: 6rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -25,7 +25,6 @@
     .explore_video{
         width: 100%;
         height: 416px;
-        padding-bottom: -1rem;
         border-radius: 1.1rem;
         overflow: hidden;
         border: 4.027px solid #FFF;
@@ -62,6 +61,77 @@
             align-items: center;
             gap: 0.4rem;
             color: #0CAD8E;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .explore{
+        .explore_header{
+            h2{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 0.87rem;
+            }
+        }
+        .explore_video{
+            height: 600px;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .explore{
+        padding: 13rem 8rem 0;
+        margin-bottom: 6.7rem;
+        gap: 3rem;
+    
+        .explore_header{
+            padding: 0 0;
+            max-width: 681px;
+            h2{
+                font-size: 4rem;
+                margin-bottom: 2.7rem;
+            }
+            p{
+                font-size: 1.125rem;
+                letter-spacing: -0.0225rem;
+            }
+        }
+        .explore_video{
+            width: 100%;
+            border-radius: 1.6rem;
+            height: 645px;
+            border: 6px solid #FFF;
+            font-size: 1.5rem;
+            @media screen and (min-width:1400px) {
+                height: 800px;
+            }
+            video{
+                width: auto;
+                height: 100%;
+            }
+            .play{
+                right: 5rem;
+                top: 5rem;
+                border-radius: 5.36925rem;
+                border: 2.685px solid #FFF;
+                padding: 0.5rem 1rem;
+                gap: 0.4rem;
+                cursor: pointer;
+    
+            }
+            .pause{
+                left: 5rem;
+                bottom: 5rem;
+                border-radius: 5.36925rem;
+                border: 2.685px solid #FFF;
+                display: inline-flex;
+                padding: 0.5rem 1rem;
+                gap: 0.4rem;
+                cursor: pointer;
+            }
         }
     }
 }

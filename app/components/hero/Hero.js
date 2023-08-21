@@ -19,24 +19,28 @@ export default function Hero() {
         },
         {
             imgUrl: '/images/hero2.png',
+            imgUrlsm: '/images/hero_bg_sm2.png',
             text: 'home to significant natural resources',
             showRoundBtn: false,
             label: 'hero2'
         },
         {
             imgUrl: '/images/hero3.png',
+            imgUrlsm: '/images/hero_bg_sm3.png',
             text: 'Culinary Wonders of Enugu State',
             showRoundBtn: false,
             label: 'hero3'
         },
         {
             imgUrl: '/images/hero4.png',
+            imgUrlsm: '/images/hero_bg_sm4.png',
             text: 'His Excellency, Dr. Barr. Peter Mbah',
             showRoundBtn: true,
             label: 'hero4'
         },
         {
             imgUrl: '/images/hero5.png',
+            imgUrlsm: '/images/hero_bg_sm5.png',
             text: 'UNITING HEARTS, IGNITING DIVERSITY',
             showRoundBtn: true,
             label: 'hero5'

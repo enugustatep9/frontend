@@ -16,3 +16,10 @@
 .btn_small{
     padding: 0.5rem 1rem !important;
 }
+
+@media screen and (min-width: 1024px) {
+    .btn{
+        font-size: 1.25rem;
+        padding: 1.8rem 2.8rem;
+    }
+}

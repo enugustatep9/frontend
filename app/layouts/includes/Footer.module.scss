@@ -16,6 +16,7 @@
         left: 0;
         right: 0;
         margin: 0 auto;
+        font-size: 0.75rem;
 
         .footer_content{
             display: flex;
@@ -34,7 +35,6 @@
                 }
                 p{
                     color: #888;
-                    font-size: 12px;
                     font-weight: 300;
                     line-height: 134.5%; /* 16.14px */
                     letter-spacing: -0.24px;
@@ -43,7 +43,6 @@
             .columns{
                 p{
                     color: #CF8900;
-                    font-size: 0.75rem;
                     font-weight: 600;
                     line-height: 134.5%;
                     letter-spacing: -0.015rem;
@@ -52,7 +51,6 @@
                 ul {
                     list-style-type: none;
                     color: #7B7B7B;
-                    font-size: 0.75rem;
                     font-weight: 400;
                     line-height: 143%;
                     letter-spacing: -0.01875rem;
@@ -70,7 +68,6 @@
             flex-direction: column;
             gap: 1.3rem;
             color: #27292D;
-            font-size: 0.75rem;
             font-weight: 400;
             line-height: 1.25rem;
             letter-spacing: 0.00375rem;
@@ -81,6 +78,55 @@
             .socials{
                 display: flex;
                 gap: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer{
+        height: 700px;
+        .footer_wrapper{
+            font-size: 0.9rem;
+            height: 760px;
+            .footer_content{
+                .logo{
+                    max-width: 380px;
+                }
+            }
+            .copyright{
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+@media screen and (min-width: 1024px){
+    .footer{
+        height: 450px;
+        .footer_wrapper{
+            font-size: 0.9rem;
+            height: 540px;
+            font-size: 1.125rem;
+            .footer_content{
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom: 5rem;
+                .logo{
+                    width: 45%;
+                    max-width: 344px;
+                    img{
+                        width: 135px;
+                    }
+                }
+                .columns{
+                    margin-top: 3rem;
+                }
+            }
+            .copyright{
+                .socials{
+                    gap: 2rem;
+                }
             }
         }
     }

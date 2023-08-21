@@ -40,6 +40,14 @@ export default function GovernorDen() {
             imgUrl: '/images/gov_den_card.png',
             id: 4
         },
+        {
+            type: 'Agriculture',
+            date: '4th May, 2023',
+            reading: '4',
+            title: 'Governor Peter Mbah Launches Ambitious Education Reform Initiative',
+            imgUrl: '/images/gov_den_card.png',
+            id: 5
+        },
     ]
     return (
         <>

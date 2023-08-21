@@ -23,3 +23,45 @@
         }
     }
 }
+
+@media screen and (min-width: 768px) {
+    .universities{
+        margin: 2rem 0 5rem 1.38rem;
+        .universities_header{
+            h2{
+                font-size: 2rem;
+            }
+        }
+        .universities_content{
+            height: 850px;
+            .universities_content_wrapper{
+                height: 870px;
+                gap: 2.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .universities{
+        margin: 0 5rem 6rem 6rem; //external margin
+        border-radius: 1.4rem;
+
+        .universities_header{
+            padding: 7.2rem 0 6.5rem 6.5rem; //internal padding
+            h2{
+                font-size: 4rem;
+                line-height: 95%;
+            }
+        }
+        .universities_content{
+            height: 1120px;
+            .universities_content_wrapper{
+                gap: 3.3rem;
+                height: 1450px;
+                margin-left: 6.5rem;
+                padding-right: 6rem;
+            }
+        }
+    }
+}

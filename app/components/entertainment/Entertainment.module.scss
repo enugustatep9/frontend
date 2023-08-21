@@ -50,3 +50,57 @@
         }
     }
 }
+@media screen and (min-width: 768px) {
+    .entertainment{
+        flex-direction: row;
+
+        .title{
+            min-width: 39%;
+            font-size: 4rem;
+            text-align: right;
+        }
+        .entertainment_details{
+            h3{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 0.85rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .entertainment{
+        padding: 0 3rem;
+        margin-bottom: 8rem;
+        margin-top: 4rem;
+        gap: 4rem;
+    
+        .title{
+            font-size: 9rem;
+        }
+    
+        .entertainment_details{
+            gap: 1.6rem;
+            border-radius: 1.68rem;
+            padding-top: 4rem;
+    
+            h3{
+                margin: 0 2.5rem;
+                font-size: 4rem;
+            }
+            p{
+                font-size: 1.125rem;
+                letter-spacing: -0.0225rem;
+                margin: 0 2.5rem;
+            }
+            img{
+                width: 100%;
+                height: auto;
+                padding: 0 1.25rem;
+                margin-bottom: 1.2rem;
+            }
+        }
+    }
+}

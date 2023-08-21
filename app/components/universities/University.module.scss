@@ -59,3 +59,87 @@
         }
     }
 }
+
+@media screen and (min-width: 768px) {
+    .university{
+        width: 400px;
+        height: 760px;
+
+        .gallery{
+            width: 375px;
+        }
+        .university_text{
+            width: 360px;
+            h3{
+                font-size: 1.5rem;
+            }
+            p{
+                font-size: 0.86rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .university{
+        gap: 2rem;
+        border-radius: 2.4rem;
+        width: 800px;
+
+        height: 962px;
+        padding: 1.6rem 2.5rem 2rem;
+    
+        .gallery{
+            width: 730px;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-between;
+    
+            .main_image{
+                border-radius: 1.5rem;
+                width: 70%;
+                overflow: hidden;
+                img{
+                    width: 100% !important;
+                    height: auto;
+                }
+            }
+            .minor_images{
+                width: 22.5%;
+                display: flex;
+                flex-direction: column;
+                gap: 1.25rem;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+        .university_text{
+            border-radius: 1rem;
+            display: flex;
+            width: 100%;
+            padding: 3rem 4rem;
+            gap: 1.3rem;
+            flex-shrink: 0;
+    
+            h3{
+                font-size: 2.25rem;
+                margin-bottom: 0;
+            }
+            p{
+                font-size: 1.125rem;
+                letter-spacing: -0.0225rem;
+            }
+        }
+        @media screen and (min-width: 1240px) {
+            width: 919px;
+            .gallery{
+                width: 850px;
+                .main_image{
+                    width: 73%;
+                }
+            }
+        }
+    }
+}

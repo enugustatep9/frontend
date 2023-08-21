@@ -12,7 +12,7 @@ export default function Accolades() {
             <section className={styles.accolades}>
                 <header className={styles.accolades_header}>
                     <h4>accolades</h4>
-                    <h2>Recognising our Patriotic Citizens</h2>
+                    <h2>Recognising our <br/>Patriotic Citizens</h2>
                 </header>
                 <div className={styles.accolades_content}>
                     <article className={styles.acc_article}>
