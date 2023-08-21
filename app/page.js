@@ -11,6 +11,7 @@ import Explore from './components/explore/Explore'
 import Invest from './components/invest.js/Invest'
 import heritageImg from '@/public/images/heritage.png'
 import Hero from './components/hero/Hero'
+import Collaborate from './components/collaborate/Collaborate'
 
 export default function Home() {
   return (
@@ -49,21 +50,7 @@ export default function Home() {
           <Invest />
           <Explore />
           <Entertainments />
-          <section className={styles.collaborate}>
-            <div className={styles.collaborate_container}>
-              <div className={styles.collaborate_bg}>
-                <Image src={collab_bg} alt='svg bg' />
-              </div>
-              <div className={styles.collaborate_content}>
-                <h2><span>Collaborate with Enugu State:</span> Your Global Partner for Mutual Growth and Prosperity</h2>
-                <p>
-                Together, we can forge powerful partnerships, tap into diverse expertise, 
-                and unlock the true potential of interconnected success.
-                </p>
-                <Button text='Collaborate with us' hover={false} />
-              </div>
-            </div>
-          </section>
+          <Collaborate />
           <Universities />
           <Accolades />
           <GovernorDen />
