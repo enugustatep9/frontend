@@ -3,7 +3,7 @@ import AboutImage1 from "../../../public/images/hero_sm2.png";
 
 export default function Gallery() {
   return (
-    <div className="grid grid-cols-5 md:gap-0 gap-4 h-auto w-4/6 mx-auto mt-8 pb-10">
+    <div className="grid grid-cols-5 md:gap-0 gap-4 h-auto w-11/12 md:w-4/6 mx-auto mt-8 pb-10">
       <div>
         <Image
           src={AboutImage1}
