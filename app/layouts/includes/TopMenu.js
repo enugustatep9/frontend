@@ -74,7 +74,7 @@ export default function TopMenu() {
             <Image src={globe} alt="the globe" />
           </div>
           <div className={styles.hamburger} onClick={toggleMenu}>
-            <Image src={hamburger} alt="hamburget menu" />
+            <Image src={hamburger} alt="hamburger menu" />
           </div>
         </div>
       </header>

@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import styles from './Footer.module.scss'
-import logoLg from '@/public/images/logo_lg.svg'
+import logoLg from '@/public/images/enu_logo.svg'
 import Link from 'next/link'
 import facebook from '@/public/images/facebook.svg'
 import instagram from '@/public/images/instagram.svg'
