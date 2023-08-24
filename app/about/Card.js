@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Button from "../components/button/Button";
 import CardImg from "@/public/images/hero1.png";
+import Svg1 from "@/public/images/about_v.svg";
 
 export default function Card() {
   return (
