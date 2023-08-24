@@ -1,11 +1,11 @@
 import Image from "next/image";
 import AboutImage1 from "../../../public/images/hero_sm2.png";
-import Svg1 from "../../../public/images/about_v.svg";
-import Svg2 from "../../../public/images/sun.svg";
-import Svg3 from "../../../public/images/aboutv2.svg";
-import Pic1 from "../../../public/images/about_f.png";
-import Pic2 from "../../../public/images/about1_f.png";
-import Pic3 from "../../../public/images/about2_f.png";
+import Svg1 from "@/public/images/about_v.svg";
+import Svg2 from "@/public/images/sun.svg";
+import Svg3 from "@/public/images/aboutv2.svg";
+import Pic1 from "@/public/images/about_f.png";
+import Pic2 from "@/public/images/about1_f.png";
+import Pic3 from "@/public/images/about2_f.png";
 
 export default function Gallery() {
   return (

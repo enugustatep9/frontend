@@ -4,11 +4,10 @@ import { useRef, useState } from "react";
 import playIcon from "@/public/images/play.svg";
 import pauseIcon from "@/public/images/pause.svg";
 import Image from "next/image";
-import Svg1 from "../../../public/images/h-svg.svg";
 
 export default function Explore() {
   const videoRef = useRef();
-  const [pause, setPause] = useState(true)
+  const [pause, setPause] = useState(true);
 
   const handlePlay = () => {
     videoRef.current.play();
@@ -36,10 +35,9 @@ export default function Explore() {
           onPause={() => setPause(true)}
           onPlay={() => setPause(false)}
           ref={videoRef}
-          muted
-          autoPlay
           loop
-          src="/images/enugu.mp4"
+          controls
+          src="/images/enuguV2.mp4"
         ></video>
         {pause && (
           <button onClick={handlePlay} className={styles.play}>

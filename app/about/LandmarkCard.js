@@ -1,25 +1,103 @@
+"use client";
 import Image from "next/image";
-import styles from "../about/LandmarkCard.module.scss";
-export default function LandmarkCard({ data }) {
-  const { title, id, details, iconUrl, name } = data;
+import Pic from "@/public/images/stadium.png";
+import Pic2 from "@/public/images/africansenior.png";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-  return (
-    <div
-      key={id}
-      className={styles[`${(id + 2) % 2 == 0 ? "card_up" : "card_up"}`]}
-    >
-      <div className={styles.card_text}>
-        <p>{details}</p>
+import React, { Component } from "react";
+import Slider from "react-slick";
+
+export default class LandmarkCard extends Component {
+  render() {
+    const settings = {
+      infinite: true,
+      speed: 500,
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      autoplay: true,
+      arrows: true,
+      autoplaySpeed: 5000, // Adjust the autoplay speed as needed
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+          },
+        },
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+          },
+        },
+      ],
+    };
+    return (
+      <div>
+        <Slider {...settings}>
+          <div className="">
+            <div className="rounded-md bg-white p-5 mx-2">
+              <h1 className="text-2xl">Nnamdi Azikiwe Stadium</h1>
+              <p className="mt-5">
+                Nnamdi Azikiwe Stadium, a sporting jewel nestled in Enugu,
+                Nigeria, is a vibrant hub for athletic excellence. Named after
+                the iconic Nigerian statesman, this stadium has witnessed
+                thrilling football clashes, hosting local and international
+                matches that electrify the crowd. With a capacity to hold 25,000
+                of passionate fans, it's a symbol of unity and a testament to
+                the nation's sporting prowess. Experience the magic of African
+                football at Nnamdi Azikiwe Stadium
+              </p>
+            </div>
+          </div>
+          <div>
+            <Image src={Pic} className="rounded-md" />
+          </div>
+          <div>
+            <Image src={Pic2} className="rounded-md" />
+          </div>
+          <div>
+            <div className="rounded-md bg-white p-5 mx-2">
+              <h1 className="text-2xl">Nnamdi Azikiwe Stadium</h1>
+              <p className="mt-5">
+                Nnamdi Azikiwe Stadium, a sporting jewel nestled in Enugu,
+                Nigeria, is a vibrant hub for athletic excellence. Named after
+                the iconic Nigerian statesman, this stadium has witnessed
+                thrilling football clashes, hosting local and international
+                matches that electrify the crowd. With a capacity to hold 25,000
+                of passionate fans, it's a symbol of unity and a testament to
+                the nation's sporting prowess. Experience the magic of African
+                football at Nnamdi Azikiwe Stadium
+              </p>
+            </div>
+          </div>
+          <div>
+            <Image src={Pic2} className="rounded-md" />
+          </div>
+          <div>
+            <div className="rounded-md bg-white p-5 mx-2">
+              <h1 className="text-2xl">Nnamdi Azikiwe Stadium</h1>
+              <p className="mt-5">
+                Nnamdi Azikiwe Stadium, a sporting jewel nestled in Enugu,
+                Nigeria, is a vibrant hub for athletic excellence. Named after
+                the iconic Nigerian statesman, this stadium has witnessed
+                thrilling football clashes, hosting local and international
+                matches that electrify the crowd. With a capacity to hold 25,000
+                of passionate fans, it's a symbol of unity and a testament to
+                the nation's sporting prowess. Experience the magic of African
+                football at Nnamdi Azikiwe Stadium
+              </p>
+            </div>
+          </div>
+          <div>
+            <Image src={Pic2} className="rounded-md" />
+          </div>
+        </Slider>
       </div>
-      <div className="flex gap-10">
-        <div className={styles.card_icon}>
-          <Image src={iconUrl} alt={title} width={94} height={94} />
-        </div>
-        <div>
-          <h3>{name}</h3>
-          <p>{title}</p>
-        </div>
-      </div>
-    </div>
-  );
+    );
+  }
 }
