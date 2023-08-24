@@ -75,8 +75,12 @@ export default function Administration() {
                         </div>
                     </div>
                 </section>
-                <Collaborate />
-                <GovernorDen />
+                <div className={styles.collaborate}>
+                    <Collaborate />
+                </div>
+                <div className={styles.govDen}>
+                    <GovernorDen />
+                </div>
             </main>
         </MainLayout>
         </>

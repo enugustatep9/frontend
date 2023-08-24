@@ -12,6 +12,7 @@ import Invest from './components/invest.js/Invest'
 import heritageImg from '@/public/images/heritage.png'
 import Hero from './components/hero/Hero'
 import Collaborate from './components/collaborate/Collaborate'
+import Future from './components/invest.js/Future'
 
 export default function Home() {
   return (
@@ -48,6 +49,7 @@ export default function Home() {
             </div>
           </section>
           <Invest />
+          <Future />
           <Explore />
           <Entertainments />
           <Collaborate />
