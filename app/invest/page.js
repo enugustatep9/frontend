@@ -8,7 +8,7 @@ import Agriculture from "./Agriculture";
 import Tourism from "./Tourism";
 import Feedback from "./Feedback";
 import Faq from "./Faq";
-import Svg3 from "@/public/images/rectangle.svg";
+import Svg3 from "@/public/images/Rectangle.svg";
 
 export default function Invest() {
   return (
