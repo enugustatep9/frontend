@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function Explore() {
   const videoRef = useRef();
-  const [pause, setPause] = useState(true)
+  const [pause, setPause] = useState(true);
 
   const handlePlay = () => {
     videoRef.current.play();
@@ -54,8 +54,4 @@ export default function Explore() {
       </div>
     </section>
   );
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 81768f1f4227bbcefe108f65f6ab76c1757181ff
