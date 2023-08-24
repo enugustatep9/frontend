@@ -20,6 +20,7 @@ export default function About() {
         <main className="mb-28 mt-10">
           <div className="text-center bg-[#F8F8F8] rounded-2xl w-[87%] mx-auto">
             <Image
+            
               src={Svg2}
               className="absolute right-0 md:right-10 top-20 md:top-20 md:w-16 w-10"
             />
