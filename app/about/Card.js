@@ -1,18 +1,20 @@
 import Image from "next/image";
 import Button from "../components/button/Button";
-import CardImg from "@/public/images/hero1.png";
 import Svg1 from "@/public/images/about_v.svg";
+import Svg2 from "@/public/images/login.svg";
+import Img from "@/public/images/Sub.png";
 
 export default function Card() {
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div className="p-5">
-          <button className="bg-primary text-secondary py-2 items-center px-2 font-bold flex gap-10 rounded-[26px]">
+        <div className="p-2">
+          <button className="bg-primary text-secondary  py-2 items-center pl-[50px] pr-[11px] pt-[8px] pb-[8px] font-bold flex gap-10 rounded-[12px] md:ml-10 md:w-[289px]">
             Enugu Igbo
-            <img src="../../../images/arrow_slant_green.svg" />
+            <Image src={Svg2} className="bg-[#64CAB7] rounded-[12px] mx-5" />
           </button>
-          <div className="bg-white  w-full  rounded-[26px] mt-5 p-5 h-auto">
+
+          <div className="bg-white w-[350px] md:w-[290px] rounded-[14px] mx-auto mt-5 p-10 h-auto">
             <p className="text-xl leading-normal">
               <strong>
                 Énugwú: Enugu State's Capital City in Nigeria, nestled in the
@@ -25,28 +27,28 @@ export default function Card() {
             </p>
             <Image
               src={Svg1}
-              className=" object-contain ml-auto w-10 md:w-16"
+              className="relative object-contain ml-auto  w-16 md:w-16"
             />
           </div>
         </div>
         <div className="col-span-2 mt-5 md:mt-0 bg-white rounded-[26px]">
           <div className="">
             <Image
-              src={CardImg}
-              className="mx-auto w-full h-48 p-2 object-cover rounded-[26px]"
+              src={Img}
+              className="mx-auto w-[380.81px] md:w-full md:h-60 h-[161.2px] p-2 object-cover rounded-[26px]"
             />
           </div>
           <div className="grid grid-cols-3">
             <div className="col-span-2">
               <Image
-                src={CardImg}
-                className="mx-auto w-full h-48 p-2 rounded-[26px] object-cover"
+                src={Img}
+                className="mx-auto w-[380.81px] md:w-full md:h-60 h-[131.73px] p-2 rounded-[26px] object-cover"
               />
             </div>
             <div>
               <Image
-                src={CardImg}
-                className="mx-auto w-full h-48 p-2 rounded-[26px] object-cover"
+                src={Img}
+                className="mx-auto w-full md:h-60 h-[131.73px] p-2 rounded-[26px] object-cover"
               />
             </div>
           </div>
@@ -54,14 +56,14 @@ export default function Card() {
           <div className="grid grid-cols-3">
             <div>
               <Image
-                src={CardImg}
-                className="mx-auto w-full h-48 p-2 rounded-[26px]"
+                src={Img}
+                className="mx-auto w-[133.54px] md:w-full h-[131.73px] md:h-60 p-2 rounded-[26px]"
               />
             </div>
             <div className="col-span-2">
               <Image
-                src={CardImg}
-                className="mx-auto w-full h-48 p-2 rounded-[26px]"
+                src={Img}
+                className="mx-auto w-[237.66px] md:w-full h-[131.73px] md:h-60 p-2 rounded-[26px]"
               />
             </div>
           </div>

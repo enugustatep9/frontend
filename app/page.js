@@ -1,18 +1,18 @@
-import Image from 'next/image'
-import styles from './page.module.scss'
-import MainLayout from './layouts/includes/MainLayout'
-import GovernorDen from './components/governor_den/GovernorDen'
-import Accolades from './components/accolades/Accolades'
-import Universities from './components/universities/Universities'
-import Button from './components/button/Button'
-import collab_bg from '@/public/images/collaborate_bg.svg'
-import Entertainments from './components/entertainment/Entertainments'
-import Explore from './components/explore/Explore'
-import Invest from './components/invest.js/Invest'
-import heritageImg from '@/public/images/heritage.png'
-import Hero from './components/hero/Hero'
-import Collaborate from './components/collaborate/Collaborate'
-import Future from './components/invest.js/Future'
+import Image from "next/image";
+import styles from "./page.module.scss";
+import MainLayout from "./layouts/includes/MainLayout";
+import GovernorDen from "./components/governor_den/GovernorDen";
+import Accolades from "./components/accolades/Accolades";
+import Universities from "./components/universities/Universities";
+import Button from "./components/button/Button";
+import collab_bg from "@/public/images/collaborate_bg.svg";
+import Entertainments from "./components/entertainment/Entertainments";
+import Explore from "./components/explore/Explore";
+import Invest from "./components/invest.js/Invest";
+import heritageImg from "@/public/images/heritage.png";
+import Hero from "./components/hero/Hero";
+import Collaborate from "./components/collaborate/Collaborate";
+import Future from "./components/invest.js/Future";
 
 export default function Home() {
   return (
@@ -57,7 +57,6 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <Invest />
           <Future />
           <Explore />
           <Entertainments />
