@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Pic1 from "../../public/images/frame_2.png";
+import Pic1 from "@/public/images/frame_2.png";
 import MainLayout from "../layouts/includes/MainLayout";
 import TechVile from "./TechVile";
 import RealEstate from "./RealEstate";
@@ -8,7 +8,7 @@ import Agriculture from "./Agriculture";
 import Tourism from "./Tourism";
 import Feedback from "./Feedback";
 import Faq from "./Faq";
-import Svg3 from "../../public/images/rectangle.svg";
+import Svg3 from "@/public/images/rectangle.svg";
 
 export default function Invest() {
   return (

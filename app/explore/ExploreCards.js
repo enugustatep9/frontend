@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Pic from "../../public/images/estate.png";
+import Pic from "@/public/images/estate.png";
 export default function ExploreCards({
   title,
   description,

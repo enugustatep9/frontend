@@ -1,6 +1,6 @@
 import styles from "../about/Landmark.module.scss";
 import LandmarkCard from "./LandmarkCard";
-import Svg from "../../public/images/s1.svg";
+import Svg from "@/public/images/s1.svg";
 import Image from "next/image";
 
 export default function Carousel() {

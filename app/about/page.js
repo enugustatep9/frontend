@@ -8,9 +8,9 @@ import Card3 from "./Card3";
 import Carousel from "./Carousel";
 import styles from "../components/explore/Explore.module.scss";
 import Section from "./Section";
-import Pic1 from "../../public/images/aboutBg.png";
-import Svg1 from "../../public/images/about_v.svg";
-import Svg2 from "../../public/images/about3_f.svg";
+import Pic1 from "@/public/images/aboutBg.png";
+import Svg1 from "@/public/images/about_v.svg";
+import Svg2 from "@/public/images/about3_f.svg";
 import Image from "next/image";
 import Feedback from "../invest/Feedback";
 export default function About() {

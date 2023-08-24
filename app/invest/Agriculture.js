@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Pic1 from "../../public/images/agric.png";
-import Svg1 from "../../public/images/vector.svg";
-import Svg2 from "../../public/images/vector_2.svg";
+import Pic1 from "@/public/images/agric.png";
+import Svg1 from "@/public/images/vector.svg";
+import Svg2 from "@/public/images/vector_2.svg";
 import Button from "../components/button/Button";
 export default function Agriculture() {
   return (
