@@ -90,6 +90,11 @@
         }
     }
 }
+.mainheader_dark{
+    @extend .mainheader;
+    color: #FFF;
+    
+}
 
 @media screen and (min-width: 768px) {
     .mainheader{
@@ -105,6 +110,7 @@
                 justify-content: space-around;
                 li{
                     cursor: pointer;
+                    color: #7B7B7B;
                 }
             }
         }

@@ -13,28 +13,34 @@ export default function Invest() {
             id: 1
         },
         {
-            title: 'infrastructure development',
-            details: 'Significant advancements in transportation, energy, and digital connectivity.',
-            iconUrl: '/images/invest_card_icon.svg',
+            title: 'Strategic Location',
+            details: 'Central access to regional and international markets for expanded business opportunities.',
+            iconUrl: '/images/inv_location_icon.svg',
             id: 2
         },
         {
-            title: 'infrastructure development',
-            details: 'Significant advancements in transportation, energy, and digital connectivity.',
-            iconUrl: '/images/invest_card_icon.svg',
+            title: 'Government Support',
+            details: 'Proactive government initiatives, investment promotion, and support services for investors.',
+            iconUrl: '/images/inv_support_icon.svg',
             id: 3
         },
         {
-            title: 'infrastructure development',
-            details: 'Significant advancements in transportation, energy, and digital connectivity.',
-            iconUrl: '/images/invest_card_icon.svg',
+            title: 'Business Friendly Environment',
+            details: 'Supportive policies and incentives that foster a favorable investment climate.',
+            iconUrl: '/images/inv_friendly_icon.svg',
             id: 4
         },
         {
-            title: 'infrastructure development',
-            details: 'Significant advancements in transportation, energy, and digital connectivity.',
-            iconUrl: '/images/invest_card_icon.svg',
+            title: 'Stable Economic Environment',
+            details: 'Central access to regional and international markets for expanded business opportunities.',
+            iconUrl: '/images/inv_economic_icon.svg',
             id: 5
+        },
+        {
+            title: 'Skilled Workforce',
+            details: 'A highly educated and talented workforce across diverse sectors.',
+            iconUrl: '/images/inv_workforce_icon.svg',
+            id: 6
         },
     ]
     return(

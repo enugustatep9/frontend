@@ -1,0 +1,135 @@
+
+.future{
+    padding: 5rem 2.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.62rem;
+    width: 100%;
+    .future_investor{
+        position: relative;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        .inv_img{
+            width: 95%;
+            margin: 0 auto 0 0;
+            height: auto;
+        }
+        .future_cards{
+            width: 180px;
+            height: 284px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            .future_card_wrapper{
+                width: 100%;
+                height: 100%;
+                position: relative;
+                .future_est_card{
+                    position: absolute;
+                    bottom: 40%;
+                    right: -8%;
+                }
+                .future_agric_card{
+                    position: absolute;
+                    bottom: -2%;
+                    right: 1%;
+                }
+            }
+        }
+    }
+    .future_text{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        h2{
+            font-size: 1.75rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 89.5%;
+            letter-spacing: -0.0437rem;
+        }
+        p{
+            color: #888;
+            font-size: 0.75rem;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 134.5%;
+            letter-spacing: -0.015rem;
+        }
+        .future_btn_group{
+            display: flex;
+            justify-content: flex-start;
+            gap: 0.3rem;
+            align-items: center;
+            .btnImg{
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+    .future{
+        .future_text{
+            h2{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .future{
+        flex-direction: row;
+        align-items: center;
+        gap: 5rem;
+        padding: 13rem 8.12rem 0;
+
+        .future_investor{
+            width: 50%;
+            max-width: 650px;
+            max-height: fit-content;
+            .inv_img{
+                height: 100%;
+            }
+        }
+        .future_text{
+            gap: 2rem;
+            width: 48%;
+            max-width: 520px;
+            h2{
+                font-size: 4rem;
+                letter-spacing: -0.1rem;
+            }
+            p{
+                font-size: 1.125rem;
+                letter-spacing: -0.0225rem;
+            }
+        }
+    }
+}
+@media screen and (min-width: 1320px) {
+    .future{
+        .future_investor{
+            .future_cards{
+                width: 350px;
+                height: 520px;
+                .future_card_wrapper{
+                    .future_est_card{
+                        bottom: 34%;
+                        right: -8%;
+                    }
+                    .future_agric_card{
+                        bottom: -3%;
+                        right: 1%;
+                    }
+                }
+            }
+        }
+    }
+}
+
