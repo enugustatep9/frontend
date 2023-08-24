@@ -5,13 +5,13 @@ import CardImg from "../../public/images/hero1.png";
 export default function Card3() {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-3">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="">
-          <button className="bg-primary text-secondary py-2 px-12 rounded-md font-bold flex items-center gap-10">
+          <button className="bg-primary text-secondary py-2 items-center px-2 font-bold flex gap-10 rounded-[26px]">
             Enugu Igbo
             <img src="../../../images/arrow_slant_green.svg" />
           </button>
-          <div className="bg-white  w-full md:w-[70%] rounded-md mt-5 p-7">
+          <div className="bg-white  w-full  rounded-[26px] mt-5 p-5 h-auto">
             <p>
               Énugwú: Enugu State's Capital City in Nigeria, nestled in the
               southeast. With a population of 820,000, its name originates from
@@ -21,24 +21,24 @@ export default function Card3() {
             </p>
           </div>
         </div>
-        <div className="col-span-2 mt-5 md:mt-0 bg-white rounded-lg">
-          <div>
+        <div className="col-span-2 mt-5 md:mt-0 bg-white rounded-[26px]">
+          <div className="">
             <Image
               src={CardImg}
-              className="mx-auto w-full h-72 p-5 rounded-lg"
+              className="mx-auto w-full h-48 p-2 object-cover rounded-[26px]"
             />
           </div>
           <div className="grid grid-cols-3">
             <div className="col-span-2">
               <Image
                 src={CardImg}
-                className="mx-auto w-full h-72 p-5 rounded-lg"
+                className="mx-auto w-full h-48 p-2 rounded-[26px] object-cover"
               />
             </div>
             <div>
               <Image
                 src={CardImg}
-                className="mx-auto w-full h-72 p-5 rounded-lg"
+                className="mx-auto w-full h-48 p-2 rounded-[26px] object-cover"
               />
             </div>
           </div>
@@ -47,13 +47,13 @@ export default function Card3() {
             <div>
               <Image
                 src={CardImg}
-                className="mx-auto w-full h-72 p-5 rounded-lg"
+                className="mx-auto w-full h-48 p-2 rounded-[26px]"
               />
             </div>
             <div className="col-span-2">
               <Image
                 src={CardImg}
-                className="mx-auto w-full h-72 p-5 rounded-lg"
+                className="mx-auto w-full h-48 p-2 rounded-[26px]"
               />
             </div>
           </div>

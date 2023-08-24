@@ -10,7 +10,7 @@ export default function Agriculture() {
         Agriculture
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 mb-28 gap-10 md:ml-[5rem] w-[94%]">
+      <div className="grid grid-cols-1 md:grid-cols-3 mb-28 gap-10 ml-auto w-[94%]">
         <div className="md:ml-0 hidden md:flex">
           <div className="ml-5 md:ml-0">
             <p className="bg-white rounded-lg p-8 md:mt-20 h-2/3">

@@ -1,0 +1,18 @@
+.scrollable-div {
+    width: 87%; /* Set the width of the div */
+    white-space: nowrap; /* Prevent content from wrapping to a new line */
+    overflow-x: auto; /* Enable horizontal scrolling when content overflows */
+    border: 1px solid #ccc; /* Optional: Add a border for visualization */
+    padding: 10px; /* Optional: Add some padding for spacing */
+    margin-left: auto;
+    margin-top: 20px;
+    background-color: #EBEBEB;
+  }
+  .scrollable-header h2{
+    font-size: 44px;
+    font-weight: 700;
+    padding: 10px;
+  }
+  .content-box {
+    display: flex;
+  }
