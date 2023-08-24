@@ -3,12 +3,16 @@ import styles from './TopMenu.module.scss'
 import logo from '@/public/images/enu_logo.svg'
 import globe from '@/public/images/world.svg'
 import chevDown from '@/public/images/chev_down.svg'
+import globeWh from '@/public/images/world-white.svg'
+import chevDownWh from '@/public/images/chev_down-white.svg'
 import Link from 'next/link'
 import accessWorld from '@/public/images/access_world.svg'
 import hamburger from '@/public/images/hamburger.svg'
 import {useState} from 'react';
+import { usePathname } from 'next/navigation'
 
 export default function TopMenu() {
+    const pathName = usePathname();
     const [ navActive, setNavActive ] = useState(false);
     const navItems = [
         {
@@ -56,7 +60,7 @@ export default function TopMenu() {
     }
     return (
         <>
-            <header className={styles.mainheader}>
+            <header className={styles[`${pathName.includes("governors_den") ? "mainheader_dark" : "mainheader"}`]}>
                 <div className={styles.logo}>
                     <Image src={logo} alt='logo' />
                 </div>
@@ -66,14 +70,23 @@ export default function TopMenu() {
                     </ul>
                 </nav>
                 <div className={styles.symbols}>
-                    <div className={styles.accessglobe}>
+                    {/* <div className={styles.accessglobe}>
                         <Image src={accessWorld} alt='globe' />
                         <p>Access</p>
-                    </div>
+                    </div> */}
                     <div className={styles.globe}>
                         <p>EN</p>
-                        <Image src={chevDown} alt='dropdown' />
-                        <Image src={globe} alt='the globe' />
+                        {pathName.includes("governors_den")? (
+                            <>
+                            <Image src={chevDownWh} alt='dropdown' />
+                            <Image src={globeWh} alt='the globe' />
+                            </>
+                        ) : (
+                            <>
+                            <Image src={chevDown} alt='dropdown' />
+                            <Image src={globe} alt='the globe' />
+                            </>
+                        )}
                     </div>
                     <div className={styles.hamburger} onClick={toggleMenu}>
                         <Image src={hamburger} alt='hamburget menu' />

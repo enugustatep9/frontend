@@ -59,7 +59,7 @@ export default function Administration() {
 
                         </div>
                         <picture className={styles.admin_img}>
-                            <source media="(max-width: 410px)" srcset="/images/admin_main_sm.png" />
+                            <source media="(max-width: 410px)" srcSet="/images/admin_main_sm.png" />
                             <Image src='/images/admin_main.png' alt='Gov Peter' width={1158} height={469} />
                         </picture>
                     </div>
