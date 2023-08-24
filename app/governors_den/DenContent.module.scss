@@ -1,0 +1,120 @@
+
+.denContent{
+    color: #fff;
+    .filters{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        padding: 1.3rem 3.3rem 3.3rem;
+
+        .filter{
+            border-radius: 5.7rem;
+            background: #0D0D0D;
+            padding: 0.8rem 1rem;
+            font-size: 0.75rem;
+            font-weight: 400;
+            letter-spacing: 0.004rem;
+            transition: 1s ease-in-out;
+            text-transform: capitalize;
+            cursor: pointer;
+
+        }
+        .filter:hover{
+            background-color: #B8CCFF;
+            color: #000;
+        }
+        .tech,
+        .all,
+        .education,
+        .agriculture,
+        .economy,
+        .tourism,
+        .real,
+        .video{
+            @extend .filter;
+        }
+        .active{
+            @extend .filter;
+            background-color: #B8CCFF;
+            color: #000;
+        }
+    }
+    .filtered{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 3.3rem;
+        gap: 1.97rem;
+        justify-content: space-around;
+    }
+    .others{
+        margin-top: 5rem;
+        .others_title{
+            padding: 0 3.3rem;
+            font-size: 1.25rem;
+            font-weight: 700;
+            line-height: 134.5%;
+            letter-spacing: -0.025rem;
+        }
+        .others_cards{
+            height: 590px;
+            overflow: hidden;
+
+            .others_cards_wrapper{
+                padding: 2rem 3.3rem 8rem;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                column-gap: 1.8rem;
+                row-gap: 1rem;
+                max-height: 650px;
+                overflow-x: scroll;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .denContent{
+        .filters{
+            .filter{
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .denContent{
+        .filters{
+            gap: 0.625rem;
+            padding: 3.3rem 7.6rem 3rem;
+            .filter{
+                border-radius: 7.6rem;
+                padding: 1rem 1.4rem;
+                font-size: 1rem;
+                letter-spacing: 0.005rem;
+            }
+        }
+        .filtered{
+            justify-content: space-between;
+            padding: 0 8.3rem 9rem;
+            gap: 2.8rem;
+        }
+        .others{
+            margin-top: 6rem;
+            .others_title{
+                padding: 0 8.3rem;
+                font-size: 2.25rem;
+                letter-spacing: -0.045rem;
+            }
+            .others_cards{
+                height: 850px;
+                .others_cards_wrapper{
+                    padding: 2.6rem 8.3rem 12rem;
+                    column-gap: 2.6rem;
+                    max-height: 950px;
+                }
+            }
+        }
+    }
+}

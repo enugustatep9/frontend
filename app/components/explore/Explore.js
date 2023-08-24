@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function Explore() {
   const videoRef = useRef();
-  const [pause, setPause] = useState(false);
+  const [pause, setPause] = useState(true);
 
   const handlePlay = () => {
     videoRef.current.play();
@@ -35,10 +35,9 @@ export default function Explore() {
           onPause={() => setPause(true)}
           onPlay={() => setPause(false)}
           ref={videoRef}
-          muted
-          autoPlay
           loop
-          src="/images/enugu.mp4"
+          controls
+          src="/images/enuguV2.mp4"
         ></video>
         {pause && (
           <button onClick={handlePlay} className={styles.play}>

@@ -111,22 +111,56 @@
             flex-direction: column;
             gap: 0.89rem;
             .hero_stats_gallery{
-                display: flex;
+                // display: flex;
+                position: relative;
+                height: 73px;
+                width: 327px;
+                // width: 327px;
+                overflow: hidden;
                 justify-content: space-around;
                 gap: 0.61rem;
 
+                .hero_sm1,
                 .hero_sm2,
                 .hero_sm3,
                 .hero_sm4,
                 .hero_sm5{
                     width: 72.26px;
+                    position: absolute;
+                    // max-width: 72.26px;
                     height: 72.26px;
                     border-radius: 0.3rem;
+                    transition: 1s ease-in-out;
                     overflow: hidden;
                     img{
                         width: 100%;
                         height: auto;
                     }
+                }
+                .hero_sm1{
+                    top: -500px;
+                    left: 0;
+                    animation: first-StatsCard 50s linear 2s infinite normal none;
+                }
+                .hero_sm2{
+                    top: 0;
+                    left: 0;
+                    animation: second-StatsCard 50s linear 2s infinite normal none;
+                }
+                .hero_sm3{
+                    top: 0;
+                    left: 25%;
+                    animation: third-StatsCard 50s linear 2s infinite normal none;
+                }
+                .hero_sm4{
+                    top: 0;
+                    left: 50%;
+                    animation: fourth-StatsCard 50s linear 2s infinite normal none;
+                }
+                .hero_sm5{
+                    top: 0;
+                    left: 75%;
+                    animation: fifth-StatsCard 50s linear 2s infinite normal none;
                 }
             }
             .hero_stats_data{
@@ -173,11 +207,16 @@
             .hero_stats_wrapper{
                 gap: 0.89rem;
                 .hero_stats_gallery{
+                    width: 582px;
+                    height: 101px;
+                    // width: 582px;
+                    .hero_sm1,
                     .hero_sm2,
                     .hero_sm3,
                     .hero_sm4,
                     .hero_sm5{
-                        width: 100.26px;
+                        width: 125.26px;
+                        // max-width: 100.26px;
                         height: 100.26px;
                     }
                 }
@@ -241,19 +280,24 @@
                 flex-direction: row;
                 gap: 1.13rem;
                 .hero_stats_gallery{
+                    width: 580px;
+                    height: 132px;
                     gap: 1.09rem;
                     order: 2;
     
+                    .hero_sm1,
                     .hero_sm2,
                     .hero_sm3,
                     .hero_sm4,
                     .hero_sm5{
                         width: 132px;
+                        // max-width: 132px;
                         height: 132px;
                         border-radius: 0.56rem;
                     }
                 }
                 .hero_stats_data{
+                    width: 314px;
                     justify-content: space-around;
                     flex-direction: row;
                     flex-wrap: wrap;
@@ -301,6 +345,7 @@
         opacity: 0;
     }
 }
+
 @keyframes secondHero {
     0% {
         opacity: 0;
@@ -352,4 +397,70 @@
         opacity: 1;
     }
     99%{opacity: 1;}
+}
+
+@keyframes second-StatsCard {
+    0% {left: 0; top: 0;}
+    18% {left: 0; top: 0;}
+    20% {left: 0; top: -200px;}
+    38% {left: 0; top: -200px;}
+    40% {left: 75%; top: 0;}
+    58%{left: 75%; top: 0;}
+    60% {left: 50%; top: 0;}
+    78%{left: 50%; top: 0;}
+    80% {left: 25%; top: 0;}
+    98%{left: 25%; top: 0;}
+
+}
+@keyframes third-StatsCard {
+    0% {left: 25%; top: 0;}
+    18% {left: 25%; top: 0;}
+    20% {left: 0; top: 0;}
+    38% {left: 0; top: 0;}
+    40% {left: 0; top: -200px;}
+    58%{left: 0; top: -200px;}
+    60% {left: 75%; top: 0;}
+    78%{left: 75%; top: 0;}
+    80% {left: 50%; top: 0;}
+    98%{left: 50%; top: 0;}
+
+}
+@keyframes fourth-StatsCard {
+    0% {left: 50%; top: 0;}
+    18% {left: 50%; top: 0;}
+    20% {left: 25%; top: 0;}
+    38% {left: 25%; top: 0;}
+    40% {left: 0; top: 0;}
+    58%{left: 0; top: 0;}
+    60% {left: 0; top: -200px;}
+    78%{left: 0; top: -200px;}
+    80% {left: 75%; top: 0;}
+    98%{left: 75%; top: 0;}
+
+}
+@keyframes fifth-StatsCard {
+    0% {left: 75%; top: 0;}
+    18% {left: 75%; top: 0;}
+    20% {left: 50%; top: 0;}
+    38% {left: 50%; top: 0;}
+    40% {left: 25%; top: 0;}
+    58%{left: 25%; top: 0;}
+    60% {left: 0; top: 0;}
+    78%{left: 0; top: 0;}
+    80% {left: 0; top: -200px;}
+    98%{left: 0; top: -200px;}
+
+}
+@keyframes first-StatsCard {
+    0% {left: 0; top: -200px;}
+    18% {left: 0; top: -200px;}
+    20% {left: 75%; top: 0;}
+    38% {left: 75%; top: 0;}
+    40% {left: 50%; top: 0;}
+    58%{left: 50%; top: 0;}
+    60% {left: 25%; top: 0;}
+    78%{left: 25%; top: 0;}
+    80% {left: 0; top: 0;}
+    98%{left: 0; top: 0;}
+
 }

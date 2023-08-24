@@ -49,12 +49,21 @@ export default function GovernorDen() {
             id: 5
         },
     ]
+    let article = {
+        type: "Economy",
+        date: "4th May, 2023",
+        reading: "4",
+        title: "Gov Peter Mbah Promises to Transform Enugu's Economy",
+        imgUrl: "/images/gov_den_main.png",
+        content: "Mrs. Ogochukwu is an exceptional traffic conductor in Enugu State, displaying unparalleled expertise in efficiently directing and resolving congested road traffic. Her remarkable skills and dedication contribute to the smooth flow of vehicles, ensuring safety and minimizing delays. With her adept management, Mrs. Ogochukwu stands as a shining example of effective traffic control and a true asset to the community"
+    }
     return (
         <>
             <section className={styles.governor_den}>
                 <h2>Governor's <br/>Den</h2>
                 <article className={styles.gov_den_content}>
-                    <div className={styles.gov_article}>
+                    <GovDenArticle article={article} />
+                    {/* <div className={styles.gov_article}>
                         <Image src={mainGov} alt='Gov Peter Mbah' />
                         <div className={styles.gov_main_text}>
                             <div className={styles.gov_main_type}>
@@ -64,12 +73,30 @@ export default function GovernorDen() {
                             <h3 className={styles.gov_main_title}>Gov Peter Mbah Promises to Transform Enugu's Economy</h3>
                             <p className={styles.gov_main_details}>Mrs. Ogochukwu is an exceptional traffic conductor in Enugu State, displaying unparalleled expertise in efficiently directing and resolving congested road traffic. Her remarkable skills and dedication contribute to the smooth flow of vehicles, ensuring safety and minimizing delays. With her adept management, Mrs. Ogochukwu stands as a shining example of effective traffic control and a true asset to the community</p>
                         </div>
-                    </div>
+                    </div> */}
                     <div className={styles.cards}>
                         {articleArray.map(article => <GovCard article={article}/>)}
                     </div>
                 </article>
             </section>
         </>
+    )
+}
+
+export function GovDenArticle({article, many=false}) {
+    const { type, date, reading, title, imgUrl, content, id } = article;
+    return(
+        <div key={id} className={styles[`${many ? "gov_article-many" : "gov_article"}`]}>
+            <Image src={imgUrl} alt='Gov Peter Mbah' width={494} height={422} />
+            <div className={styles.gov_main_text}>
+                <div className={styles.gov_main_type}>
+                    <p className={styles.gov_type}>{type}</p>
+                    <p className={styles.gov_main_date}>{date}</p>
+                    <p className={styles.gov_main_date}>{reading} mins read</p>
+                </div>
+                <h3 className={styles.gov_main_title}>{title}</h3>
+                <p className={styles.gov_main_details}>{content}</p>
+            </div>
+        </div>
     )
 }
