@@ -8,7 +8,7 @@ import Card3 from "./Card3";
 import Carousel from "./Carousel";
 import styles from "../components/explore/Explore.module.scss";
 import Section from "./Section";
-import Pic1 from "@/public/images/aboutBg.png";
+import Pic1 from "@/public/images/AboutBg.png";
 import Svg1 from "@/public/images/about_v.svg";
 import Svg2 from "@/public/images/about3_f.svg";
 import Image from "next/image";
@@ -20,7 +20,7 @@ export default function About() {
         <main className="mb-28 mt-10">
           <div className="text-center bg-[#F8F8F8] rounded-2xl w-[87%] mx-auto">
             <Image
-            
+
               src={Svg2}
               className="absolute right-0 md:right-10 top-20 md:top-20 md:w-16 w-10"
             />
