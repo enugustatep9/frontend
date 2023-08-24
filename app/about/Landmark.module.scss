@@ -1,0 +1,100 @@
+
+.invest{
+    background: #EBEBEB;
+    width: 94%;
+    margin-left: auto;
+    border-radius:  0.6rem 0.6rem 0.6rem;
+    margin-bottom: 30px;
+    .invest_header{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        padding: 2.6rem 3rem 1.2rem;
+        h2{
+            color: #000;
+            font-size: 1.75rem;
+            font-weight: 700;
+            line-height: 95.5%;
+        }
+        p{
+            color: #000;
+            font-size: 0.75rem;
+            font-weight: 300;
+            line-height: 134.5%;
+            letter-spacing: -0.015rem;
+        }
+    }
+    .invest_cards{
+        height: 435px;
+        overflow: hidden;
+        background-color: #EBEBEB;
+        border-radius:  0.6rem 0.6rem 0.6rem;
+        width: 100%;
+        padding: 20px;
+        margin: auto;
+        
+        .invest_cards_wrapper{
+            height: 350px;
+            padding: 0 3rem;
+            display: flex;
+            gap: 1.45rem;
+            overflow-x: scroll;
+            scroll-behavior: smooth;
+        }
+    }
+    .invest_buttons{
+        display: flex;
+        justify-content: flex-start;
+        gap: 0.3rem;
+        align-items: center;
+        padding: 0 3rem;
+        padding-bottom: 3.49rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .invest{
+        .invest_header{
+            h2{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .invest{
+        .invest_header{
+            gap: 2.81rem;
+            padding: 7rem 7rem 5rem;
+            h2{
+                font-size: 4rem;
+            }
+            p{
+                font-size: 1.125rem;
+                letter-spacing: -0.015rem;
+            }
+        }
+        .invest_cards{
+            height: 720px;
+            overflow: hidden;
+            .invest_cards_wrapper{
+                height: 780px;
+                padding: 0 5.69rem;
+                gap: 3rem;
+            }
+        }
+        .invest_buttons{
+            padding: 0 5.69rem;
+            padding-bottom: 6.49rem;
+            img{
+                width: 78px;
+                height: auto;
+            }
+        }
+    }
+    
+}
