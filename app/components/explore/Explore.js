@@ -8,7 +8,7 @@ import Svg1 from "../../../public/images/h-svg.svg";
 
 export default function Explore() {
   const videoRef = useRef();
-  const [pause, setPause] = useState(false);
+  const [pause, setPause] = useState(true)
 
   const handlePlay = () => {
     videoRef.current.play();

@@ -44,6 +44,7 @@
         }
         .core_admin_gallery{
             height: 400px;
+            overflow: hidden;
             .gallery_wrapper{
                 display: flex;
                 height: 450px;
@@ -52,6 +53,9 @@
                 overflow-x: scroll;
             }
         }
+    }
+    .collaborate{
+        padding: 4rem 0 6rem;
     }
 }
 

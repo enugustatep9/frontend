@@ -76,6 +76,9 @@ export default function Hero() {
             <div className={styles.hero_stats}>
                 <div className={styles.hero_stats_wrapper}>
                     <div className={styles.hero_stats_gallery}>
+                        <div className={styles.hero_sm1}>
+                            <Image src={herosm1} alt='enugu' />
+                        </div>
                         <div className={styles.hero_sm2}>
                             <Image src={herosm2} alt='enugu' />
                         </div>

@@ -1,0 +1,45 @@
+
+.govDen{
+    background-color: #000;
+    margin-bottom: 8rem;
+    .general_title{
+        padding: 3rem 3.7rem;
+        h3{
+            color: #7C7C7C;
+            font-size: 1.5rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 108%;
+            letter-spacing: 0.0075rem;
+            max-width: 530px;
+            span{
+                color: #fff;
+            }
+
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .govDen{
+        .general_title{
+            h3{
+                font-size: 1.75rem;
+                max-width: 650px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .govDen{
+        .general_title{
+            padding: 6rem 8.31rem;
+            h3{
+                font-size: 2.5rem;
+                max-width: 670px;
+                letter-spacing: 0.0125rem;
+            }
+        }
+    }
+}
