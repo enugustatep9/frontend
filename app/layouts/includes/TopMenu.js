@@ -47,18 +47,18 @@ export default function TopMenu() {
         }
     ]
 
-    let navArray = navItems.map(item => {
-        return (
-            <li key={item.id} >
-                <Link href={`/${item.label}`}>{item.title}</Link>
-            </li>
-        )
-    })
-
-    function toggleMenu() {
-        setNavActive(prev => !prev)
-    }
+  let navArray = navItems.map((item) => {
     return (
+            <li key={item.id}>
+        <Link href={`/${item.label}`}>{item.title}</Link>
+      </li>
+    );
+  });
+
+  function toggleMenu() {
+    setNavActive((prev) => !prev);
+  }
+  return (
         <>
             <header className={styles[`${pathName.includes("governors_den") ? "mainheader_dark" : "mainheader"}`]}>
                 <div className={styles.logo}>

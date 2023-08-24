@@ -17,19 +17,28 @@ import Future from './components/invest.js/Future'
 export default function Home() {
   return (
     <>
-      <MainLayout >
+      <MainLayout>
         <main className={styles.main}>
           <Hero />
           <section className={styles.heritage}>
             <div className={styles.heritage_content}>
               <div className={styles.heritage_content_text}>
-                <h2>Where Heritage <br/>meets Progress</h2>
-                <p>"Where vibrant culture thrives! Nestled in Nigeria, our rich heritage resonates through traditional dances, captivating festivals, and warm hospitality. Explore landmarks, savour cuisine, and immerse in Enugu's cultural embrace. Discover the magic of our cherished cultural treasure."</p>
+                <h2>
+                  Where Heritage <br />
+                  meets Progress
+                </h2>
+                <p>
+                  "Where vibrant culture thrives! Nestled in Nigeria, our rich
+                  heritage resonates through traditional dances, captivating
+                  festivals, and warm hospitality. Explore landmarks, savour
+                  cuisine, and immerse in Enugu's cultural embrace. Discover the
+                  magic of our cherished cultural treasure."
+                </p>
               </div>
               <div className={styles.heritage_content_img}>
                 <div className={styles.heritage_empty_box}>.</div>
                 <div className={styles.imgg}>
-                  <Image src={heritageImg} alt='enugu heritage' />
+                  <Image src={heritageImg} alt="enugu heritage" />
                 </div>
               </div>
             </div>
@@ -58,5 +67,5 @@ export default function Home() {
         </main>
       </MainLayout>
     </>
-  )
+  );
 }
