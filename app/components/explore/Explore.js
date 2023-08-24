@@ -4,7 +4,6 @@ import { useRef, useState } from "react";
 import playIcon from "@/public/images/play.svg";
 import pauseIcon from "@/public/images/pause.svg";
 import Image from "next/image";
-import Svg1 from "../../../public/images/h-svg.svg";
 
 export default function Explore() {
   const videoRef = useRef();
