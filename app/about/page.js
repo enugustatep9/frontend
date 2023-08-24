@@ -8,7 +8,7 @@ import Card3 from "./Card3";
 import Carousel from "./Carousel";
 import styles from "../components/explore/Explore.module.scss";
 import Section from "./Section";
-import Pic1 from "@/public/images/aboutBg.png";
+import Pic1 from "@/public/images/AboutBg.png";
 import Svg1 from "@/public/images/about_v.svg";
 import Svg2 from "@/public/images/about3_f.svg";
 import Image from "next/image";

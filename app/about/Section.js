@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Pic1 from "../../public/images/frame_1.png";
+import Pic1 from "@/public/images/frame_1.png";
 
 export default function Section() {
   return (
