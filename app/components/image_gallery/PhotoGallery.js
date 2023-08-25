@@ -1,41 +1,53 @@
-import React from "react";
-import Gallery from "./Gallery";
 import "@/app/components/image_gallery/gallery.css";
 import Image from "next/image";
-
-const PhotoGallery = () => {
-  // Example array of images
-  const images = [
-    "https://via.placeholder.com/300",
-    "https://via.placeholder.com/400",
-    "https://via.placeholder.com/500",
-    "https://via.placeholder.com/600",
-    "https://via.placeholder.com/700",
-    "https://via.placeholder.com/800",
-    "https://via.placeholder.com/300",
-    "https://via.placeholder.com/400",
-    "https://via.placeholder.com/500",
-  ];
-
+import Pic1 from "@/public/images/frame1n.png";
+import Pic2 from "@/public/images/frame2n.png";
+import Pic3 from "@/public/images/frame3n.png";
+import Pic4 from "@/public/images/frame4n.png";
+import Pic5 from "@/public/images/frame5n.png";
+import Pic6 from "@/public/images/frame6n.png";
+import Pic7 from "@/public/images/frame7n.png";
+import Svg1 from "@/public/images/sun.svg";
+export default function PhotoGallery() {
   return (
-    <div>
-      <h1>Photo Gallery</h1>
-      <Gallery>
-        {images.map((imageUrl, index) => (
-          <div key={index} className="masonry-item">
-            <div className="image-container">
-              <Image
-                src={imageUrl}
-                alt={`Image ${index}`}
-                layout="fill"
-                objectFit="cover"
-              />
-            </div>
-          </div>
-        ))}
-      </Gallery>
-    </div>
-  );
-};
+    <>
+      <div class="wrapper">
+        <Image className="object-cover box a" src={Pic1} />
+        <Image className="object-cover box b" src={Pic2} />
+        <Image className="object-cover box c" src={Pic4} />
+        <Image className="object-cover box d" src={Pic6} />
 
-export default PhotoGallery;
+        <Image className="object-cover box e" src={Pic5} />
+
+        <div className="object-cover box f  bg-white bg-gradient-to-b from-white to-gray-200">
+          <div className="flex justify-between p-5">
+            <h1 className="md:text-[16px] font-[Clash Display] md:w-[73px] md:h-[28px] md:top-[21.5] md:text-left text-primary md:font-bold md:left-[35px]">
+              Nick Named
+            </h1>
+            <Image src={Svg1} />
+          </div>
+          <div className="mdw-[174px] md:h-[127px] md:top-[69.5px]">
+            <h1 className="md:top-[69px] md:p-5 md:w-[107px] md:text-[32px] md:leading-[29.5px] font-bold ">
+              Coal City
+            </h1>
+          </div>
+        </div>
+        <div className="object-cover box g  bg-white bg-gradient-to-b from-white to-gray-200">
+          <div className="flex justify-between p-5">
+            <h1 className="md:text-[16px] font-[Clash Display] md:w-[73px] md:h-[28px] md:top-[21.5] md:text-left text-primary font-bold md:left-[35px]">
+              Nick Named
+            </h1>
+            <Image src={Svg1} />
+          </div>
+          <div className="md:-[174px] md:h-[127px] md:top-[69.5px]">
+            <h1 className="md:top-[69px] md:-5 md:w-[107px] md:text-[32px] md:leading-[29.5px] font-bold ">
+              Coal City
+            </h1>
+          </div>
+        </div>
+        <Image className="object-cover box h" src={Pic3} />
+        <Image className="object-cover box m" src={Pic7} />
+      </div>
+    </>
+  );
+}
