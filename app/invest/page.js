@@ -14,15 +14,15 @@ export default function Invest() {
   return (
     <>
       <MainLayout>
-        <div className="grid grid-cols-1 md:grid-cols-2 mb-40  md:mb-28 bg-[#F2EEEB] w-[87%] mx-auto rounded-lg ">
-          <h1 className="text-5xl md:hidden flex md:text-6xl mt-20 text-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 mb-40  md:top-[110px] md:mb-28 bg-[#F2EEEB] md:w-[1303px] mx-auto rounded-lg ">
+          <h1 className="text-5xl w-[248.9px] h-[86px] md:hidden flex md:text-6xl mt-20 text-center">
             Invest in the Future of Enugu State
           </h1>
           <div>
             <Image src={Pic1} className="ml-20 mx-auto" />
           </div>
           <div className=" -mt-[10rem] md:mt-32">
-            <h1 className="text-5xl hidden md:flex md:text-6xl mt-20 w-2/3">
+            <h1 className="text-5xl hidden w-[433px] h-[157px] md:flex md:text-[64px] font-bold font-[Clash Display] top-[101px]">
               Invest in the Future of Enugu State
             </h1>
             <div className="mt-10">
