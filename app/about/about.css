@@ -1,21 +1,114 @@
-.scrollable-div {
-    width: 87%; /* Set the width of the div */
-    white-space: nowrap; /* Prevent content from wrapping to a new line */
-    overflow-x: auto; /* Enable horizontal scrolling when content overflows */
-    border: 1px solid #ccc; /* Optional: Add a border for visualization */
-    padding: 10px; /* Optional: Add some padding for spacing */
+
+.wrapper {
+  max-height: auto;
+  display: flex;
+  overflow-x: auto;
+  width: 100%;
+  background: #EBEBEB;
+  border-radius: 29px;
+  padding: 50px;
+  gap: 10px;
+}
+
+.wrapper::-webkit-scrollbar {
+  width: 0;
+}
+.wrapper .item {
+  min-width: 50%;
+  width: 90%;
+  height: auto;
+  line-height: 110px;
+  text-align: center;
+  margin-left: auto;
+}
+.wrapper .item1 {
+  min-width: 434px;
+  height: 655px;
+  border-radius: 14px;
+  line-height: 20px;
+  background:  #FFFFFF;
+  margin-left: 100px;
+}
+.wrapper .item4 {
+  min-width: 434px;
+  height: 655px;
+  border-radius: 14px;
+  line-height: 20px;
+  background:  #FFFFFF;
+}
+.wrapper .item6 {
+  min-width: 434px;
+  height: 655px;
+  border-radius: 14px;
+  line-height: 20px;
+  background:  #FFFFFF;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .wrapper {
+    max-height: 800px;
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    padding-left: 10px;
+  }
+  .wrapper::-webkit-scrollbar {
+    width: 0;
+  }
+  .wrapper .item {
+    min-width: 50%;
+    width: 90%;
+    height: auto;
+    line-height: 110px;
+    text-align: center;
+    background-color: #ddd;
     margin-left: auto;
-    margin-top: 20px;
-    background-color: #EBEBEB;
   }
-  .scrollable-header h2{
-    font-size: 44px;
-    font-weight: 700;
-    padding: 10px;
+  .wrapper .item1 {
+    min-width: 100%;
+    height: 700px;
+    border-radius: 14px;
+    line-height: 20px;
+    background:  #FFFFFF;
+    margin-left: 100px;
   }
-  .stories {
-    scrollbar-width: none;
+  .wrapper .item2 {
+    min-width: 100%;
+    height: 700px;
+    border-radius: 14px;
+    line-height: 20px;
+    background:  #FFFFFF;
+    margin-left: 100px;
   }
-  .bg-active {
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  .wrapper .item3 {
+    min-width: 100%;
+    height: 700px;
+    border-radius: 14px;
+    line-height: 20px;
+    background:  #FFFFFF;
+    margin-left: 100px;
   }
+  .wrapper .item4 {
+    min-width: 100%;
+    height: 700px;
+    border-radius: 14px;
+    line-height: 20px;
+    background:  #FFFFFF;
+    margin-left: 100px;
+  }
+  .wrapper .item5 {
+    min-width: 100%;
+    height: 700px;
+    border-radius: 14px;
+    line-height: 20px;
+    background:  #FFFFFF;
+    margin-left: 100px;
+  }
+  .wrapper .item6 {
+    min-width: 100%;
+    height: 700px;
+    border-radius: 14px;
+    line-height: 20px;
+    background:  #FFFFFF;
+    margin-left: 100px;
+  }
+}
