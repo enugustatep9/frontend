@@ -16,7 +16,7 @@ export default function About() {
   return (
     <>
       <MainLayout>
-        <main className="mb-28 mt-10">
+        <main className="mb-40 mt-10">
           <div className="text-center bg-[#F8F8F8] rounded-2xl w-[95%] md:w-[87%] mx-auto">
             <Image
               src={Svg2}
