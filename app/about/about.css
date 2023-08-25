@@ -1,13 +1,16 @@
-
+body {
+  font-family: Clash Display;
+}
 .wrapper {
   max-height: auto;
   display: flex;
   overflow-x: auto;
   width: 100%;
-  background: #EBEBEB;
+  background: #F8F8F8;
   border-radius: 29px;
   padding: 50px;
   gap: 10px;
+  grid-row: 5px;
 }
 
 .wrapper::-webkit-scrollbar {

@@ -8,8 +8,8 @@ export default function Card3() {
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div className="p-2">
-          <button className="bg-primary text-secondary  py-2 items-center pl-[50px] pr-[11px] pt-[8px] pb-[8px] font-bold flex gap-10 rounded-[12px] md:ml-10 md:w-[289px]">
+        <div className="p-2 md:w-[290px]">
+          <button className="bg-primary text-secondary  py-2 items-center pl-[50px] pr-[11px] pt-[8px] pb-[8px] font-bold flex gap-10 rounded-[12px] md:w-[290px] md:h-[79px]">
             Enugu Igbo
             <Image src={Svg2} className="bg-[#64CAB7] rounded-[12px] mx-5" />
           </button>
@@ -31,24 +31,24 @@ export default function Card3() {
             />
           </div>
         </div>
-        <div className="col-span-2 mt-5 md:mt-0 bg-white rounded-[26px]">
+        <div className="col-span-2 md:w-[844px]  mt-5 md:mt-0 bg-white rounded-[26px]">
           <div className="">
             <Image
               src={Img}
-              className="mx-auto w-[380.81px] md:w-full md:h-60 h-[161.2px] p-2 object-cover rounded-[26px]"
+              className="mx-auto w-[380.81px] md:w-full md:h-[333.1px] h-[161.2px] p-2 object-cover rounded-[26px]"
             />
           </div>
           <div className="grid grid-cols-3">
             <div className="col-span-2">
               <Image
                 src={Img}
-                className="mx-auto w-[380.81px] md:w-full md:h-60 h-[131.73px] p-2 rounded-[26px] object-cover"
+                className="mx-auto w-[380.81px] md:w-full md:h-[272.2px] h-[131.73px] p-2 rounded-[26px] object-cover"
               />
             </div>
             <div>
               <Image
                 src={Img}
-                className="mx-auto w-full md:h-60 h-[131.73px] p-2 rounded-[26px] object-cover"
+                className="mx-auto w-full md:h-[272.2px] h-[131.73px] p-2 rounded-[26px] object-cover"
               />
             </div>
           </div>
@@ -57,13 +57,13 @@ export default function Card3() {
             <div>
               <Image
                 src={Img}
-                className="mx-auto w-[133.54px] md:w-full h-[131.73px] md:h-60 p-2 rounded-[26px]"
+                className="mx-auto w-[133.54px] md:w-full h-[131.73px] md:h-[272.2px] p-2 rounded-[26px]"
               />
             </div>
             <div className="col-span-2">
               <Image
                 src={Img}
-                className="mx-auto w-[237.66px] md:w-full h-[131.73px] md:h-60 p-2 rounded-[26px]"
+                className="mx-auto w-[237.66px] md:w-full h-[131.73px] md:h-[272.2px] p-2 rounded-[26px]"
               />
             </div>
           </div>
