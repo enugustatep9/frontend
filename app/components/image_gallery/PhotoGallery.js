@@ -17,7 +17,7 @@ export default function PhotoGallery() {
       <Image src={Svg3} className="absolute left-44 mt-24 hidden md:flex" />
       <Image src={Svg2} className="absolute right-44 mt-24 md:flex hidden" />
 
-      <div class="wrapper">
+      <div class="container">
         <Image className="object-cover box a" src={Pic1} />
         <Image className="object-cover box b" src={Pic2} />
         <Image className="object-cover box c" src={Pic4} />

@@ -16,6 +16,7 @@ import Gallery from "../components/image_gallery/Gallery";
 import PhotoGallery from "../components/image_gallery/PhotoGallery";
 import Future from "../components/invest.js/Future";
 import "@/app/about/about.css";
+import ScrollToDownButton from "../components/arrowDownButton/ArrowDownBtn";
 export default function About() {
   return (
     <>
@@ -37,6 +38,7 @@ export default function About() {
               Tracing Our Rich Heritage: A Journey Through Time.
             </h2>
             <PhotoGallery />
+            <ScrollToDownButton />
             <Image
               src={Svg1}
               className="absolute object-contain md:ml-10 w-10 md:w-16 hidden"
