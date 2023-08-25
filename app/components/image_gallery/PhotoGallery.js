@@ -8,9 +8,15 @@ import Pic5 from "@/public/images/frame5n.png";
 import Pic6 from "@/public/images/frame6n.png";
 import Pic7 from "@/public/images/frame7n.png";
 import Svg1 from "@/public/images/sun.svg";
+import Svg3 from "@/public/images/v4.svg";
+import Svg2 from "@/public/images/v1.svg";
+
 export default function PhotoGallery() {
   return (
     <>
+      <Image src={Svg3} className="absolute left-44 mt-24 hidden md:flex" />
+      <Image src={Svg2} className="absolute right-44 mt-24 md:flex hidden" />
+
       <div class="wrapper">
         <Image className="object-cover box a" src={Pic1} />
         <Image className="object-cover box b" src={Pic2} />

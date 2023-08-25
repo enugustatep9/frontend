@@ -4,6 +4,9 @@ import Card from "./Card";
 import Card2 from "./Card2";
 import Card3 from "./Card3";
 import Carousel from "./Carousel";
+import Svg3 from "@/public/images/v4.svg";
+import Svg4 from "@/public/images/v3.svg";
+
 import Section from "./Section";
 import Pic1 from "@/public/images/AboutBg.png";
 import Svg1 from "@/public/images/about_v.svg";
@@ -23,11 +26,13 @@ export default function About() {
               src={Svg2}
               className="absolute right-0 md:right-10 top-20 md:top-20 md:w-16 w-10 hidden"
             />
+            <Image src={Svg4} className="absolute right-2 mt-4" />
 
             <h2 className="text-center font-semibold text-[32px] md:text-[64px] pt-10 tracking-tighter md:p-10 p-5 leading-[35.68px] md:leading-[71.36px] md:-[114px] md:top-[136px] mx-auto md:w-[841px] hidden md:flex justify-center font-[Clash Display]">
               Tracing Our Rich Heritage:
               <br /> A Journey Through Time.
             </h2>
+
             <h2 className="text-center font-semibold text-[32px] md:text-[64px] pt-10 tracking-tighter md:p-10 p-5 leading-[35.68px] md:leading-[71.36px] md:hidden font-[Clash Display] w-[348px] h-[93px] mx-auto top-[69px] left-[29px]">
               Tracing Our Rich Heritage: A Journey Through Time.
             </h2>
@@ -49,13 +54,13 @@ export default function About() {
             </p>
           </div>
 
-          <div className="w-[90%] md:w-[87%] mx-auto mt-20">
+          <div className="w-[95%] mx-auto mt-20">
             <Card />
           </div>
-          <div className="w-[90%] md:w-[87%] mx-auto mt-10">
+          <div className="w-[95%] mx-auto mt-10">
             <Card2 />
           </div>
-          <div className="w-[90%] md:w-[87%] mx-auto mt-10">
+          <div className="w-[95%] mx-auto mt-10">
             <Card3 />
           </div>
           <Explore />

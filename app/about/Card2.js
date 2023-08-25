@@ -47,12 +47,12 @@ export default function Card2() {
             </div>
           </div>
         </div>
-        <div className="p-2">
-          <button className="bg-secondary text-primary  py-2 items-center pl-[50px] pr-[11px] pt-[8px] pb-[8px] font-bold flex gap-10 rounded-[12px] md:ml-10 md:w-[289px] ">
+        <div className="p-2 md:[291px] mx-auto md:mx-16 ">
+          <button className="bg-secondary text-primary  py-2 items-center pl-[50px] pr-[11px] pt-[8px] pb-[8px] font-bold flex gap-10 rounded-[12px] md:ml-10 md:w-[291px]  ">
             Ngwo Caves
             <Image src={Svg2} className="bg-[#64CAB7] rounded-[12px] mx-5" />
           </button>
-          <div className="bg-white w-[350px] md:w-[290px] rounded-[14px] mx-auto mt-5 p-10 h-auto">
+          <div className="bg-white w-[350px] md:w-[291px] rounded-[14px] mx-auto md:mx-10 mt-5 p-10 h-auto">
             <p className="text-xl leading-normal">
               <strong>
                 Énugwú: Enugu State's Capital City in Nigeria, nestled in the
