@@ -1,9 +1,9 @@
-import styles from "./AgricC.module.scss";
+import styles from "@/app/invest/MobileHealthCard.module.scss";
 import greenRec from "@/public/images/inv_agric_green.svg";
 import orangeRec from "@/public/images/inv_agric_orange.svg";
 import cart from "@/public/images/inv_agric_cart.svg";
 import Image from "next/image";
-export default function AgricCard({ value }) {
+export default function HealthCardMobile({ value }) {
   return (
     <>
       <div className={styles.agricCard}>

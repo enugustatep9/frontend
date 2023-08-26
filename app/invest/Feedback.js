@@ -8,7 +8,7 @@ export default function Feedback() {
       name: "Mr. Scarge Holand",
       details:
         "Énugwú: Enugu State's Capital City in Nigeria, nestled in the southeast. With a population of 820,000, its name originates from 'Énú Ụ́gwụ́', signifying 'hill top' in Igbo. Enugu, once Enugwu-Ngwo, transformed into its current name in 1928, reflecting rapid expansion and cultural evolution",
-      iconUrl: "/images/invest_card_icon.svg",
+      iconUrl: "/images/profile.png",
       id: 1,
     },
     {
@@ -16,7 +16,7 @@ export default function Feedback() {
       name: "Mr. Scarge Holand",
       details:
         "Énugwú: Enugu State's Capital City in Nigeria, nestled in the southeast. With a population of 820,000, its name originates from 'Énú Ụ́gwụ́', signifying 'hill top' in Igbo. Enugu, once Enugwu-Ngwo, transformed into its current name in 1928, reflecting rapid expansion and cultural evolution",
-      iconUrl: "/images/invest_card_icon.svg",
+      iconUrl: "/images/profile.png",
       id: 2,
     },
     {
@@ -24,7 +24,7 @@ export default function Feedback() {
       name: "Mr. Scarge Holand",
       details:
         "Énugwú: Enugu State's Capital City in Nigeria, nestled in the southeast. With a population of 820,000, its name originates from 'Énú Ụ́gwụ́', signifying 'hill top' in Igbo. Enugu, once Enugwu-Ngwo, transformed into its current name in 1928, reflecting rapid expansion and cultural evolution",
-      iconUrl: "/images/invest_card_icon.svg",
+      iconUrl: "/images/profile.png",
       id: 3,
     },
     {
@@ -32,7 +32,7 @@ export default function Feedback() {
       name: "Mr. Scarge Holand",
       details:
         "Énugwú: Enugu State's Capital City in Nigeria, nestled in the southeast. With a population of 820,000, its name originates from 'Énú Ụ́gwụ́', signifying 'hill top' in Igbo. Enugu, once Enugwu-Ngwo, transformed into its current name in 1928, reflecting rapid expansion and cultural evolution",
-      iconUrl: "/images/invest_card_icon.svg",
+      iconUrl: "/images/profile.png",
       id: 4,
     },
     {
@@ -40,7 +40,7 @@ export default function Feedback() {
       name: "Mr. Scarge Holand",
       details:
         "Énugwú: Enugu State's Capital City in Nigeria, nestled in the southeast. With a population of 820,000, its name originates from 'Énú Ụ́gwụ́', signifying 'hill top' in Igbo. Enugu, once Enugwu-Ngwo, transformed into its current name in 1928, reflecting rapid expansion and cultural evolution",
-      iconUrl: "/images/invest_card_icon.svg",
+      iconUrl: "/images/profile.png",
       id: 5,
     },
   ];

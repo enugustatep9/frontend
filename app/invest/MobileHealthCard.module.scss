@@ -1,0 +1,84 @@
+.agricCard{
+    width: 112.5px;
+    height: 114.87px;
+    padding: 0.82rem 1.19rem;
+    border-radius: 0.62rem;
+    background: #0CAD8E;
+    .agric_bar{
+        position: relative;
+        height: 15px;
+        width: 100%;
+        margin-bottom: 0.94rem;
+        .bar1{
+            width: 100%;
+        }
+        .bar2{
+            width: 50%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top:-2px;
+        }
+    }
+    .cart{
+        width: 17.6px;
+        img{
+            width: 100%;
+            height: auto;
+            top: 15px;
+        }
+    }
+    .agric_text{
+        h4{
+            color: #F1DDC4;
+            font-size: 32.53px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 55%;
+            letter-spacing: -0.059rem;
+        }
+        h5{
+            color: #FFF;
+            font-size: 0.79rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 89.5%;
+            letter-spacing: -0.019rem;
+            margin-bottom: 30px;
+            span{
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1320px) {
+    .agricCard{
+        width: 255px;
+        height: max-content;
+        padding: 1.58rem 2.3rem;
+        border-radius: 1.24rem;
+        .agric_bar{
+            height: 15px;
+            margin-bottom: 1.82rem;
+            .bar2{
+                left: 0;
+                top: 2px;
+            }
+        }
+        .cart{
+            width: 34px;
+
+        }
+        .agric_text{
+            h4{
+                font-size: 4.6rem;
+                letter-spacing: -0.11rem;
+            }
+            h5{
+                font-size: 1.15rem;
+                letter-spacing: -0.03rem;
+            }
+        }
+    }
+}
