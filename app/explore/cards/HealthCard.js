@@ -1,8 +1,9 @@
-import Image from "next/image";
+"use client";
+import React from "react";
 
-export default function ExploreCards({ title, description, imageSrc }) {
+const Card8 = ({ title, description, imageSrc }) => {
   return (
-    <div className="bg-white shadow-md rounded-lg p-6">
+    <div className="bg-blue-100 shadow-md rounded-lg p-6">
       {imageSrc && (
         <img src={imageSrc} alt={title} className="mb-4 w-full rounded-lg" />
       )}
@@ -10,4 +11,6 @@ export default function ExploreCards({ title, description, imageSrc }) {
       <p className="text-gray-700">{description}</p>
     </div>
   );
-}
+};
+
+export default Card8;

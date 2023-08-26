@@ -23,7 +23,11 @@ const ScrollToDownButton = () => {
     };
   }, []);
 
-  return <Image src={icon} className="absolute mx-auto mt-[150px]" />;
+  return (
+    <div className="" onClick={handleScroll}>
+      <Image src={icon} className="mx-auto" />
+    </div>
+  );
 };
 
 export default ScrollToDownButton;
