@@ -1,7 +1,8 @@
 .estCard{
-    min-width: 255px;
-    max-width: 258px;
-    height: 258px;
+    min-width: 112px;
+    max-width: 114.2px;
+    height: 114.2px;
+    height: max-content;
     border-radius: 0.49713rem;
     background: #FFF;
     padding: 0 0.52rem;
@@ -21,7 +22,7 @@
         padding: 1.3rem 0 0.86rem;
         h4{
             color: #000;
-            font-size: 73.73px;
+            font-size: 2.38606rem;
             font-style: normal;
             font-weight: 600;
             line-height: 89.5%;
@@ -29,7 +30,7 @@
         }
         h5{
             color: #000;
-            font-size: 24.58px;
+            font-size: 0.64719rem;
             font-style: normal;
             font-weight: 600;
             line-height: 89.5%;

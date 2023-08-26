@@ -1,9 +1,9 @@
 .agricCard{
-    width: 255px;
-    height: 260.38px;
+    width: 112.5px;
+    height: 114.87px;
     padding: 0.82rem 1.19rem;
     border-radius: 0.62rem;
-    background: #0CAD8E;
+    background: #F1DDC4;
     .agric_bar{
         position: relative;
         height: 15px;
@@ -17,7 +17,7 @@
             height: 100%;
             position: absolute;
             left: 0;
-            top: 2px;
+            top:-2px;
         }
     }
     .cart{
@@ -25,24 +25,26 @@
         img{
             width: 100%;
             height: auto;
+            top: 15px;
         }
     }
     .agric_text{
         h4{
-            color: #F1DDC4;
-            font-size: 73.73px;
+            color: #0CAD8E;
+            font-size: 32.53px;
             font-style: normal;
             font-weight: 600;
-            line-height: 89.5%;
+            line-height: 55%;
             letter-spacing: -0.059rem;
         }
         h5{
             color: #FFF;
-            font-size: 24.58px;
+            font-size: 0.79rem;
             font-style: normal;
             font-weight: 600;
-            line-height: 115%;
+            line-height: 89.5%;
             letter-spacing: -0.019rem;
+            margin-bottom: 30px;
             span{
                 font-weight: 400;
             }
