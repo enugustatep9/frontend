@@ -11,7 +11,7 @@ import AgricCardMobile from "../components/invest.js/MobileAgricCard";
 export default function Education() {
   return (
     <>
-      <h1 className=" text-[36px] md:text-6xl flex justify-center md:w-[331px] md:h-[43px] md:justify-normal mr-[50px] md:ml-[128px] font-bold font-[Clash Display] md:mb-20 mb-4 mt-[150px] ">
+      <h1 className="  text-[36px] md:text-6xl flex justify-center md:w-[331px] md:h-[43px] md:justify-normal mr-[50px] md:ml-[128px] font-bold font-[Clash Display] md:mb-20 mb-4 mt-[50px] ">
         Education
       </h1>
 
@@ -60,7 +60,7 @@ export default function Education() {
             <div className="mt-5">
               <Link href="/explore">
                 {" "}
-                <Button text="Invest in Tech Ville" />
+                <Button text="Invest in Education" />
               </Link>
             </div>
           </div>
