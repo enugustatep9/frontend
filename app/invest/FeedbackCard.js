@@ -16,7 +16,7 @@ export default function FeedBackCard({ data }) {
           <Image src={iconUrl} alt={title} width={94} height={94} />
         </div>
         <div>
-          <h3>{name}</h3>
+          <h3 className="font-bold">{name}</h3>
           <p>{title}</p>
         </div>
       </div>

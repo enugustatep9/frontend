@@ -16,7 +16,7 @@ export default function RealEstate() {
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-3 md:mb-28 gap-10 ml-auto w-11/12  md:mt-0">
-        <div className="md:ml-0 mr-10 hidden md:flex w-[270px]md:w-[369px] ">
+        <div className="md:ml-0 md:leading-[24.21px]  hidden md:block w-[270px] md:w-[369px] ">
           <div className=" md:ml-5 md:mr-10">
             <p className="bg-white rounded-lg p-8 md:mt-20 h-2/3 text-[18px] font-[]">
               <span className="text-black font-bold">
@@ -67,8 +67,8 @@ export default function RealEstate() {
           </div>
         </div>
         <div className="md:ml-0 md:hidden">
-          <div className="ml-5 md:ml-0">
-            <p className="bg-white rounded-lg p-8 md:mt-20 h-2/3">
+          <div className="-ml-4 md:ml-0">
+            <p className="bg-white rounded-lg p-8 md:mt-20 h-2/3 w-[296px]">
               <span className="text-black font-bold">
                 Énugwú: Enugu State's Capital City in Nigeria, nestled in the
                 southeast.

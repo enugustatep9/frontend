@@ -15,7 +15,7 @@ export default function Education() {
         Education
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 mb-28 gap-10 w-11/12">
+      <div className="grid grid-cols-1 md:grid-cols-3 mb-40 md:mb-28 gap-10 w-11/12">
         <div className="md:col-span-2 bg-white mt-10 p-2 w-[380.28px] md:w-[700px] md:h-[508px]">
           <div className="flex gap-8 md:gap-4">
             <div>
@@ -40,8 +40,8 @@ export default function Education() {
             </div>
           </div>
         </div>
-        <div className="mx-auto md:mx-0 md:ml-auto md:w-[330px] h-[369px] md:leading-[24.21px] w-[296px]">
-          <div className="md:-mt-10">
+        <div className="mx-auto md:mx-0 md:ml-auto md:w-[330px] h-[369px] md:leading-[24.21px] w-[310px]">
+          <div className="md:-mt-10 ml-2">
             <p className="bg-white rounded-lg p-8 h-2/3 text-[18px] font-[]">
               <span className="text-black font-bold">
                 Énugwú: Enugu State's Capital City in Nigeria, nestled in the
