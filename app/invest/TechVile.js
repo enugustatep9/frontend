@@ -15,16 +15,19 @@ export default function TechVile() {
         TechVille
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 mb-28 gap-10 w-11/12">
-        <div className="md:col-span-2 bg-white mt-10 p-2 w-[380.28px] md:w-[700px] md:h-[508px]">
+      <div className="grid grid-cols-1 md:grid-cols-3 mb-28 gap-10 w-10/12 md:w-11/12">
+        <div
+          className="md:col-span-2 bg-white mt-10 p-2
+         w-[290.28px] md:w-[700px] md:h-[508px]"
+        >
           <div className="flex gap-8 md:gap-4">
             <div>
               <Image
                 src={Pic1}
-                className="ml-2 md:h-[500px] object-cover rounded-lg w-[206.76px] h-[239.88px] md:w-[387px] -mt-10 md:ml-28 md:-mt-20"
+                className="ml-20 md:h-[500px] object-cover rounded-lg w-[300px] h-[239.88px] md:w-[387px] -mt-10 md:ml-28 md:-mt-20"
               />
             </div>
-            <div className="mr-[50px] md:ml-[640px] -mt-10 md:-mt-20 md:absolute md:hidden">
+            <div className="ml-[70px] md:ml-[640px] -mt-10 md:-mt-20 md:absolute md:hidden ">
               <EstatesCardMobile />
               {/* row two */}
               <div className="mt-5">
@@ -40,9 +43,9 @@ export default function TechVile() {
             </div>
           </div>
         </div>
-        <div className="mx-auto md:mx-0 md:ml-auto md:w-[330px] h-[369px] md:leading-[24.21px] w-[296px]">
+        <div className="mx-auto block ml-5  md:mx-0 md:ml-auto md:w-[330px] h-[369px] md:leading-[24.21px]  ">
           <div className="md:-mt-10">
-            <p className="bg-white rounded-lg p-8 h-2/3 text-[18px] font-[]">
+            <p className="bg-white rounded-lg p-8 h-2/3 text-[18px]  font-[]">
               <span className="text-black font-bold">
                 Énugwú: Enugu State's Capital City in Nigeria, nestled in the
                 southeast.

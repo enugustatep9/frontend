@@ -11,7 +11,7 @@ import AgricCardMobile from "../components/invest.js/MobileAgricCard";
 export default function RealEstate() {
   return (
     <>
-      <h1 className="text-5xl md:text-6xl flex justify-center md:w-[331px] md:h-[43px] md:justify-normal md:ml-[128px] font-bold font-[Clash Display] mt-20">
+      <h1 className="text-5xl md:text-6xl flex justify-center md:w-[331px] md:h-[43px] md:justify-normal md:ml-[128px] font-bold font-[Clash Display] md:mt-20 mt-24">
         RealEstate
       </h1>
 
@@ -40,17 +40,17 @@ export default function RealEstate() {
             </div>
           </div>
         </div>
-        <div className="md:col-span-2 bg-white mt-36 p-2 md:h-[508px] md:w-[870px]">
+        <div className="md:col-span-2 bg-white mt-36 p-2 md:h-[508px] md:w-[870px] w-[380.28px]">
           <div className="grid grid-cols-2 gap-8 md:gap-10 ">
             <div className=" md:ml-10 -mt-10 md:-mt-10">
-              <div className="mr-[50px] md:ml-[640px] -mt-10 md:-mt-20 md:absolute md:hidden">
+              <div className="mr-[50px] md:ml-[640px] -ml-5 -mt-10 md:-mt-20 md:absolute  md:hidden">
                 <EstatesCardMobile />
                 {/* row two */}
                 <div className="mt-5">
                   <AgricCardMobile value={50} />
                 </div>
               </div>
-              <div className="md:-ml-[90px] -mt-10  md:absolute">
+              <div className="md:-ml-[90px] -mt-10 hidden md:block md:absolute">
                 <EstatesCard />
                 {/* row two */}
                 <div className="mt-5">
@@ -61,7 +61,7 @@ export default function RealEstate() {
             <div>
               <Image
                 src={Pic1}
-                className="md:h-[500px] md:w-[387px] object-cover rounded-lg w-[206.76px]  md:-ml-44 -mt-10 md:-mt-20"
+                className="md:h-[500px] md:w-[387px] object-cover rounded-lg w-[206.76px] h-[239.88px] -ml-10 md:-ml-44 -mt-10 md:-mt-20"
               />
             </div>
           </div>

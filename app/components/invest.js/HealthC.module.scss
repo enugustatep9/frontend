@@ -1,6 +1,6 @@
 .healthCard{
-    width: 255px;
-    height: 258px;
+    width: 132px;
+    height: max-content;
     padding: 0.82rem 1.19rem;
     border-radius: 0.62rem;
     background: #F1DDC4;
@@ -30,18 +30,18 @@
     .health_text{
         h4{
             color: #0CAD8E;
-            font-size: 73.73px;
+            font-size: 2.38rem;
             font-style: normal;
             font-weight: 600;
-            line-height: 125%;
+            line-height: 89.5%;
             letter-spacing: -0.059rem;
         }
         h5{
             color: #000;
-            font-size: 24.58px;
+            font-size: 0.79rem;
             font-style: normal;
             font-weight: 600;
-            line-height: 115%;
+            line-height: 89.5%;
             letter-spacing: -0.019rem;
             span{
                 font-weight: 400;

@@ -11,7 +11,7 @@ export default function MobileView() {
         <h1 className="text-center h-[46px]  mx-auto font-bold text-[36px] leading-8 p-5 pt-20">
           Invest in the Future of Enugu State
         </h1>
-        <div className="grid gap-2 grid-cols-2 absolute mt-[20rem] mx-auto justify-center">
+        <div className="grid gap-2 grid-cols-2 absolute mt-[20rem] ml-6">
           <HealthCardMobile value={50} />
           <AgricCardMobile value={50} />
           <AgricCardMobile value={50} />
