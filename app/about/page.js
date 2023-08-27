@@ -45,7 +45,7 @@ export default function About() {
             />
           </div>
           <div className="mt-10 mb-10 md:ml-[90px]">
-            <p className="md:h-[229px] h-[232px] md:top-[1224px] p-5 md:p-0 md:mx-0 mx-auto md:ml-24 text-[#838384] font-bold text-[24px] md:text-[36px] leading-[27.36px] md:leading-[41.04px] w-[328px] md:w-[620px] font-[Clash Display]">
+            <p className="md:h-[229px] h-[232px] p-5 md:p-0 md:mx-0 mx-auto md:ml-24 text-[#838384] font-bold text-[24px] md:text-[36px] leading-[27.36px] md:leading-[41.04px] w-[328px] md:w-[620px] font-[Clash Display]">
               Dive into Enugu's Enigmatic History: From Coal Hub to Biafra's
               Heart, Unveil Mesmerizing Tales.
               <br />

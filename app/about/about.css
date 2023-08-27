@@ -5,12 +5,13 @@ body {
   max-height: auto;
   display: flex;
   overflow-x: auto;
-  width: 100%;
-  background: #F8F8F8;
-  border-radius: 29px;
+  width: 90%;
+  background: #EBEBEB;
+  border-radius: 29px 0px 0px 29px;
   padding: 50px;
   gap: 10px;
   grid-row: 5px;
+  margin-left: auto;
 }
 
 .wrapper::-webkit-scrollbar {
@@ -30,7 +31,7 @@ body {
   border-radius: 14px;
   line-height: 20px;
   background:  #FFFFFF;
-  margin-left: 100px;
+  background-image: linear-gradient(to bottom right, white, rgb(235, 225, 225));
 }
 .wrapper .item4 {
   min-width: 434px;
@@ -38,6 +39,7 @@ body {
   border-radius: 14px;
   line-height: 20px;
   background:  #FFFFFF;
+  background-image: linear-gradient(to bottom right, white, rgb(235, 225, 225));
 }
 .wrapper .item6 {
   min-width: 434px;
@@ -45,6 +47,7 @@ body {
   border-radius: 14px;
   line-height: 20px;
   background:  #FFFFFF;
+  background-image: linear-gradient(to bottom right, white, rgb(235, 225, 225));
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .wrapper {
