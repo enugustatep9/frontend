@@ -6,8 +6,7 @@ import { otherArticles } from "../blogData"
 import MoreDen from "../MoreContent"
 
 export default function Blog({ params }) {
-    console.log('the id is: ', params.id)
-    otherArticles
+
     return(
         <MainLayout>
             <div>
