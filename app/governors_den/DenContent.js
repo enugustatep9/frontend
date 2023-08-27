@@ -3,6 +3,8 @@ import GovCard from "../components/governor_den/GovCard"
 import { GovDenArticle } from "../components/governor_den/GovernorDen"
 import styles from "./DenContent.module.scss"
 import { useState } from "react"
+import { otherArticles } from "./blogData"
+import MoreDen from "./MoreContent"
 
 export default function DenContent() {
     const [active, setActive] = useState('economy')
@@ -63,128 +65,6 @@ export default function DenContent() {
             id: 6
         },
     ]
-    const otherArticles = [
-        {
-            type: 'Education',
-            date: '4th May, 2023',
-            reading: '4',
-            title: 'Governor Peter Mbah Launches Ambitious Education Reform Initiative',
-            imgUrl: '/images/gov_den_card.png',
-            id: 1
-        },
-        {
-            type: 'Real Estate',
-            date: '4th May, 2023',
-            reading: '4',
-            title: 'Governor Peter Mbah Launches Ambitious Education Reform Initiative',
-            imgUrl: '/images/gov_den_card.png',
-            id: 2
-        },
-        {
-            type: 'Tech',
-            date: '4th May, 2023',
-            reading: '4',
-            title: 'Governor Peter Mbah Launches Ambitious Education Reform Initiative',
-            imgUrl: '/images/gov_den_card.png',
-            id: 3
-        },
-        {
-            type: 'Agriculture',
-            date: '4th May, 2023',
-            reading: '4',
-            title: 'Governor Peter Mbah Launches Ambitious Education Reform Initiative',
-            imgUrl: '/images/gov_den_card.png',
-            id: 4
-        },
-        {
-            type: 'Agriculture',
-            date: '4th May, 2023',
-            reading: '4',
-            title: 'Governor Peter Mbah Launches Ambitious Education Reform Initiative',
-            imgUrl: '/images/gov_den_card.png',
-            id: 5
-        },
-        {
-            type: 'Education',
-            date: '4th May, 2023',
-            reading: '4',
-            title: 'Governor Peter Mbah Launches Ambitious Education Reform Initiative',
-            imgUrl: '/images/gov_den_card.png',
-            id: 6
-        },
-        {
-            type: 'Real Estate',
-            date: '4th May, 2023',
-            reading: '4',
-            title: 'Governor Peter Mbah Launches Ambitious Education Reform Initiative',
-            imgUrl: '/images/gov_den_card.png',
-            id: 7
-        },
-        {
-            type: 'Tech',
-            date: '4th May, 2023',
-            reading: '4',
-            title: 'Governor Peter Mbah Launches Ambitious Education Reform Initiative',
-            imgUrl: '/images/gov_den_card.png',
-            id: 8
-        },
-        {
-            type: 'Agriculture',
-            date: '4th May, 2023',
-            reading: '4',
-            title: 'Governor Peter Mbah Launches Ambitious Education Reform Initiative',
-            imgUrl: '/images/gov_den_card.png',
-            id: 9
-        },
-        {
-            type: 'Agriculture',
-            date: '4th May, 2023',
-            reading: '4',
-            title: 'Governor Peter Mbah Launches Ambitious Education Reform Initiative',
-            imgUrl: '/images/gov_den_card.png',
-            id: 10
-        },
-        {
-            type: 'Education',
-            date: '4th May, 2023',
-            reading: '4',
-            title: 'Governor Peter Mbah Launches Ambitious Education Reform Initiative',
-            imgUrl: '/images/gov_den_card.png',
-            id: 11
-        },
-        {
-            type: 'Real Estate',
-            date: '4th May, 2023',
-            reading: '4',
-            title: 'Governor Peter Mbah Launches Ambitious Education Reform Initiative',
-            imgUrl: '/images/gov_den_card.png',
-            id: 12
-        },
-        {
-            type: 'Tech',
-            date: '4th May, 2023',
-            reading: '4',
-            title: 'Governor Peter Mbah Launches Ambitious Education Reform Initiative',
-            imgUrl: '/images/gov_den_card.png',
-            id: 13
-        },
-        {
-            type: 'Agriculture',
-            date: '4th May, 2023',
-            reading: '4',
-            title: 'Governor Peter Mbah Launches Ambitious Education Reform Initiative',
-            imgUrl: '/images/gov_den_card.png',
-            id: 14
-        },
-        {
-            type: 'Agriculture',
-            date: '4th May, 2023',
-            reading: '4',
-            title: 'Governor Peter Mbah Launches Ambitious Education Reform Initiative',
-            imgUrl: '/images/gov_den_card.png',
-            id: 15
-        },
-    ]
 
     function handleActiveFilter(key) {
         console.log(key.split(" ")[0]);
@@ -206,14 +86,7 @@ export default function DenContent() {
             <div className={styles.filtered}>
                 {articles.map(article => <GovDenArticle article={article} many={true}/>)}
             </div>
-            <div className={styles.others}>
-                <h2 className={styles.others_title}>More on Governor's Den</h2>
-                <div className={styles.others_cards}>
-                    <div className={styles.others_cards_wrapper} >
-                        {otherArticles.map(article => <GovCard article={article} />)}
-                    </div>
-                </div>
-            </div>
+            <MoreDen otherArticles={otherArticles} />
         </section>
         </>
     )
