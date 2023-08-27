@@ -1,8 +1,9 @@
 
 .mainheader{
-    height: 58px;
-    margin: 16px auto 14px;
+    height: 64px;
+    margin: 0 auto 14px;
     padding: 0 30px;
+    padding-top: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -136,10 +137,10 @@
 
 @media screen and (min-width: 1024px) {
     .mainheader{
-        height: 110px;
+        height: 126px;
         max-width: 1400px;
         margin: 0 auto;
-        padding: 0 9%;
+        padding: 16px 9% 0;
 
         .logo{
             width: 62.3px;
