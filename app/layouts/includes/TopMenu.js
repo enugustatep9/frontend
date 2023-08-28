@@ -21,13 +21,13 @@ export default function TopMenu() {
             id: 1
         },
         {
-            title: "MDA's",
-            label: 'mda',
+            title: 'History',
+            label: 'about',
             id: 2
         },
         {
-            title: 'Products',
-            label: 'products',
+            title: 'Investment',
+            label: 'invest',
             id: 3
         },
         {
@@ -36,20 +36,28 @@ export default function TopMenu() {
             id: 4
         },
         {
+            title: "MDA's",
+            label: 'mda',
+            id: 5
+        },
+        {
             title: 'Market Place',
             label: 'market',
-            id: 5
+            id: 6
         },
         {
             title: "Governor's Den",
             label: 'governors_den',
-            id: 6
+            id: 7
         }
     ]
+    console.log(pathName);
+    let linkIdentifier = pathName.split("/")[1]
+    console.log(linkIdentifier);
 
   let navArray = navItems.map((item) => {
     return (
-            <li key={item.id}>
+            <li key={item.id} className={styles[`${linkIdentifier == item.label ? (item.label=="governors_den"? "active-link_den" : "active-link") : "link"}`]}>
         <Link href={`/${item.label}`}>{item.title}</Link>
       </li>
     );
