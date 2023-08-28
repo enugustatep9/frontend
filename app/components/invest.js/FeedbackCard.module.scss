@@ -1,0 +1,122 @@
+
+.card_down, .card_up{
+    min-height: 325px;
+    min-width: 236px;
+    padding: 2rem 2.5rem;
+    border-radius: 0.62213rem;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    justify-content: space-between;
+    box-shadow: 102.03050231933594px 86.5322036743164px 161.440673828125px 21.310169219970703px rgba(0, 0, 0, 0.04);
+
+    .card_text{
+        p{
+            color: rgba(0, 0, 0, 0.65);
+            font-size: 0.73rem;
+            font-weight: 300;
+            line-height: 134.5%; 
+            letter-spacing: -0.0145rem;
+        }
+        .text_strong{
+            font-weight: 600;
+        }
+    }
+    .investor{
+        display: flex;
+        align-items: center;
+        gap: 0.9rem;
+        .inv_img{
+            width: 48.43px;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        .inv_about{
+            h3{
+                font-size: 0.7265rem;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 94.5%;
+                letter-spacing: -0.0145rem;
+                margin-bottom: 0.25rem;
+            }
+            p{
+                font-size: 0.56506rem;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 134.5%;
+                letter-spacing: -0.011rem;
+            }
+        }
+    }
+
+    
+}
+.card_down{
+    margin-top: 2.7rem;
+}
+
+@media screen and (min-width: 768px) {
+    .card_down, .card_up{
+        min-width: 255px;
+        .card_text{
+            p{
+                font-size: 0.85rem;
+            }
+        }
+        .investor{
+            .inv_img{
+                width: 52px;
+            }
+            .inv_about{
+                h3{
+                    font-size: 0.9rem;
+                }
+                p{
+                    font-size: 0.7rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .card_down, .card_up{
+        min-height: 498px;
+        min-width: 366px;
+        padding: 3.2rem 4rem;
+        border-radius: 1.1rem;
+        gap: 2.1rem;    
+        .card_text{
+            p{
+                font-size: 1.125rem;
+                letter-spacing: -0.0225rem;
+            }
+        }
+        .investor{
+            gap: 1.4rem;
+            .inv_img{
+                width: 75px;
+            }
+            .inv_about{
+                h3{
+                    font-size: 1.125rem;
+                    letter-spacing: -0.0225rem;
+                    // margin-bottom: 0.25rem;
+                }
+                p{
+                    font-size: 0.87rem;
+                    letter-spacing: -0.0175rem;
+                }
+            }
+        }
+    
+        
+    }
+    .card_down{
+        margin-top: 5.7rem;
+    }
+}
