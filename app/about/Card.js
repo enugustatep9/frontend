@@ -4,6 +4,7 @@ import Svg1 from "@/public/images/about_desktop.svg";
 import Svg2 from "@/public/images/login.svg";
 import Svg4 from "@/public/images/smcardone.svg";
 import Img from "@/public/images/about_desktop1.png";
+import Imgdemo from "@/public/images/about_demo.png";
 import imgD from "@/public/images/about_desktop2.png";
 import imgD1 from "@/public/images/about_desktop3.png";
 import imgD2 from "@/public/images/about_desktop4.png";
@@ -63,7 +64,7 @@ export default function Card() {
               className="mx-auto w-[100%] h-[333.1px] object-cover rounded-[26px] md:block sm:hidden"
             />
           </div>
-          <div className="grid mt-2 grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:-ml-2 xs:gap-0 sm:gap-2 ">
+          <div className="grid mt-2 grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:-ml-2 xs:gap-0 sm:gap-2 xs:h-auto">
             <div className="col-span-2">
               <Image
                 src={Img3}
@@ -76,8 +77,8 @@ export default function Card() {
             </div>
             <div>
               <Image
-                src={Img4}
-                className="xs:w-[133.541px] mx-auto xs:h-[140px] h-[110px] pt-[5.6px] object-cover md:hidden rounded-[9.056px]"
+                src={Imgdemo}
+                className=" xs:max-w-[133.541px] mx-auto pt-[5.6px] h-full object-cover md:hidden rounded-[9.056px]"
               />
               <Image
                 src={imgD2}
@@ -86,11 +87,11 @@ export default function Card() {
             </div>
           </div>
 
-          <div className="grid grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:ml-0 xs:gap-0 sm:gap-2 ">
+          <div className="grid mt-2 grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:-ml-2 xs:gap-0 sm:gap-2 xs:h-auto ">
             <div>
               <Image
                 src={Img4}
-                className="xs:w-[133.541px] mx-auto xs:h-[140px] h-[110px] pt-[5.6px] object-cover md:hidden rounded-[9.056px] "
+                className="xs:w-[133.541px] mx-auto xs:h-[140px] h-full pt-[5.6px] object-cover md:hidden rounded-[9.056px] "
               />
               <Image
                 src={imgD2}
