@@ -14,10 +14,10 @@ import Svg2 from "@/public/images/v1.svg";
 export default function PhotoGallery() {
   return (
     <>
-      <Image src={Svg3} className="absolute left-44 mt-3 hidden md:flex" />
-      <Image src={Svg2} className="absolute right-44 mt-10 md:flex hidden" />
+      <Image src={Svg3} className="absolute left-44 mt-16 hidden md:block" />
+      <Image src={Svg2} className="absolute right-44 mt-24 md:block hidden" />
 
-      <div class="container">
+      <div class="container ">
         <Image className="object-cover box a" src={Pic1} />
         <Image className="object-cover box b" src={Pic2} />
         <Image className="object-cover box c" src={Pic4} />

@@ -6,7 +6,7 @@
   grid-auto-columns: minmax(100px, auto);
   margin: auto;
   width: 1172px;
-  top: 333px;
+  margin-top: 50px;
   gap: 25px;
   row-gap: 25px;
 }
