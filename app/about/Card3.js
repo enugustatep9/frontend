@@ -17,7 +17,7 @@ export default function Card3() {
     <>
       <div className="lg:mt-20 grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-10 sm:w-[100%] sm:mx-auto lg:mx-auto lg:w-[85%] mx-auto">
         <div className="lg:w-[100%] p-2 xs:w-[90%] sm:w-[97%] sm:mx-auto md:w-[290px]">
-          <button className="sm:hidden lg:block bg-primary text-secondary py-2 items-center lg:text-[24px] sm:text-[14px]  font-bold sm:rounded-[9.47px] rounded-[12px] sm:w-[90%] lg:w-[100%] lg:h-[63px] flex justify-between sm:pr-0  sm:pl-10 lg:pr-5 lg:pl-5">
+          <button className="bg-primary sm:hidden md:block text-secondary py-2 items-center lg:text-[24px] sm:text-[14px]  font-bold sm:rounded-[9.47px] rounded-[12px] sm:w-[90%] lg:w-[100%] lg:h-[63px] flex justify-between sm:pr-0  sm:pl-10 lg:pr-5 lg:pl-5">
             Enugu Igbo
             <span className="md:hidden pl-20 lg:hidden">
               <Image src={Svg3} className="bg-[#64CAB7] rounded-[12px]" />
@@ -75,11 +75,11 @@ export default function Card3() {
               className="mx-auto w-[100%] h-[333.1px] object-cover rounded-[26px] md:block sm:hidden"
             />
           </div>
-          <div className="grid mt-2 grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:-ml-2 xs:gap-0 sm:gap-2 ">
+          <div className="grid mt-2 grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:-ml-2 xs:gap-0 sm:gap-2 xs:h-auto">
             <div className="col-span-2">
               <Image
                 src={Img3}
-                className="mx-auto pt-[5.6px]  object-contain md:hidden rounded-[9.056px]"
+                className="mx-auto pt-[5.6px]  object-contain h-full md:hidden rounded-[9.056px]"
               />
               <Image
                 src={imgD1}
@@ -89,7 +89,7 @@ export default function Card3() {
             <div>
               <Image
                 src={Img4}
-                className="xs:w-[133.541px] mx-auto xs:h-[140px] h-[110px] pt-[5.6px] object-cover md:hidden rounded-[9.056px]"
+                className="h-full xs:w-[133.541px] mx-auto pt-[5.6px] object-cover md:hidden rounded-[9.056px]"
               />
               <Image
                 src={imgD2}
@@ -98,11 +98,11 @@ export default function Card3() {
             </div>
           </div>
 
-          <div className="grid grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:ml-0 xs:gap-0 sm:gap-2 ">
+          <div className="grid mt-2 grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:-ml-2 xs:gap-0 sm:gap-2 xs:h-auto ">
             <div>
               <Image
                 src={Img4}
-                className="xs:w-[133.541px] mx-auto xs:h-[140px] h-[110px] pt-[5.6px] object-cover md:hidden rounded-[9.056px] "
+                className="xs:w-[133.541px] mx-auto xs:h-[140px] h-full pt-[5.6px] object-cover md:hidden rounded-[9.056px]  "
               />
               <Image
                 src={imgD2}
@@ -112,7 +112,7 @@ export default function Card3() {
             <div className="col-span-2">
               <Image
                 src={Img3}
-                className="mx-auto pt-[5.6px]  object-contain md:hidden rounded-[9.056px]"
+                className="mx-auto pt-[5.6px]  object-contain h-full md:hidden rounded-[9.056px]"
               />
               <Image
                 src={imgD1}

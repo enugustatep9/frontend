@@ -28,11 +28,11 @@ export default function Card2() {
                 className="mx-auto w-[100%] h-[333.1px] object-cover rounded-[26px] md:block sm:hidden"
               />
             </div>
-            <div className="grid mt-2 grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:-ml-2 xs:gap-0 sm:gap-2">
+            <div className="grid mt-2 grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:-ml-2 xs:gap-0 sm:gap-2 xs:h-auto">
               <div className="col-span-2">
                 <Image
                   src={Img3}
-                  className="mx-auto pt-[5.6px]  object-contain md:hidden rounded-[9.056px]"
+                  className="mx-auto pt-[5.6px]  object-contain h-full md:hidden rounded-[9.056px]"
                 />
                 <Image
                   src={imgD1}
@@ -51,11 +51,11 @@ export default function Card2() {
               </div>
             </div>
 
-            <div className="grid grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:ml-0 xs:gap-0 sm:gap-2">
+            <div className="grid mt-2 grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:-ml-2 xs:gap-0 sm:gap-2 xs:h-auto">
               <div>
                 <Image
                   src={Img4}
-                  className="xs:w-[133.541px] mx-auto xs:h-[140px] h-[110px] pt-[5.6px] object-cover md:hidden rounded-[9.056px] "
+                  className="xs:w-[133.541px] mx-auto xs:h-[140px] h-full pt-[5.6px] object-cover md:hidden rounded-[9.056px] "
                 />
                 <Image
                   src={imgD2}
@@ -65,7 +65,7 @@ export default function Card2() {
               <div className="col-span-2">
                 <Image
                   src={Img3}
-                  className="mx-auto pt-[5.6px]  object-contain md:hidden rounded-[9.056px]"
+                  className="mx-auto h-full pt-[5.6px]  object-contain md:hidden rounded-[9.056px]"
                 />
                 <Image
                   src={imgD1}
@@ -123,11 +123,11 @@ export default function Card2() {
                 className="mx-auto w-[100%] h-[333.1px] object-cover rounded-[26px] md:block sm:hidden"
               />
             </div>
-            <div className="grid mt-2 grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:-ml-2 xs:gap-0 sm:gap-2">
+            <div className="grid mt-2 grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:-ml-2 xs:gap-0 sm:gap-2 xs:h-auto">
               <div className="col-span-2">
                 <Image
                   src={Img3}
-                  className="mx-auto pt-[5.6px]  object-contain md:hidden rounded-[9.056px]"
+                  className="mx-auto pt-[5.6px]  object-contain md:hidden rounded-[9.056px] h-full"
                 />
                 <Image
                   src={imgD1}
@@ -137,7 +137,7 @@ export default function Card2() {
               <div>
                 <Image
                   src={Img4}
-                  className="xs:w-[133.541px] mx-auto xs:h-[140px] h-[110px] pt-[5.6px] object-cover md:hidden rounded-[9.056px]"
+                  className="xs:w-[133.541px] mx-auto xs:h-[140px] pt-[5.6px] object-cover md:hidden rounded-[9.056px] h-full"
                 />
                 <Image
                   src={imgD2}
@@ -150,7 +150,7 @@ export default function Card2() {
               <div>
                 <Image
                   src={Img4}
-                  className="xs:w-[133.541px] mx-auto xs:h-[140px] h-[110px] pt-[5.6px] object-cover md:hidden rounded-[9.056px] "
+                  className="xs:w-[133.541px] mx-auto h-full pt-[5.6px] object-cover md:hidden rounded-[9.056px] "
                 />
                 <Image
                   src={imgD2}
