@@ -10,6 +10,7 @@ import AgricCard from "../components/invest.js/AgricCard";
 import Link from "next/link";
 import EstatesCardMobile from "./RealEstateMobile";
 import AgricCardMobile from "../components/invest.js/MobileAgricCard";
+import ChildrenCard from "./ChildrenCard";
 export default function Education() {
   return (
     <>
@@ -18,7 +19,7 @@ export default function Education() {
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-3 mb-5 md:mb-28 sm:gap-1 gap-10 sm:w-[100%] md:w-[90%]">
-        <div className="md:col-span-2 bg-white mt-10 p-2 sm:w-[90%] md:w-[100%] h-[300px] md:h-[508px] sm:mr-auto ">
+        <div className="md:col-span-2 bg-white mt-10 p-2 sm:w-[90%] md:w-[100%] h-[300px] md:h-[535px] sm:mr-auto ">
           <div className="flex flex-shrink-0 sm:gap-10 md:gap-4 ">
             <div>
               <Image
@@ -27,14 +28,14 @@ export default function Education() {
               />
             </div>
             <div className="left-[265px]  -mt-10 md:-mt-10 absolute md:hidden">
-              <EstatesCard />
+              <ChildrenCard value={50} />
               {/* row two */}
               <div className="mt-5">
                 <AgricCard value={50} />
               </div>
             </div>
             <div className="-mt-10 md:-mt-10  hidden lg:block absolute ml-[580px]">
-              <EstatesCard />
+              <ChildrenCard value={50} />
               {/* row two */}
               <div className="mt-5">
                 <AgricCard value={50} />

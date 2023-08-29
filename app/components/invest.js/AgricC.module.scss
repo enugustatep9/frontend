@@ -80,3 +80,13 @@
         }
     }
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .agric_bar{
+        height: 20px;
+        margin-bottom: 1.82rem;
+        .bar2{
+            left: 0;
+            margin-top: -5px;
+        }
+    }
+}
