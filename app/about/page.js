@@ -17,11 +17,12 @@ import PhotoGallery from "../components/image_gallery/PhotoGallery";
 import Future from "../components/invest.js/Future";
 import "@/app/about/about.css";
 import ScrollToDownButton from "../components/arrowDownButton/ArrowDownBtn";
+import YourNextPage from "./TestCarousel";
 export default function About() {
   return (
     <>
       <MainLayout>
-        <main className="sm:w-[100%] md:w-[100%] sm:mb-10 md:mb-[100px] md:mb-[80px] md:top-[110px] top-[127px]">
+        <main className="sm:w-[100%] md:w-[100%] sm:mb-10  md:mb-[80px] md:top-[110px] top-[127px]">
           <div className="text-center bg-[#F8F8F8] rounded-[19px] md:rounded-[33px] sm:h-[534px] md:w-[1303px] md:h-[1000px] sm:w-[95%] mx-auto">
             <Image
               src={Svg2}
@@ -64,6 +65,7 @@ export default function About() {
           <Card3 />
           <Explore />
           <Carousel />
+          {/* <YourNextPage /> */}
           <Future />
         </section>
       </MainLayout>
