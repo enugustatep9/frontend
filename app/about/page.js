@@ -6,6 +6,7 @@ import Card3 from "./Card3";
 import Carousel from "./Carousel";
 import Svg3 from "@/public/images/v4.svg";
 import Svg4 from "@/public/images/v3.svg";
+import Svg5 from "@/public/images/gallery_icon.svg";
 
 import Section from "./Section";
 import Pic1 from "@/public/images/AboutBg.png";
@@ -18,11 +19,13 @@ import Future from "../components/invest.js/Future";
 import "@/app/about/about.css";
 import ScrollToDownButton from "../components/arrowDownButton/ArrowDownBtn";
 import YourNextPage from "./TestCarousel";
+import PhotoGalleryDemo from "../components/PhotoGalleryDemo";
 export default function About() {
   return (
     <>
       <MainLayout>
         <main className="sm:w-[100%] md:w-[100%] sm:mb-10  md:mb-[80px] md:top-[110px] top-[127px]">
+          <Image src={Svg5} className="absolute right-0 mt-0 md:block hidden" />
           <div className="text-center bg-[#F8F8F8] rounded-[19px] md:rounded-[33px] sm:h-[534px] md:w-[1303px] md:h-[1000px] sm:w-[95%] mx-auto">
             <Image
               src={Svg2}
@@ -38,7 +41,8 @@ export default function About() {
             <h2 className="text-center font-semibold text-[32px]  pt-10 tracking-tighter p-5 leading-[35.68px] md:hidden font-[Clash Display]  h-[93px] mx-auto top-[69px]">
               Tracing Our Rich Heritage: A Journey Through Time.
             </h2>
-            <PhotoGallery />
+            {/* <PhotoGallery /> */}
+            <PhotoGalleryDemo />
             <ScrollToDownButton />
             <Image
               src={Svg1}

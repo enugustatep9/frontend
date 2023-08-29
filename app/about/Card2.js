@@ -11,6 +11,11 @@ import Img2 from "@/public/images/about_mobile.png";
 import Img3 from "@/public/images/about_mobile2.png";
 import Img4 from "@/public/images/about_mobile3.png";
 import Svg3 from "@/public/images/arrow_login.svg";
+import new_pic_1 from "@/public/images/about_new.png";
+import new_pic_2 from "@/public/images/about_new1.png";
+import new_pic_3 from "@/public/images/about_new2.png";
+import new_pic_4 from "@/public/images/about_new3.png";
+import new_pic_5 from "@/public/images/about_new4.png";
 export default function Card2() {
   return (
     <>
@@ -20,32 +25,32 @@ export default function Card2() {
           <div>
             <div>
               <Image
-                src={Img2}
+                src={new_pic_1}
                 className="sm:w-[380.812px] mx-auto pl-[5.6] pr-[14] object-cover md:hidden rounded-[9.056px]"
               />
               <Image
-                src={Img}
+                src={new_pic_1}
                 className="mx-auto w-[100%] h-[333.1px] object-cover rounded-[26px] md:block sm:hidden"
               />
             </div>
             <div className="grid mt-2 grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:-ml-2 xs:gap-0 sm:gap-2 xs:h-auto">
               <div className="col-span-2">
                 <Image
-                  src={Img3}
+                  src={new_pic_2}
                   className="mx-auto pt-[5.6px]  object-contain h-full md:hidden rounded-[9.056px]"
                 />
                 <Image
-                  src={imgD1}
+                  src={new_pic_2}
                   className="mx-auto w-[100%] h-[272.204px] p-2 rounded-[26px] object-cover sm:hidden lg:block"
                 />
               </div>
               <div>
                 <Image
-                  src={Img4}
+                  src={new_pic_3}
                   className="xs:w-[133.541px] mx-auto xs:h-[140px] h-[110px] pt-[5.6px] object-cover md:hidden rounded-[9.056px]"
                 />
                 <Image
-                  src={imgD2}
+                  src={new_pic_3}
                   className=" mx-auto lg:w-[100%] lg:h-[272.204px] p-2 ml-3 rounded-[26px] object-cover sm:hidden lg:block"
                 />
               </div>
@@ -54,28 +59,28 @@ export default function Card2() {
             <div className="grid mt-2 grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:-ml-2 xs:gap-0 sm:gap-2 xs:h-auto">
               <div>
                 <Image
-                  src={Img4}
+                  src={new_pic_4}
                   className="xs:w-[133.541px] mx-auto xs:h-[140px] h-full pt-[5.6px] object-cover md:hidden rounded-[9.056px] "
                 />
                 <Image
-                  src={imgD2}
+                  src={new_pic_4}
                   className=" mx-auto lg:w-[100%] lg:h-[272.204px] p-2 ml-0 rounded-[26px] object-cover sm:hidden lg:block"
                 />
               </div>
               <div className="col-span-2">
                 <Image
-                  src={Img3}
+                  src={new_pic_5}
                   className="mx-auto h-full pt-[5.6px]  object-contain md:hidden rounded-[9.056px]"
                 />
                 <Image
-                  src={imgD1}
+                  src={new_pic_5}
                   className="mx-auto w-[100%] h-[272.204px] ml-3 p-2 rounded-[26px] object-cover sm:hidden lg:block"
                 />
               </div>
             </div>
           </div>
         </div>
-
+        {/* button hidden */}
         <div className="p-2 w-[228.04px] md:w-[290px] xs:w-[90%] sm:w-[97%] sm:mx-auto lg:hidden">
           <button className="bg-secondary text-primary py-2 items-center lg:text-[24px] sm:text-[14px]  font-bold sm:rounded-[9.47px] rounded-[12px] sm:w-[90%] lg:w-[100%] lg:h-[63px] flex justify-between sm:pr-0  sm:pl-10 lg:pr-5 lg:pl-5">
             Enugu Igbo
@@ -115,32 +120,32 @@ export default function Card2() {
           <div>
             <div>
               <Image
-                src={Img2}
+                src={new_pic_1}
                 className="sm:w-[380.812px] mx-auto pl-[5.6] pr-[14] object-cover md:hidden rounded-[9.056px]"
               />
               <Image
-                src={Img}
+                src={new_pic_1}
                 className="mx-auto w-[100%] h-[333.1px] object-cover rounded-[26px] md:block sm:hidden"
               />
             </div>
             <div className="grid mt-2 grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:-ml-2 xs:gap-0 sm:gap-2 xs:h-auto">
               <div className="col-span-2">
                 <Image
-                  src={Img3}
+                  src={new_pic_2}
                   className="mx-auto pt-[5.6px]  object-contain md:hidden rounded-[9.056px] h-full"
                 />
                 <Image
-                  src={imgD1}
+                  src={new_pic_2}
                   className="mx-auto w-[100%] h-[272.204px] p-2 rounded-[26px] object-cover sm:hidden lg:block"
                 />
               </div>
               <div>
                 <Image
-                  src={Img4}
+                  src={new_pic_3}
                   className="xs:w-[133.541px] mx-auto xs:h-[140px] pt-[5.6px] object-cover md:hidden rounded-[9.056px] h-full"
                 />
                 <Image
-                  src={imgD2}
+                  src={new_pic_3}
                   className=" mx-auto lg:w-[100%] lg:h-[272.204px] p-2 ml-3 rounded-[26px] object-cover sm:hidden lg:block"
                 />
               </div>
@@ -149,30 +154,30 @@ export default function Card2() {
             <div className="grid grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:ml-0 xs:gap-0 sm:gap-2">
               <div>
                 <Image
-                  src={Img4}
-                  className="xs:w-[133.541px] mx-auto h-full pt-[5.6px] object-cover md:hidden rounded-[9.056px] "
+                  src={new_pic_4}
+                  className="xs:w-[133.541px] h-full mx-auto pt-[5.6px] object-cover md:hidden rounded-[9.056px] "
                 />
                 <Image
-                  src={imgD2}
-                  className=" mx-auto lg:w-[100%] lg:h-[272.204px] p-2 ml-0 rounded-[26px] object-cover sm:hidden lg:block"
+                  src={new_pic_4}
+                  className=" mx-auto lg:w-[100%] lg:h-[272.204px] p-2 rounded-[26px] object-cover sm:hidden lg:block"
                 />
               </div>
               <div className="col-span-2">
                 <Image
-                  src={Img3}
+                  src={new_pic_5}
                   className="mx-auto pt-[5.6px]  object-contain md:hidden rounded-[9.056px]"
                 />
                 <Image
-                  src={imgD1}
-                  className="mx-auto w-[100%] h-[272.204px] ml-3 p-2 rounded-[26px] object-cover sm:hidden lg:block"
+                  src={new_pic_5}
+                  className="mx-auto w-[100%] h-[272.204px]  p-2 rounded-[26px] object-cover sm:hidden lg:block"
                 />
               </div>
             </div>
           </div>
         </div>
         <div className="sm:hidden lg:block lg:w-[100%] p-2 xs:w-[90%] sm:w-[97%] sm:mx-auto md:w-[290px]">
-          <button className="bg-primary text-secondary py-2 items-center lg:text-[24px] sm:text-[14px]  font-bold sm:rounded-[9.47px] rounded-[12px] sm:w-[90%] lg:w-[100%] lg:h-[63px] flex justify-between sm:pr-0  sm:pl-10 lg:pr-5 lg:pl-5">
-            Enugu Igbo
+          <button className="bg-secondary text-primary py-2 items-center lg:text-[24px] sm:text-[14px]  font-bold sm:rounded-[9.47px] rounded-[12px] sm:w-[90%] lg:w-[100%] lg:h-[63px] flex justify-between sm:pr-0  sm:pl-10 lg:pr-5 lg:pl-5">
+            Ngwo Caves
             <span className="md:hidden pl-20 lg:hidden">
               <Image src={Svg3} className="bg-[#64CAB7] rounded-[12px]" />
             </span>
