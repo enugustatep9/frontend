@@ -7,31 +7,33 @@ import Link from "next/link";
 import EstatesCard from "../components/invest.js/EstateCard";
 import AgricCard from "../components/invest.js/AgricCard";
 import EstatesCardMobile from "./RealEstateMobile";
+import Svg4 from "@/public/images/smcardone.svg";
+import Svg5 from "@/public/images/about_desktop.svg";
 import AgricCardMobile from "../components/invest.js/MobileAgricCard";
 export default function Tourism() {
   return (
     <>
-      <h1 className="  text-[36px] md:text-6xl flex justify-center md:w-[331px] md:h-[43px] md:justify-normal mr-[50px] md:ml-[128px] font-bold font-[Clash Display] md:mb-20 mb-4 mt-[50px] ">
+      <h1 className="sm:text-[36px] sm:w-0 md:text-6xl flex  md:w-[331px] md:h-[43px] md:justify-normal  md:ml-[50px] font-bold font-[Clash Display] md:mb-20 mb-4 sm:mb-[60px] sm:mt-[100px] mt-[150px] text-[36px]  sm:mr-auto sm:pl-7">
         Tourism
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 mb-40 md:mb-28 gap-10 w-11/12">
-        <div className="md:col-span-2 bg-white mt-10 p-2 w-[380.28px] md:w-[700px] md:h-[508px]">
-          <div className="flex gap-8 md:gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 mb-5 md:mb-28 sm:gap-1 gap-10 sm:w-[100%] md:w-[90%]">
+        <div className="md:col-span-2 bg-white mt-10 p-2 sm:w-[90%] md:w-[100%] h-[300px] md:h-[508px] sm:mr-auto ">
+          <div className="flex flex-shrink-0 sm:gap-10 md:gap-4 ">
             <div>
               <Image
                 src={Pic1}
-                className="ml-2 md:h-[500px] object-cover rounded-lg w-[206.76px] h-[239.88px] md:w-[387px] -mt-10 md:ml-28 md:-mt-20"
+                className="ml-2 md:h-[530px] object-cover rounded-lg sm:w-[75%] h-[300px] md:w-[90%] -mt-10 sm:ml-6 md:ml-20 md:-mt-20"
               />
             </div>
-            <div className="mr-[50px] md:ml-[640px] -mt-10 md:-mt-20 md:absolute md:hidden">
+            <div className="left-[265px]  -mt-10 md:-mt-20 absolute md:hidden">
               <EstatesCardMobile />
               {/* row two */}
               <div className="mt-5">
                 <AgricCardMobile value={50} />
               </div>
             </div>
-            <div className="mr-[50px] md:ml-[510px] -mt-10 md:-mt-20 md:absolute hidden md:block">
+            <div className="-mt-10 md:-mt-20  hidden lg:block absolute ml-[580px]">
               <EstatesCard />
               {/* row two */}
               <div className="mt-5">
@@ -40,23 +42,25 @@ export default function Tourism() {
             </div>
           </div>
         </div>
-        <div className="mx-auto md:mx-0 md:ml-auto md:w-[330px] h-[369px] md:leading-[24.21px] w-[310px]">
-          <div className="md:-mt-10 ml-2">
-            <p className="bg-white rounded-lg p-8 h-2/3 text-[18px] font-[]">
-              <span className="text-black font-bold">
-                Énugwú: Enugu State's Capital City in Nigeria, nestled in the
-                southeast.
-              </span>
-              With a population of 820,000, its name originates from 'Énú Ụ́gwụ́',
-              signifying 'hill top' in Igbo. Enugu, once Enugwu-Ngwo,
-              transformed into its current name in 1928, reflecting rapid
-              expansion and cultural evolution.
+        <div className=" md:h-[369px] md:leading-[24.21px]">
+          <div className="md:-mt-10 sm:mx-auto sm:w-[80%] md:ml-20 lg:ml-24">
+            <div className="bg-white lg:w-[100%]  md:w-[290px] sm:rounded-[11px] rounded-[14px] lg:mt-5 mt-5 p-10 h-auto relative ">
+              <p className="sm:text-[12px] text-gray-600 lg:text-[18px] leading-normal relative">
+                <span className="md:font-bold lg:font-bold">
+                  Énugwú: Enugu State's Capital City in Nigeria, nestled in the
+                  southeast.
+                </span>
+                With a population of 820,000, its name originates from 'Énú
+                Ụ́gwụ́', signifying 'hill top' in Igbo. Enugu, once Enugwu-Ngwo,
+                transformed into its current name in 1928, reflecting rapid
+                expansion and cultural evolution
+              </p>
+
               <Image
-                width={100}
-                className=" ml-48 hidden md:flex mt-10"
-                src={Svg2}
+                src={Svg5}
+                className="sm:hidden md:block relative  object-contain sm:h-[66.11px] sm:w-[51.726px] lg:w-[115.453px] ml-[190px] lg:-mb-10"
               />
-            </p>
+            </div>
             <div className="mt-5">
               <Link href="/explore">
                 {" "}

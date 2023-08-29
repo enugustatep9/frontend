@@ -1,93 +1,89 @@
 import Image from "next/image";
-import Pic1 from "@/public/images/estate.png";
-import Svg1 from "@/public/images/Vector.svg";
-import Svg2 from "@/public/images/vector_2.svg";
-import Button from "../components/button/Button";
+import Svg4 from "@/public/images/smcardone.svg";
+import Svg5 from "@/public/images/about_desktop.svg";
 import Link from "next/link";
+import Button from "../components/button/Button";
 import EstatesCard from "../components/invest.js/EstateCard";
 import AgricCard from "../components/invest.js/AgricCard";
-import EstatesCardMobile from "./RealEstateMobile";
-import AgricCardMobile from "../components/invest.js/MobileAgricCard";
+import Pic1 from "@/public/images/estate.png";
+
 export default function RealEstate() {
   return (
     <>
-      <h1 className=" text-[36px] md:text-6xl flex justify-center md:w-[331px] md:h-[43px] md:justify-normal mr-[50px] md:ml-[128px] font-bold font-[Clash Display] md:mb-0 mb-4 mt-[50px]">
+      <h1 className="sm:text-[36px] sm:w-0 md:text-6xl flex  md:w-[331px] md:h-[43px] md:justify-normal  md:ml-[50px] font-bold font-[Clash Display] md:mb-20 mb-4 sm:mb-[60px] sm:mt-[30px] mt-[170px] text-[36px]  sm:mr-auto sm:pl-7">
         RealEstate
       </h1>
-
-      <div className="grid grid-cols-1 md:grid-cols-3 md:mb-28 gap-10 ml-auto w-11/12  md:mt-0">
-        <div className="md:ml-0 md:leading-[24.21px]  hidden md:block w-[270px] md:w-[369px] ">
-          <div className=" md:ml-5 md:mr-10">
-            <p className="bg-white rounded-lg p-8 md:mt-20 h-2/3 text-[18px] font-[]">
-              <span className="text-black font-bold">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:w-[90%] sm:w-[90%] gap-10 md:ml-auto sm:ml-auto">
+        <div className="sm:hidden md:block">
+          <div className="bg-white p-10 rounded-[14px] sm:-ml-0 sm:w-[90%]  md:-ml-16 md:w-[100%]">
+            <p className="sm:text-[12px] text-gray-600 lg:text-[18px] leading-normal relative">
+              <span className="md:font-bold lg:font-bold">
                 Énugwú: Enugu State's Capital City in Nigeria, nestled in the
                 southeast.
               </span>
               With a population of 820,000, its name originates from 'Énú Ụ́gwụ́',
               signifying 'hill top' in Igbo. Enugu, once Enugwu-Ngwo,
               transformed into its current name in 1928, reflecting rapid
-              expansion and cultural evolution.
-              <Image
-                width={100}
-                className="ml-40 hidden md:flex mt-1"
-                src={Svg2}
-              />
+              expansion and cultural evolution
             </p>
-            <div className="mt-5">
-              <Link href="/explore">
-                <Button text="Invest in RealEsate" />
-              </Link>
-            </div>
+
+            <Image
+              src={Svg5}
+              className="sm:hidden md:block relative  object-contain sm:h-[66.11px] sm:w-[51.726px] lg:w-[115.453px] ml-[245px] lg:-mb-10"
+            />
+          </div>
+          <div className="mt-5 md:-ml-16">
+            <Link href="/explore">
+              {" "}
+              <Button text="Invest in Education" />
+            </Link>
           </div>
         </div>
-        <div className="md:col-span-2 bg-white mt-20 md:mt-36 p-2 md:h-[508px] md:w-[700px] w-[380.28px] ml-auto">
-          <div className="grid grid-cols-2 gap-8 md:gap-10 ">
-            <div className=" md:ml-10 -mt-10 md:-mt-10">
-              <div className="mr-[50px] md:ml-[640px] -ml-5 -mt-10 md:-mt-20 md:absolute  md:hidden">
-                <EstatesCardMobile />
-                {/* row two */}
-                <div className="mt-5">
-                  <AgricCardMobile value={50} />
-                </div>
+
+        <div className="md:col-span-2 md:mt-10 bg-white md:w-[100%] pb-10">
+          <div className="flex gap-4 md:-ml-10 -ml-4">
+            <div className="md:-mt-10 -mt-5">
+              <div>
+                <EstatesCard value={39} />
               </div>
-              <div className="md:-ml-[120px] -mt-10 hidden md:block md:absolute">
-                <EstatesCard />
-                {/* row two */}
-                <div className="mt-5">
-                  <AgricCard value={50} />
-                </div>
+              <div className="mt-2">
+                <AgricCard value={50} />
               </div>
             </div>
             <div>
               <Image
                 src={Pic1}
-                className="md:h-[500px] md:w-[387px] object-cover rounded-lg w-[206.76px] h-[239.88px] -ml-24 md:-ml-44 -mt-10 md:-mt-20"
+                className="md:w-[100%] md:h-[530px] h-[300px] md:-mt-10 -mt-5"
               />
             </div>
           </div>
         </div>
-        <div className="md:ml-0 md:hidden">
-          <div className="-ml-4 md:ml-0">
-            <p className="bg-white rounded-lg p-8 md:mt-20 h-2/3 w-[296px]">
-              <span className="text-black font-bold">
+
+        {/* display bock */}
+
+        <div className="sm:block md:hidden">
+          <div className="bg-white p-10 rounded-[14px] sm:-ml-0 sm:w-[90%]  md:-ml-16 md:w-[100%]">
+            <p className="sm:text-[12px] text-gray-600 lg:text-[18px] leading-normal relative">
+              <span className="md:font-bold lg:font-bold">
                 Énugwú: Enugu State's Capital City in Nigeria, nestled in the
                 southeast.
               </span>
               With a population of 820,000, its name originates from 'Énú Ụ́gwụ́',
               signifying 'hill top' in Igbo. Enugu, once Enugwu-Ngwo,
               transformed into its current name in 1928, reflecting rapid
-              expansion and cultural evolution.
-              <Image
-                width={100}
-                className=" ml-48 hidden md:flex "
-                src={Svg2}
-              />
+              expansion and cultural evolution
             </p>
-            <div className="mt-5">
-              <Link href="/explore">
-                <Button text="Invest in RealEsate" />
-              </Link>
-            </div>
+
+            <Image
+              src={Svg5}
+              className="sm:hidden md:block relative  object-contain sm:h-[66.11px] sm:w-[51.726px] lg:w-[115.453px] ml-[245px] lg:-mb-10"
+            />
+          </div>
+          <div className="mt-5 md:-ml-16">
+            <Link href="/explore">
+              {" "}
+              <Button text="Invest in Education" />
+            </Link>
           </div>
         </div>
       </div>
