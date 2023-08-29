@@ -27,10 +27,10 @@ export default function Education() {
               />
             </div>
             <div className="left-[265px]  -mt-10 md:-mt-20 absolute md:hidden">
-              <EstatesCardMobile />
+              <EstatesCard />
               {/* row two */}
               <div className="mt-5">
-                <AgricCardMobile value={50} />
+                <AgricCard value={50} />
               </div>
             </div>
             <div className="-mt-10 md:-mt-20  hidden lg:block absolute ml-[580px]">

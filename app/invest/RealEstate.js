@@ -14,29 +14,31 @@ export default function RealEstate() {
         RealEstate
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 md:w-[90%] sm:w-[90%] gap-10 md:ml-auto sm:ml-auto">
-        <div className="sm:hidden md:block">
-          <div className="bg-white p-10 rounded-[14px] sm:-ml-0 sm:w-[90%]  md:-ml-16 md:w-[100%]">
-            <p className="sm:text-[12px] text-gray-600 lg:text-[18px] leading-normal relative">
-              <span className="md:font-bold lg:font-bold">
-                Énugwú: Enugu State's Capital City in Nigeria, nestled in the
-                southeast.
-              </span>
-              With a population of 820,000, its name originates from 'Énú Ụ́gwụ́',
-              signifying 'hill top' in Igbo. Enugu, once Enugwu-Ngwo,
-              transformed into its current name in 1928, reflecting rapid
-              expansion and cultural evolution
-            </p>
+        <div className="md:-mt-5 md:h-[369px] md:leading-[24.21px] sm:hidden lg:block">
+          <div className=" sm:mx-auto sm:w-[80%]  lg:mr-48">
+            <div className="bg-white lg:w-[100%]  md:w-[290px] sm:rounded-[11px] rounded-[14px] lg:mt-5 mt-5 p-10 h-auto relative ">
+              <p className="sm:text-[12px] text-gray-600 lg:text-[18px] leading-normal relative">
+                <span className="md:font-bold lg:font-bold">
+                  Énugwú: Enugu State's Capital City in Nigeria, nestled in the
+                  southeast.
+                </span>
+                With a population of 820,000, its name originates from 'Énú
+                Ụ́gwụ́', signifying 'hill top' in Igbo. Enugu, once Enugwu-Ngwo,
+                transformed into its current name in 1928, reflecting rapid
+                expansion and cultural evolution
+              </p>
 
-            <Image
-              src={Svg5}
-              className="sm:hidden md:block relative  object-contain sm:h-[66.11px] sm:w-[51.726px] lg:w-[115.453px] ml-[245px] lg:-mb-10"
-            />
-          </div>
-          <div className="mt-5 md:-ml-16">
-            <Link href="/explore">
-              {" "}
-              <Button text="Invest in Education" />
-            </Link>
+              <Image
+                src={Svg5}
+                className="sm:hidden md:block relative  object-contain sm:h-[66.11px] sm:w-[51.726px] lg:w-[115.453px] ml-[160px] lg:-mb-10"
+              />
+            </div>
+            <div className="mt-5">
+              <Link href="/explore">
+                {" "}
+                <Button text="Invest in RealEstate" />
+              </Link>
+            </div>
           </div>
         </div>
 
@@ -53,7 +55,7 @@ export default function RealEstate() {
             <div>
               <Image
                 src={Pic1}
-                className="md:w-[100%] md:h-[530px] h-[300px] md:-mt-10 -mt-5"
+                className="md:w-[100%] sm:w-[80%]  md:h-[530px] h-[300px] md:-mt-10 -mt-5"
               />
             </div>
           </div>

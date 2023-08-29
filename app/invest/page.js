@@ -25,7 +25,7 @@ export default function Invest() {
         <Education />
         <Agriculture />
         <Tourism />
-        {/* <DemoComponent /> */}
+        <DemoComponent />
         <Feedback />
         <Faq />
       </MainLayout>
