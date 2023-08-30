@@ -1,0 +1,187 @@
+
+
+.Appointment_page{
+    margin-bottom: 10rem;
+    .appointment{
+        padding: 5rem 2.1rem 2rem;
+        margin-bottom: 5rem;
+        .form{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 1.55rem;
+            margin-bottom: 3.85rem;
+            .control{
+                display: flex;
+                flex-direction: column;
+                gap: 0.55rem;
+                label{
+                    font-size: 0.82025rem;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 134.5%;
+                    letter-spacing: -0.016rem;
+                    span{
+                        color: #f00;
+                    }
+                }
+                input, textarea{
+                    border-radius: 0.319rem;
+                    background: #FFF;
+                    padding: 1.2rem 1.4rem;
+                    color: #A9A9A9;
+                    font-size: 0.82rem;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 134.5%;
+                    letter-spacing: -0.01638rem;
+                }
+            }
+            .formcontrol_wrapper{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 1.55rem;
+                .formcontrol{
+                    @extend .control;
+                }
+            }
+            .formcontrol_reason{
+                @extend .control;
+            }
+            .btn_group{
+                display: flex;
+                gap: 0.2rem;
+                align-items: center;
+                .slantbtn{
+                    height: 100%;
+                    img{
+                        height: 52px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+        .booking_article{
+            border-radius: 0.9375rem;
+            background: #0CAD8E;
+            color: #FFF;
+            position: relative;
+            .booking_article_wrapper{
+                width: 100%;
+                padding: 4.2rem 3.5rem 7.8rem;
+                h2{
+                    font-size: 2rem;
+                    font-weight: 700;
+                    line-height: 95.5%;
+                    margin-bottom: 1.6rem;
+                }
+                p{
+                    font-size: 1rem;
+                    font-weight: 300;
+                    line-height: 134.5%;
+                    letter-spacing: -0.0225rem;
+                }
+            }
+            .app_decor{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .Appointment_page{
+        .appointment{
+            .form{
+                // .control{
+                //     input{
+                //         max-width: 48%;
+                //     }
+                // }
+                .formcontrol_wrapper{
+                    flex-direction: row;
+                    gap: 2rem;
+                    .formcontrol{
+                        width: 48%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .Appointment_page{
+        margin-bottom: 13rem;
+        .appointment{
+            padding: 5rem 8.1rem 2rem;
+            .form{
+                gap: 2.1rem;
+                order: 2;
+                margin-bottom: 2.1rem;
+                .control{
+                    // gap: 0.55rem;
+                    label{
+                        font-size: 1.25rem;
+                        letter-spacing: -0.0225rem;
+                    }
+                    input, textarea{
+                        border-radius: 0.43rem;
+                        padding: 1.75rem 2rem;
+                        font-size: 1.125rem;
+                        letter-spacing: -0.0225rem;
+                    }
+                }
+                .formcontrol_wrapper{
+                    gap: 1.55rem;
+                }
+                .btn_group{
+                    gap: 0.2rem;
+                    align-items: center;
+                    .slantbtn{
+                        height: 100%;
+                        img{
+                            height: 72px;
+                            width: auto;
+                        }
+                    }
+                }
+            }
+            .booking_article{
+                border-radius: 1.31rem;
+                .booking_article_wrapper{
+                    h2{
+                        font-size: 2.2rem;
+                    }
+                    p{
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1224px) {
+    .Appointment_page{
+        margin-bottom: 15rem;
+        .appointment{
+            display: flex;
+            gap: 2.3rem;
+            justify-content: space-between;
+            // margin-bottom: 5rem;
+            .form{
+                width: 60%;
+                gap: 2.1rem;
+                order: 2;
+                margin-bottom: 0;
+            }
+            .booking_article{
+                width: 35%;
+                border-radius: 1.31rem;
+            }
+        }
+    }
+}

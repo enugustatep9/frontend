@@ -46,29 +46,30 @@
         gap: 1.97rem;
         justify-content: space-around;
     }
-    .others{
-        margin-top: 5rem;
-        .others_title{
-            padding: 0 3.3rem;
-            font-size: 1.25rem;
-            font-weight: 700;
-            line-height: 134.5%;
-            letter-spacing: -0.025rem;
-        }
-        .others_cards{
-            height: 590px;
-            overflow: hidden;
+}
+.others{
+    margin-top: 5rem;
+    color: #fff;
+    .others_title{
+        padding: 0 3.3rem;
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 134.5%;
+        letter-spacing: -0.025rem;
+    }
+    .others_cards{
+        height: 590px;
+        overflow: hidden;
 
-            .others_cards_wrapper{
-                padding: 2rem 3.3rem 8rem;
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-                column-gap: 1.8rem;
-                row-gap: 1rem;
-                max-height: 650px;
-                overflow-x: scroll;
-            }
+        .others_cards_wrapper{
+            padding: 2rem 3.3rem 8rem;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            column-gap: 1.8rem;
+            row-gap: 1rem;
+            max-height: 650px;
+            overflow-x: scroll;
         }
     }
 }
@@ -100,20 +101,20 @@
             padding: 0 8.3rem 9rem;
             gap: 2.8rem;
         }
-        .others{
-            margin-top: 6rem;
-            .others_title{
-                padding: 0 8.3rem;
-                font-size: 2.25rem;
-                letter-spacing: -0.045rem;
-            }
-            .others_cards{
-                height: 850px;
-                .others_cards_wrapper{
-                    padding: 2.6rem 8.3rem 12rem;
-                    column-gap: 2.6rem;
-                    max-height: 950px;
-                }
+    }
+    .others{
+        margin-top: 6rem;
+        .others_title{
+            padding: 0 8.3rem;
+            font-size: 2.25rem;
+            letter-spacing: -0.045rem;
+        }
+        .others_cards{
+            height: 850px;
+            .others_cards_wrapper{
+                padding: 2.6rem 8.3rem 12rem;
+                column-gap: 2.6rem;
+                max-height: 950px;
             }
         }
     }

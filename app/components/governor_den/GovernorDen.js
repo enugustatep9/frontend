@@ -1,8 +1,10 @@
+"use client"
 import Image from 'next/image'
 import styles from './GovernorDen.module.scss'
 import mainGov from '@/public/images/gov_den_main.png'
 import cardGov from '@/public/images/gov_den_card.png'
 import GovCard from './GovCard'
+import { useRouter } from 'next/navigation'
 
 
 
@@ -84,9 +86,10 @@ export default function GovernorDen() {
 }
 
 export function GovDenArticle({article, many=false}) {
+    const router = useRouter()
     const { type, date, reading, title, imgUrl, content, id } = article;
     return(
-        <div key={id} className={styles[`${many ? "gov_article-many" : "gov_article"}`]}>
+        <div key={id} className={styles[`${many ? "gov_article-many" : "gov_article"}`]} onClick={() => router.push('/governors_den/1')}>
             <Image src={imgUrl} alt='Gov Peter Mbah' width={494} height={422} />
             <div className={styles.gov_main_text}>
                 <div className={styles.gov_main_type}>
