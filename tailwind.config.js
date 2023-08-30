@@ -9,6 +9,10 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    backdropFilter: {
+      none: "none",
+      blur: "blur(20px)",
+    },
     extend: {
       colors: {
         primary: "#0CAD8E",

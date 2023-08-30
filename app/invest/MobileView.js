@@ -8,6 +8,7 @@ import InvestAgricCard from "./InvestAgricCard";
 import InvestHealthCard from "./InvestHealthCard";
 import EmptyCard from "./EmptyCard";
 import InvestEstateCard from "./InvestEstateCard";
+import ScrollToDownButton from "../components/arrowDownButton/ArrowDownBtn";
 
 export default function MobileView() {
   return (
@@ -24,6 +25,9 @@ export default function MobileView() {
           <InvestEstateCard value={80} />
         </div>
         <Image src={Mobile} className="w-[80%] mx-auto mt-28" />
+        <div className=" -z-10">
+          <ScrollToDownButton />
+        </div>
       </div>
     </>
   );

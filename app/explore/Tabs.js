@@ -19,19 +19,19 @@ const TabsComponent = () => {
     "Agriculture",
     "Economy",
     "Tourism",
-    "Real Estate",
+    "RealEstate",
     "Health",
   ];
 
   return (
-    <div className="md:w-[1180px] mx-auto p-4">
-      <div className="grid grid-cols-3 md:grid-cols-8 gap-4 mb-10">
+    <div className="md:w-[1180px] mx-auto p-4 mt-5 md:mt-20">
+      <div className="grid grid-cols-3 md:grid-cols-8 gap-2 md:gap-4 mb-10 w-[100%] md:w-[80%]">
         {tabs.map((tab, index) => (
           <button
             key={index}
-            className={`px-4 py-2 rounded-full text-gray-600 ${
+            className={`flex items-center justify-center pl-[23px]  pr-[23px] pt-[12px] pb-[12px] text-[11.11px] md:text-[16px] rounded-full text-gray-600 ${
               activeTab === index
-                ? "bg-secondary text-white font-bold"
+                ? "bg-secondary text-black font-bold"
                 : "bg-white"
             }`}
             onClick={() => setActiveTab(index)}

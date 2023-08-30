@@ -64,7 +64,7 @@ export default function Tourism() {
             <div className="mt-5">
               <Link href="/explore">
                 {" "}
-                <Button text="Invest in Education" />
+                <Button text="Invest in Tourism" />
               </Link>
             </div>
           </div>

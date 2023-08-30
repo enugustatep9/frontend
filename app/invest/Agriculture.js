@@ -38,7 +38,7 @@ export default function Agriculture() {
           <div className="mt-5 md:-ml-16">
             <Link href="/explore">
               {" "}
-              <Button text="Invest in Education" />
+              <Button text="Invest in Agriculture" />
             </Link>
           </div>
         </div>
@@ -85,7 +85,7 @@ export default function Agriculture() {
           <div className="mt-5 md:-ml-16">
             <Link href="/explore">
               {" "}
-              <Button text="Invest in Education" />
+              <Button text="Invest in Agriculture" />
             </Link>
           </div>
         </div>
