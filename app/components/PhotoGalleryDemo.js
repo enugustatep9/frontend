@@ -19,35 +19,41 @@ import GalleryCard from "../about/Gallery_card";
 export default function PhotoGalleryDemo() {
   return (
     <>
-      <Image src={Svg3} className="absolute left-32 mt-3 hidden md:block" />
+      <Image
+        src={Svg3}
+        className="absolute md:block md:left-20 md:mt-28 lg:left-32 lg:mt-28 hidden lg:block"
+      />
       <Image
         src={Icon2}
         className="absolute right-0 -mt-14 md:hidden sm:block"
       />
-      <Image src={Svg2} className="absolute right-44 mt-0 md:block hidden" />
+      <Image
+        src={Svg2}
+        className="absolute md:block md:right-20 md:mt-28 lg:right-24 lg:mt-28 lg:block hidden"
+      />
       <Image
         src={Svg2}
         className="absolute w-10 left-5 -mt-5 sm:block md:hidden"
       />
       <div
-        className="sm:overflow-x-auto"
+        className="sm:overflow-x-auto md:overflow-x-auto"
         style={{
           WebkitOverflowScrolling: "touch",
           scrollbarWidth: "none",
           msOverflowStyle: "none",
         }}
       >
-        <div className="grid grid-cols-5 sm:w-[487.611px] md:w-[90%] mx-auto md:gap-5 gap-2 md:mt-[0] sm:mt-[100px]">
+        <div className="grid grid-cols-5 sm:w-[487.611px] md:w-[100%] lg:w-[90%] md:mx-auto lg:mx-auto lg:gap-5 gap-2 md:mt-[100px] sm:mt-[100px]">
           {/* first col */}
           <div className="flex items-center">
             <Image
               src={Pic2}
-              className="md:h-[317px] rounded-[8px] sm: md:w-[100%]"
+              className="md:h-[317px] rounded-[8px] md:w-[100%] lg:w-[100%]"
             />
           </div>
           <Image
             src={Icon}
-            className="absolute md:block hidden mt-[450px] left-[150px]"
+            className="absolute lg:block hidden md:block md:mt-[470px] md:left-[50px] lg:mt-[450px] lg:left-[150px]"
           />
           {/* second col */}
           <div className="flex flex-col">

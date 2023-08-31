@@ -14,12 +14,12 @@ import EmptyCard from "./EmptyCard";
 export default function DesktopView() {
   return (
     <>
-      <div className="bg-[#F2EEEB] md:w-[95%] flex justify-center items-center h-auto pt-10 pb-10 mx-auto rounded-[26px] sm:hidden md:block lg:block relative">
-        <Image src={svg1} className="absolute right-0" />
+      <div className="bg-[#F2EEEB] md:w-[90%] lg:w-[95%] flex justify-center items-center h-auto pt-10 pb-10 mx-auto rounded-[26px] sm:hidden md:block lg:block">
+        <Image src={svg1} className="absolute right-8" />
         <Image src={svg2} className="absolute right-20 -mt-5" />
-        <div className="flex w-[100%] mx-auto gap-20 ml-20">
+        <div className="flex w-[100%] mx-auto gap-5 md:p-2 lg:gap-20 lg:ml-20 md:-mb-28 lg:-mb-24">
           <div>
-            <Image src={Pic2} className="w-[100%]" />
+            <Image src={Pic2} className="w-[100%] md:mb-10" />
           </div>
           <div>
             <h1 className="font-bold font-[Clash Display] text-[54px] leading-[45px] mt-20 w-[55%] sm:hidden lg:block">

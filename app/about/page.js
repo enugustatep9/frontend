@@ -20,20 +20,21 @@ import "@/app/about/about.css";
 import ScrollToDownButton from "../components/arrowDownButton/ArrowDownBtn";
 import YourNextPage from "./TestCarousel";
 import PhotoGalleryDemo from "../components/PhotoGalleryDemo";
+import CardTest from "./test";
 export default function About() {
   return (
     <>
       <MainLayout>
-        <main className="sm:w-[100%] md:w-[100%] sm:mb-10  md:mb-[80px] md:top-[110px] top-[127px]">
+        <main className="sm:w-[100%] md:w-[95%] lg:w-[100%] lg:mx-auto md:mx-auto sm:mb-10 md:mb-[80px] md:top-[110px] top-[127px]">
           <Image src={Svg5} className="absolute right-0 mt-0 md:block hidden" />
-          <div className="text-center bg-[#F8F8F8] rounded-[19px] md:rounded-[33px] sm:h-[534px] md:w-[1303px] md:h-[1000px] sm:w-[95%] mx-auto">
+          <div className="text-center bg-[#F8F8F8] rounded-[19px] md:rounded-[33px] sm:h-[534px] md:w-[100%] lg:w-[1303px] md:h-[1000px] sm:w-[95%] mx-auto">
             <Image
               src={Svg2}
               className="absolute right-0 md:right-10 top-20 md:top-20 md:w-16 w-10 hidden sm:hidden"
             />
             <Image src={Svg4} className="absolute right-20 mt-4 sm:hidden" />
 
-            <h2 className="text-center font-semibold text-[32px] md:text-[64px]  pt-10 tracking-tighter md:p-10 p-5 leading-[35.68px] md:leading-[71.36px] md:-[114px] md:pt-[136px] mx-auto md:w-[841px] md:mx-auto sm:hidden xs:hiden md:block  justify-center font-[Clash Display]">
+            <h2 className="text-center font-semibold text-[32px] lg:text-[64px]  pt-10 tracking-tighter lg:p-10 p-5 leading-[35.68px] lg:leading-[71.36px] md:-[114px] md:pt-[136px] mx-auto md:w-[90%] lg:w-[841px] md:mx-auto sm:hidden xs:hidden md:block  justify-center font-[Clash Display]">
               Tracing Our Rich Heritage:
               <br /> A Journey Through Time.
             </h2>
@@ -69,6 +70,7 @@ export default function About() {
           <Card3 />
           <Explore />
           <Carousel />
+          {/* <CardTest /> */}
           {/* <YourNextPage /> */}
           <Future />
         </section>

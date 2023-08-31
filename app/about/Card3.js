@@ -64,60 +64,26 @@ export default function Card3() {
             />
           </div>
         </div>
-        <div className="col-span-2 sm:mx-auto h-auto sm:w-[95%] lg:w-[100%] p-2  lg:p-5 mt-5 lg:mt-2 bg-white lg:rounded-[26px] sm:rounded-[12.582px] rounded-[26px]">
-          <div className="">
-            <Image
-              src={Img2}
-              className="sm:w-[380.812px] mx-auto pl-[5.6] pr-[14] object-cover md:hidden rounded-[9.056px]"
-            />
-            <Image
-              src={Img}
-              className="mx-auto w-[100%] h-[333.1px] object-cover rounded-[26px] md:block sm:hidden"
-            />
-          </div>
-          <div className="grid mt-2 grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:-ml-2 xs:gap-0 sm:gap-2 xs:h-auto">
-            <div className="col-span-2">
-              <Image
-                src={Img3}
-                className="mx-auto pt-[5.6px]  object-contain h-full md:hidden rounded-[9.056px]"
-              />
-              <Image
-                src={imgD1}
-                className="mx-auto w-[100%] h-[272.204px] p-2 rounded-[26px] object-cover sm:hidden lg:block"
-              />
-            </div>
+        <div className="col-span-2 bg-white p-3 md:p-7 mx-auto w-[90%] rounded-[14px] mdrounded-[26px]">
+          <div className="flex flex-col gap-2 md:gap-4">
             <div>
-              <Image
-                src={Img4}
-                className="h-full xs:w-[133.541px] mx-auto pt-[5.6px] object-cover md:hidden rounded-[9.056px]"
-              />
-              <Image
-                src={imgD2}
-                className=" mx-auto lg:w-[100%] lg:h-[272.204px] p-2 ml-3 rounded-[26px] object-cover sm:hidden lg:block"
-              />
+              <Image src={Img} className="w-full object-cover" />
             </div>
-          </div>
-
-          <div className="grid mt-2 grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:-ml-2 xs:gap-0 sm:gap-2 xs:h-auto ">
-            <div>
-              <Image
-                src={Img4}
-                className="xs:w-[133.541px] mx-auto xs:h-[140px] h-full pt-[5.6px] object-cover md:hidden rounded-[9.056px]  "
-              />
-              <Image
-                src={imgD2}
-                className=" mx-auto lg:w-[100%] lg:h-[272.204px] p-2 ml-0 rounded-[26px] object-cover sm:hidden lg:block"
-              />
+            <div className="flex gap-2 md:gap-4">
+              <div>
+                <Image src={imgD1} className="object-cover" />
+              </div>
+              <div>
+                <Image src={imgD2} className="object-cover" />
+              </div>
             </div>
-            <div className="col-span-2">
-              <Image
-                src={Img3}
-                className="mx-auto pt-[5.6px]  object-contain h-full md:hidden rounded-[9.056px]"
-              />
-              <Image
-                src={imgD1}
-                className="mx-auto w-[100%] h-[272.204px] ml-3 p-2 rounded-[26px] object-cover sm:hidden lg:block"
-              />
+            <div className="flex gap-2 md:gap-4">
+              <div>
+                <Image src={imgD2} className="object-cover" />
+              </div>
+              <div>
+                <Image src={imgD1} className="object-cover" />
+              </div>
             </div>
           </div>
         </div>

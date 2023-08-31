@@ -19,63 +19,27 @@ import new_pic_5 from "@/public/images/about_new4.png";
 export default function Card2() {
   return (
     <>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-10 sm:w-[100%] sm:mx-auto lg:mx-auto lg:w-[85%] mx-auto mt-20">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-10 sm:w-[100%] sm:mx-auto lg:mx-auto lg:w-[90%] md:mx-auto mt-20">
         {/* hidden */}
-        <div className="xs:hidden sm:hidden col-span-2 sm:mx-auto h-auto sm:w-[95%] lg:w-[100%] p-2  lg:p-5 mt-5 lg:mt-2 bg-white lg:rounded-[26px] sm:rounded-[12.582px] rounded-[26px]">
-          <div>
+        <div className="sm:hidden md:hidden col-span-2 bg-white p-3 md:p-7 mx-auto w-[90%] rounded-[14px] md:rounded-[26px]">
+          <div className="flex flex-col gap-2 md:gap-4">
             <div>
-              <Image
-                src={new_pic_1}
-                className="sm:w-[380.812px] mx-auto pl-[5.6] pr-[14] object-cover md:hidden rounded-[9.056px]"
-              />
-              <Image
-                src={new_pic_1}
-                className="mx-auto w-[100%] h-[333.1px] object-cover rounded-[26px] md:block sm:hidden"
-              />
+              <Image src={new_pic_1} className="w-full object-cover" />
             </div>
-            <div className="grid mt-2 grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:-ml-2 xs:gap-0 sm:gap-2 xs:h-auto">
-              <div className="col-span-2">
-                <Image
-                  src={new_pic_2}
-                  className="mx-auto pt-[5.6px]  object-contain h-full md:hidden rounded-[9.056px]"
-                />
-                <Image
-                  src={new_pic_2}
-                  className="mx-auto w-[100%] h-[272.204px] p-2 rounded-[26px] object-cover sm:hidden lg:block"
-                />
+            <div className="flex gap-2 md:gap-4">
+              <div>
+                <Image src={new_pic_2} className="object-cover" />
               </div>
               <div>
-                <Image
-                  src={new_pic_3}
-                  className="xs:w-[133.541px] mx-auto xs:h-[140px] h-[110px] pt-[5.6px] object-cover md:hidden rounded-[9.056px]"
-                />
-                <Image
-                  src={new_pic_3}
-                  className=" mx-auto lg:w-[100%] lg:h-[272.204px] p-2 ml-3 rounded-[26px] object-cover sm:hidden lg:block"
-                />
+                <Image src={new_pic_3} className="object-cover" />
               </div>
             </div>
-
-            <div className="grid mt-2 grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:-ml-2 xs:gap-0 sm:gap-2 xs:h-auto">
+            <div className="flex gap-2 md:gap-4">
               <div>
-                <Image
-                  src={new_pic_4}
-                  className="xs:w-[133.541px] mx-auto xs:h-[140px] h-full pt-[5.6px] object-cover md:hidden rounded-[9.056px] "
-                />
-                <Image
-                  src={new_pic_4}
-                  className=" mx-auto lg:w-[100%] lg:h-[272.204px] p-2 ml-0 rounded-[26px] object-cover sm:hidden lg:block"
-                />
+                <Image src={new_pic_4} className="object-cover" />
               </div>
-              <div className="col-span-2">
-                <Image
-                  src={new_pic_5}
-                  className="mx-auto h-full pt-[5.6px]  object-contain md:hidden rounded-[9.056px]"
-                />
-                <Image
-                  src={new_pic_5}
-                  className="mx-auto w-[100%] h-[272.204px] ml-3 p-2 rounded-[26px] object-cover sm:hidden lg:block"
-                />
+              <div>
+                <Image src={new_pic_5} className="object-cover" />
               </div>
             </div>
           </div>
@@ -116,61 +80,25 @@ export default function Card2() {
             />
           </div>
         </div>
-        <div className=" col-span-2 sm:mx-auto h-auto sm:w-[95%] lg:w-[100%] p-2  lg:p-5 mt-5 lg:mt-2 bg-white lg:rounded-[26px] sm:rounded-[12.582px] rounded-[26px]">
-          <div>
+        <div className="col-span-2 bg-white p-3 md:p-7 mx-auto w-[90%] rounded-[14px] md:rounded-[26px]">
+          <div className="flex flex-col gap-2 md:gap-4">
             <div>
-              <Image
-                src={new_pic_1}
-                className="sm:w-[380.812px] mx-auto pl-[5.6] pr-[14] object-cover md:hidden rounded-[9.056px]"
-              />
-              <Image
-                src={new_pic_1}
-                className="mx-auto w-[100%] h-[333.1px] object-cover rounded-[26px] md:block sm:hidden"
-              />
+              <Image src={new_pic_1} className="w-full object-cover" />
             </div>
-            <div className="grid mt-2 grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:-ml-2 xs:gap-0 sm:gap-2 xs:h-auto">
-              <div className="col-span-2">
-                <Image
-                  src={new_pic_2}
-                  className="mx-auto pt-[5.6px]  object-contain md:hidden rounded-[9.056px] h-full"
-                />
-                <Image
-                  src={new_pic_2}
-                  className="mx-auto w-[100%] h-[272.204px] p-2 rounded-[26px] object-cover sm:hidden lg:block"
-                />
+            <div className="flex gap-2 md:gap-4">
+              <div>
+                <Image src={new_pic_2} className="object-cover" />
               </div>
               <div>
-                <Image
-                  src={new_pic_3}
-                  className="xs:w-[133.541px] mx-auto xs:h-[140px] pt-[5.6px] object-cover md:hidden rounded-[9.056px] h-full"
-                />
-                <Image
-                  src={new_pic_3}
-                  className=" mx-auto lg:w-[100%] lg:h-[272.204px] p-2 ml-3 rounded-[26px] object-cover sm:hidden lg:block"
-                />
+                <Image src={new_pic_3} className="object-cover" />
               </div>
             </div>
-
-            <div className="grid grid-cols-3 lg:w-[100%] xs:w-[385.812px] lg:gap-0 xs:ml-0 xs:gap-0 sm:gap-2">
+            <div className="flex gap-2 md:gap-4">
               <div>
-                <Image
-                  src={new_pic_4}
-                  className="xs:w-[133.541px] h-full mx-auto pt-[5.6px] object-cover md:hidden rounded-[9.056px] "
-                />
-                <Image
-                  src={new_pic_4}
-                  className=" mx-auto lg:w-[100%] lg:h-[272.204px] p-2 rounded-[26px] object-cover sm:hidden lg:block"
-                />
+                <Image src={new_pic_4} className="object-cover" />
               </div>
-              <div className="col-span-2">
-                <Image
-                  src={new_pic_5}
-                  className="mx-auto pt-[5.6px]  object-contain md:hidden rounded-[9.056px]"
-                />
-                <Image
-                  src={new_pic_5}
-                  className="mx-auto w-[100%] h-[272.204px]  p-2 rounded-[26px] object-cover sm:hidden lg:block"
-                />
+              <div>
+                <Image src={new_pic_5} className="object-cover" />
               </div>
             </div>
           </div>

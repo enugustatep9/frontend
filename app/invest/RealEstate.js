@@ -10,35 +10,29 @@ import Pic1 from "@/public/images/estate.png";
 export default function RealEstate() {
   return (
     <>
-      <h1 className="sm:text-[36px] sm:w-0 md:text-6xl flex  md:w-[331px] md:h-[43px] md:justify-normal  md:ml-[50px] font-bold font-[Clash Display] md:mb-20 mb-4 sm:mb-[60px] sm:mt-[30px] mt-[170px] text-[36px]  sm:mr-auto sm:pl-7">
+      <h1 className="sm:text-[36px] sm:w-0 md:text-6xl flex  md:w-[331px] md:h-[43px] md:justify-normal  md:ml-[70px] font-bold font-[Clash Display] md:mb-20 mb-4 sm:mb-[60px] sm:mt-[30px] mt-[170px] text-[36px]  sm:mr-auto sm:pl-7">
         RealEstate
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 md:w-[90%] sm:w-[90%] gap-10 md:ml-auto sm:ml-auto">
-        <div className="md:-mt-5 md:h-[369px] md:leading-[24.21px] sm:hidden lg:block">
-          <div className=" sm:mx-auto sm:w-[80%]  lg:mr-48">
-            <div className="bg-white lg:w-[100%]  md:w-[290px] sm:rounded-[11px] rounded-[14px] lg:mt-5 mt-5 p-10 h-auto relative ">
-              <p className="sm:text-[12px] text-gray-600 lg:text-[18px] leading-normal relative">
-                <span className="md:font-bold lg:font-bold">
-                  Énugwú: Enugu State's Capital City in Nigeria, nestled in the
-                  southeast.
-                </span>
-                With a population of 820,000, its name originates from 'Énú
-                Ụ́gwụ́', signifying 'hill top' in Igbo. Enugu, once Enugwu-Ngwo,
-                transformed into its current name in 1928, reflecting rapid
-                expansion and cultural evolution
-              </p>
-
-              <Image
-                src={Svg5}
-                className="sm:hidden md:block relative  object-contain sm:h-[66.11px] sm:w-[51.726px] lg:w-[115.453px] ml-[160px] lg:-mb-10"
-              />
-            </div>
-            <div className="mt-5">
-              <Link href="/explore">
-                {" "}
-                <Button text="Invest in RealEstate" />
-              </Link>
-            </div>
+      <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 md:w-[90%] sm:w-[90%] gap-10 md:ml-auto sm:ml-auto">
+        <div className="md:mr-28 sm:mr-5 lg:mr-20 md:mx-auto sm:mx-auto md:hidden lg:block sm:hidden">
+          <div className="bg-white  sm:h-[350.7px] md:h-[352px] lg:h-[552px] rounded-[14px] relative ">
+            <p className="md:p-10 sm:p-5 lg:p-10 md:text-[16px] lg:text-[18px] lg:leading-[24.21px]">
+              Craft Your Vision in Enugu's Urban Canvas. Explore a World of Real
+              Estate Opportunities Where Modern Urban Planning Meets Affordable
+              Housing Initiatives. Become a Part of Enugu's Transformative
+              Growth as We Create Sustainable Communities and Shape the Skyline
+              Together
+            </p>
+            <Image
+              src={Svg5}
+              className="absolute bottom-0 right-0 sm:hidden md:block lg:block"
+            />
+          </div>
+          <div className="mt-5">
+            <Link href="/explore">
+              {" "}
+              <Button text="Invest in RealEstate" />
+            </Link>
           </div>
         </div>
 
@@ -63,29 +57,27 @@ export default function RealEstate() {
 
         {/* display bock */}
 
-        <div className="sm:block md:hidden">
-          <div className="bg-white p-10 rounded-[14px] sm:-ml-0 sm:w-[90%]  md:-ml-16 md:w-[100%]">
-            <p className="sm:text-[12px] text-gray-600 lg:text-[18px] leading-normal relative">
-              <span className="md:font-bold lg:font-bold">
-                Énugwú: Enugu State's Capital City in Nigeria, nestled in the
-                southeast.
-              </span>
-              With a population of 820,000, its name originates from 'Énú Ụ́gwụ́',
-              signifying 'hill top' in Igbo. Enugu, once Enugwu-Ngwo,
-              transformed into its current name in 1928, reflecting rapid
-              expansion and cultural evolution
-            </p>
-
-            <Image
-              src={Svg5}
-              className="sm:hidden md:block relative  object-contain sm:h-[66.11px] sm:w-[51.726px] lg:w-[115.453px] ml-[245px] lg:-mb-10"
-            />
-          </div>
-          <div className="mt-5 md:-ml-16">
-            <Link href="/explore">
-              {" "}
-              <Button text="Invest in Education" />
-            </Link>
+        <div className="sm:block md:mx-auto lg:hidden md:block">
+          <div className="md:w-full sm:w-full md:mr-16 sm:-ml-5 lg:mr-20 md:mx-auto sm:mx-auto ">
+            <div className="bg-white  sm:h-[356.7px] md:h-[352px] lg:h-[552px] rounded-[14px] relative ">
+              <p className="md:p-10 sm:p-5 lg:p-10 md:text-[16px] lg:text-[18px] lg:leading-[24.21px]">
+                Craft Your Vision in Enugu's Urban Canvas. Explore a World of
+                Real Estate Opportunities Where Modern Urban Planning Meets
+                Affordable Housing Initiatives. Become a Part of Enugu's
+                Transformative Growth as We Create Sustainable Communities and
+                Shape the Skyline Together
+              </p>
+              <Image
+                src={Svg5}
+                className="absolute bottom-0 right-0 sm:hidden md:block lg:block"
+              />
+            </div>
+            <div className="mt-5">
+              <Link href="/explore">
+                {" "}
+                <Button text="Invest in RealEstate" />
+              </Link>
+            </div>
           </div>
         </div>
       </div>
