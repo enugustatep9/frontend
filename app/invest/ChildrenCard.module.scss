@@ -1,0 +1,77 @@
+.estCard{
+    min-width: 132px;
+    max-width: 133px;
+    height: max-content;
+    border-radius: 0.49713rem;
+    background: #FFF;
+    padding: 0 0.52rem;
+    position: relative;
+    .est_t_bg{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 41.2px;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .est_text{
+        padding: 1.3rem 0 0.86rem;
+        h4{
+            color: #000;
+            font-size: 2.38606rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 89.5%;
+            letter-spacing: -0.05963rem;
+        }
+        h5{
+            color: #000;
+            font-size: 0.64719rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 89.5%;
+            letter-spacing: -0.01619rem;
+            span{
+                font-weight: 600;
+                color: #0CAD8E;
+            }
+            padding-top: 50px;
+        }
+    }
+    .est_bars{
+        width: 100%;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@media screen and (min-width: 1320px) {
+    .estCard{
+        min-width: 255px;
+        max-width: 256px;
+        border-radius: 0.96rem;
+        padding: 0 1rem;
+        .est_t_bg{
+       
+        }
+    
+        .est_text{
+            padding: 2.3rem 0 1.6rem;
+            h4{
+                font-size: 4.6rem;
+                font-style: normal;
+                letter-spacing: -0.1rem;
+            }
+            h5{
+                font-size: 1.25rem;
+                letter-spacing: -0.03rem;
+                padding-top: 50px;
+            }
+        }
+    } 
+}

@@ -2,33 +2,46 @@ import Svg3 from "@/public/images/Rectangle.svg";
 import AgricCard from "../components/invest.js/AgricCard";
 import EstatesCard from "../components/invest.js/EstateCard";
 import HealthCard from "../components/invest.js/HealthCard";
+import svg1 from "@/public/images/invest_svg.svg";
+import svg2 from "@/public/images/invest_svg1.svg";
 import Image from "next/image";
-import Pic2 from "@/public/images/senior2.png";
+import Pic2 from "@/public/images/investment_page.png";
+import InvestAgricCard from "./InvestAgricCard";
+import InvestHealthCard from "./InvestHealthCard";
+import InvestEstateCard from "./InvestEstateCard";
+import EmptyCard from "./EmptyCard";
 
 export default function DesktopView() {
   return (
     <>
-      <div className="bg-[#F2EEEB] md:w-11/12 md:h-[792px] hidden md:flex mx-auto rounded-[33px] mb-48">
-        <div className="flex gap-3">
-          <h1 className="absolute h-[157px] mt-[100px] md:ml-[600px] text-[64px] w-[433px] font-bold leading-[57.28px]">
-            Invest in the Future of Enugu State
-          </h1>
-          <div className="flex">
-            <Image src={Pic2} />
+      <div className="bg-[#F2EEEB] md:w-[90%] lg:w-[95%] flex justify-center items-center h-auto pt-10 pb-10 mx-auto rounded-[26px] sm:hidden md:block lg:block">
+        <Image src={svg1} className="absolute right-8" />
+        <Image src={svg2} className="absolute right-20 -mt-5" />
+        <div className="flex w-[100%] mx-auto gap-5 md:p-2 lg:gap-20 lg:ml-20 md:-mb-28 lg:-mb-24">
+          <div>
+            <Image src={Pic2} className="w-[100%] md:mb-10" />
           </div>
-
-          <div className="flex absolute right-60 top-3/4  gap-6">
-            <div className="mb-10">
-              <AgricCard value={50} />
-              <br />
-              <AgricCard value={10} />
-            </div>
-            {/* grid two */}
-            <div className="">
-              <HealthCard value={30} />
-
-              <br />
-              <EstatesCard value={80} />
+          <div>
+            <h1 className="font-bold font-[Clash Display] text-[54px] leading-[45px] mt-20 w-[55%] sm:hidden lg:block">
+              Invest in the Future of Enugu State
+            </h1>
+            <div className="flex mt-10">
+              <div>
+                <div>
+                  <InvestAgricCard value={50} />
+                </div>
+                <div className="mt-5">
+                  <EmptyCard />
+                </div>
+              </div>
+              <div>
+                <div>
+                  <InvestHealthCard value={30} />
+                </div>
+                <div className="mt-5">
+                  <InvestEstateCard value={80} />
+                </div>
+              </div>
             </div>
           </div>
         </div>

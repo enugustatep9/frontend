@@ -1,13 +1,18 @@
 "use client";
 import { useState, useEffect } from "react";
-import icon from "@/public/images/chev_down-white.svg";
 import Image from "next/image";
+import ArrDown from "@/public/images/formkit_down.svg";
+import ArrDownBg from "@/public/images/formkit_down_bg.svg";
 
 const ScrollToDownButton = () => {
   const [showButton, setShowButton] = useState(false);
+  const scrollDownDistance = 500; // Adjust the distance you want to scroll down
+
   const scrollToDown = () => {
-    window.scrollTo({ top: window.innerHeight, behavior: "smooth" });
+    const targetPosition = window.scrollY + scrollDownDistance;
+    window.scrollTo({ top: targetPosition, behavior: "smooth" });
   };
+
   const handleScroll = () => {
     if (window.scrollY > 300) {
       setShowButton(true);
@@ -24,8 +29,12 @@ const ScrollToDownButton = () => {
   }, []);
 
   return (
-    <div className="" onClick={handleScroll}>
-      <Image src={icon} className="mx-auto" />
+    <div className="" onClick={scrollToDown}>
+      <Image src={ArrDown} className="mx-auto -mt-5 md:hidden cursor-pointer" />
+      <Image
+        src={ArrDownBg}
+        className="mx-auto -mt-5 sm:hidden md:block cursor-pointer"
+      />
     </div>
   );
 };

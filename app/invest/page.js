@@ -12,6 +12,8 @@ import Faq from "./Faq";
 
 import DesktopView from "./DesktopView";
 import MobileView from "./MobileView";
+import DemoComponent from "./DemoComponent";
+import TechVileTest from "../about/test";
 
 export default function Invest() {
   return (
@@ -24,8 +26,10 @@ export default function Invest() {
         <Education />
         <Agriculture />
         <Tourism />
+        {/* <DemoComponent /> */}
         <Feedback />
         <Faq />
+        {/* <TechVileTest /> */}
       </MainLayout>
     </>
   );

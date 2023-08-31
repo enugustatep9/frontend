@@ -1,0 +1,14 @@
+/* HorizontalScrollContainer.module.css */
+.horizontal-scroll-container {
+    display: flex;
+    overflow-x: scroll;
+    width: 100vw;
+    height: 100vh;
+    white-space: nowrap;
+    cursor: grab;
+  }
+  
+  .horizontal-scroll-container:active {
+    cursor: grabbing;
+  }
+  
