@@ -15,17 +15,17 @@ export default function MobileView() {
     <>
       <div className=" mb-20 md:hidden w-[90%] h-[564px] rounded-[15px] bg-[#F2EEEB] mx-auto relative">
         <Image src={Svg1} className="absolute left-0" />
-        <h1 className="text-left h-[46px]  mx-auto font-bold text-[36px] leading-7 p-5 pt-10 font-[Clash Display] w-[100%]">
+        <h1 className="text-left h-[46px]  mx-auto font-bold text-[36px] leading-7 p-5 pt-10 font-[Clash Display] w-[80%]">
           Invest in the Future of Enugu State
         </h1>
-        <div className="grid grid-cols-2 absolute mt-[20rem] w-[75%] left-0 right-0 mx-auto gap-2 ">
+        <div className="grid grid-cols-2 absolute mt-[20rem] w-[75%] left-0 right-0 mx-auto gap-2 z-1">
           <InvestAgricCard value={50} />
           <InvestHealthCard value={30} />
           <EmptyCard value={50} />
           <InvestEstateCard value={80} />
         </div>
-        <Image src={Mobile} className="w-[80%] mx-auto mt-28" />
-        <div className=" -z-10">
+        <Image src={Mobile} className="w-[80%] mx-auto mt-32" />
+        <div className="z-10 mt-20">
           <ScrollToDownButton />
         </div>
       </div>

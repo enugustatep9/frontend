@@ -16,7 +16,7 @@ import RealEstateTest from "../about/test";
 export default function TechVile() {
   return (
     <>
-      <h1 className="sm:text-[36px] sm:w-0 md:text-6xl flex  md:w-[331px] md:h-[43px] md:justify-normal  md:ml-[70px] font-bold font-[Clash Display] md:mb-20 mb-4 sm:mb-[60px] sm:mt-[150px] mt-[170px] text-[36px]  sm:mr-auto sm:pl-7">
+      <h1 className="sm:text-[36px] sm:w-0 md:text-6xl flex  md:w-[331px] md:h-[43px] md:justify-normal  md:ml-[100px] font-bold font-[Clash Display] md:mb-20 mb-4 sm:mb-[60px] sm:mt-[150px] mt-[170px] text-[36px]  sm:mr-auto sm:pl-7">
         TechVile
       </h1>
       <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 md:w-[90%] sm:w-[90%] gap-10 md:mr-auto sm:mr-auto">
@@ -38,7 +38,7 @@ export default function TechVile() {
             </div>
           </div>
         </div>
-        <div className="md:w-full md:ml-16 sm:w-full  sm:-mr-3 lg:ml-20 md:mx-auto sm:mx-auto ">
+        <div className="md:w-[80%] md:ml-16 sm:w-full  sm:-mr-3 lg:ml-20 md:mx-auto sm:mx-auto ">
           <div className="bg-white  sm:h-[256.7px] md:h-[352px] lg:h-[552px] rounded-[14px] relative ">
             <p className="md:p-10 sm:p-5 lg:p-10 md:text-[16px] lg:text-[18px] lg:leading-[24.21px]">
               Forge Enugu's Technological Frontier. Invest in the Tech Scene of
@@ -54,7 +54,7 @@ export default function TechVile() {
           <div className="mt-5">
             <Link href="/explore">
               {" "}
-              <Button text="Invest in RealEstate" />
+              <Button text="Invest in Techville" />
             </Link>
           </div>
         </div>

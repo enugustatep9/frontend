@@ -15,7 +15,7 @@ export default function InvestEstateCard({ value }) {
             className="bar__2 img1"
           />
         </div>
-        <div className="cart">
+        <div className="cart bg-[#FFEBD2] p-1 rounded-full">
           <Image src={cart} alt="cart" />
         </div>
         <div className="estate_text">
