@@ -31,7 +31,7 @@ export default function AllCardComp({ img_url, roi, text }) {
         />
         <div
           style={{ backdropFilter: "blur(2.5px)", height: divHeight }}
-          className={`absolute sm:bottom-[10px] md:bottom-[30px] bg-white bg-opacity-80 bg-clip-padding mx-auto left-0 right-0 sm:w-[90%] md:w-[95%] rounded-[12px] sm:p-5 md:p-10 transition-all duration-500 ${
+          className={`absolute sm:bottom-[7px] md:bottom-[10px] bg-white bg-opacity-80 bg-clip-padding mx-auto left-0 right-0 sm:w-[95%] md:w-[95%] rounded-[12px] sm:p-5 md:p-10 transition-all duration-500 ${
             isHovered ? divHeight : ""
           }`}
         >

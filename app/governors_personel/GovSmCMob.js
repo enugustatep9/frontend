@@ -23,8 +23,8 @@ export default function GovSmCMob() {
           <Excellency />
         </div>
         <div className="flex gap-2 mt-2 lg:mt-5">
-          <div className="bg-secondary rounded-[9px] w-[20%] h-[54px]"></div>
-          <div className="bg-primary w-[80%] h-[54px] rounded-[9px]"></div>
+          <div className="bg-secondary rounded-[9px] w-[20%] h-[34px]"></div>
+          <div className="bg-primary w-[80%] h-[34px] rounded-[9px]"></div>
         </div>
         <div className="mt-2 bg-white">
           <Image src={GridMob3} />

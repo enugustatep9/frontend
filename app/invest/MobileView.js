@@ -24,8 +24,8 @@ export default function MobileView() {
           <EmptyCard value={50} />
           <InvestEstateCard value={80} />
         </div>
-        <Image src={Mobile} className="w-[80%] mx-auto mt-32" />
-        <div className="z-10 mt-20">
+        <Image src={Mobile} className="w-[80%] mx-auto mt-44" />
+        <div className="z-10 mt-24">
           <ScrollToDownButton />
         </div>
       </div>

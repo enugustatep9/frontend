@@ -36,8 +36,8 @@ export default function RealEstate() {
           </div>
         </div>
 
-        <div className="md:col-span-2 md:mt-10 bg-white md:w-[100%] pb-10">
-          <div className="flex gap-4 md:-ml-10 -ml-4">
+        <div className="md:col-span-2 md:mt-10 bg-white md:w-[100%] pb-10 sm:w-[95%] mr-auto">
+          <div className="flex gap-4 md:-ml-10 -ml-6">
             <div className="md:-mt-10 -mt-5">
               <div>
                 <EstatesCard value={39} />
@@ -58,7 +58,7 @@ export default function RealEstate() {
         {/* display bock */}
 
         <div className="sm:block md:mx-auto lg:hidden md:block">
-          <div className="md:w-full sm:w-full md:mr-16 sm:-ml-6 lg:mr-20 md:mx-auto sm:mx-auto ">
+          <div className="md:w-full sm:w-[93%]  md:mr-16 sm:-ml-0 lg:mr-20 md:mx-auto sm:mx-auto ">
             <div className="bg-white  sm:h-[356.7px] md:h-[352px] lg:h-[552px] rounded-[14px] relative ">
               <p className="md:p-10 sm:p-5 lg:p-10 md:text-[16px] lg:text-[18px] lg:leading-[24.21px]">
                 Craft Your Vision in Enugu's Urban Canvas. Explore a World of
