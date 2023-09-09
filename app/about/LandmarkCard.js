@@ -1,7 +1,7 @@
 import "@/app/about/about.css";
 import Image from "next/image";
 import Svg1 from "@/public/images/box.svg";
-import Svg2 from "@/public/images/box2.svg";
+import Svg2 from "@/public/images/pic_svg.svg";
 import Pic1 from "@/public/images/stadium.png";
 import Pic2 from "@/public/images/africansenior.png";
 import Pic3 from "@/public/images/museum.png";
@@ -30,16 +30,20 @@ export default function LandmarkCard() {
           </p>
         </div>
         {/* <Image src={Svg2} className="absolute -mt-10 z-20 hidden md:flex" /> */}
-        <div className="item item2 z-50">
+        <div className="item item2 z-50 relative">
           <Image
             src={Pic1}
-            className="object-cover h-[655px] rounded-[14px] z-50"
+            className="object-cover h-[655px] rounded-[14px] z-50 w-full"
+          />
+          <Image
+            src={Svg2}
+            className="absolute md:bottom-14 md:left-20 object-cover"
           />
         </div>
-        <div className="item item3">
+        <div className="item item3 ">
           <Image
             src={Pic2}
-            className="object-cover z-50 h-[800px] rounded-[14px]"
+            className="object-cover z-50 h-[800px] rounded-[14px] w-full"
           />
         </div>
         <div className="item item4 p-10 z-50">
@@ -59,7 +63,7 @@ export default function LandmarkCard() {
         <div className="item item5 z-50">
           <Image
             src={Pic3}
-            className="object-cover h-[655px] rounded-[14px] z-50"
+            className="object-cover h-[655px] rounded-[14px] z-50 w-full"
           />
         </div>
         <div className="item item6 p-10 z-50">
@@ -78,7 +82,7 @@ export default function LandmarkCard() {
         <div className="item item7">
           <Image
             src={Pic4}
-            className="object-cover h-[655px] rounded-[14px] z-50"
+            className="object-cover h-[655px] rounded-[14px] z-50 w-full"
           />
         </div>
       </div>

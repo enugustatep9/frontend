@@ -1,5 +1,10 @@
 import styles from "../invest/Inv.module.scss";
 import FeedBackCard from "./FeedbackCard";
+import FeedBarkCd1 from "@/public/images/feedback_icon1.svg";
+import FeedBarkCd2 from "@/public/images/feedback_icon2.svg";
+import FeedBarkCd3 from "@/public/images/feedback_icon3.svg";
+import FeedBarkCd4 from "@/public/images/feedback_icon4.svg";
+import Image from "next/image";
 
 export default function Feedback() {
   const cardData = [
@@ -58,6 +63,12 @@ export default function Feedback() {
             <FeedBackCard data={item} />
           ))}
         </div>
+      </div>
+      <div className="-mt-[135px] ml-[100px] lg:flex md:hidden lg:block sm:hidden xs:hidden">
+        <Image src={FeedBarkCd1} />
+        <Image src={FeedBarkCd2} />
+        <Image src={FeedBarkCd3} className="ml-20 mt-20" />
+        <Image src={FeedBarkCd4} className="ml-[400px]" />
       </div>
     </section>
   );

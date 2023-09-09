@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Button from "../components/button/Button";
-import Svg1 from "@/public/images/about_desktop.svg";
+import Svg1 from "@/public/images/about_new_d.svg";
 import Svg2 from "@/public/images/login.svg";
 import Svg4 from "@/public/images/smcardone.svg";
 import Img from "@/public/images/about_desktop1.png";
@@ -16,8 +16,8 @@ import Svg3 from "@/public/images/arrow_login.svg";
 export default function Card() {
   return (
     <>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-10 sm:w-[100%] sm:mx-auto lg:mx-auto lg:w-[90%] md:mx-auto">
-        <div className="lg:w-[100%] p-2 xs:w-[90%] sm:w-[97%] sm:mx-auto md:w-[290px]">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-16 sm:w-[97%] sm:mx-auto lg:mx-auto lg:w-[90%] md:mx-auto">
+        <div className="lg:w-[90%] xs:w-[90%] sm:w-[97%] sm:mx-auto md:w-[290px]">
           <button className="bg-primary text-secondary py-2 items-center lg:text-[24px] sm:text-[14px]  font-bold sm:rounded-[9.47px] rounded-[12px] sm:w-[90%] lg:w-[100%] lg:h-[63px] flex justify-between sm:pr-0  sm:pl-10 lg:pr-5 lg:pl-5">
             Enugu Igbo
             <span className="md:hidden pl-20 lg:hidden">
@@ -31,7 +31,7 @@ export default function Card() {
             </span>
           </button>
 
-          <div className="bg-white lg:w-[100%] xs:w-[100%] md:w-[290px] sm:rounded-[11px] rounded-[14px] mx-auto lg:mt-5 mt-5 p-10 h-auto relative">
+          <div className="bg-white lg:w-[100%] xs:w-[100%] md:w-[290px] sm:rounded-[11px] rounded-[14px] mx-auto lg:mt-5 mt-5 p-10 h-auto md:h-[330px] lg:h-auto relative">
             <p className="sm:text-[12px] text-gray-600 lg:text-[18px] leading-normal">
               <span className="md:font-bold lg:font-bold">
                 Énugwú: Enugu State's Capital City in Nigeria, nestled in the
@@ -49,11 +49,11 @@ export default function Card() {
 
             <Image
               src={Svg1}
-              className="sm:hidden md:block relative  object-contain sm:h-[66.11px] sm:w-[51.726px] lg:w-[115.453px] md:ml-[210px] lg:-mb-10"
+              className="sm:hidden md:block object-contain md:ml-[146px] lg:-mb-10"
             />
           </div>
         </div>
-        <div className="col-span-2 bg-white p-3 md:p-7 mx-auto w-[90%] rounded-[14px] mdrounded-[26px]">
+        <div className="col-span-2 bg-white p-3 md:p-7 mx-auto w-[100%] rounded-[14px] mdrounded-[26px]">
           <div className="flex flex-col gap-2 md:gap-4">
             <div>
               <Image src={Img} className="w-full object-cover" />

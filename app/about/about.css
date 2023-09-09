@@ -21,8 +21,8 @@ body {
   width: 0;
 }
 .wrapper .item {
-  width: 100%;
-  min-width: 100%; 
+  width: 50%;
+  min-width: 50%; 
   height: auto;
   line-height: 110px;
   text-align: center;

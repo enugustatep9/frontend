@@ -21,7 +21,7 @@ export default function PhotoGalleryDemo() {
     <>
       <Image
         src={Svg3}
-        className="absolute md:block md:left-20 md:mt-28 lg:left-32 lg:mt-28 hidden lg:block"
+        className="absolute md:block md:left-20 md:mt-28 lg:left-32 lg:mt-[105px] hidden lg:block"
       />
       <Image
         src={Icon2}
@@ -29,7 +29,7 @@ export default function PhotoGalleryDemo() {
       />
       <Image
         src={Svg2}
-        className="absolute md:block md:right-20 md:mt-28 lg:right-24 lg:mt-28 lg:block hidden"
+        className="absolute md:block md:right-20 md:mt-28 lg:right-40 lg:mt-24 lg:block hidden"
       />
       <Image
         src={Svg2}
@@ -43,7 +43,7 @@ export default function PhotoGalleryDemo() {
           msOverflowStyle: "none",
         }}
       >
-        <div className="grid grid-cols-5 sm:w-[487.611px] md:w-[100%] lg:w-[90%] md:mx-auto lg:mx-auto lg:gap-5 gap-2 md:mt-[100px] sm:mt-[100px]">
+        <div className="grid grid-cols-5 sm:w-[487.611px] md:w-[100%] lg:w-[90%] md:mx-auto lg:mx-auto lg:gap-3 gap-2 md:mt-[100px] sm:mt-[100px]">
           {/* first col */}
           <div className="flex items-center">
             <Image
@@ -53,7 +53,7 @@ export default function PhotoGalleryDemo() {
           </div>
           <Image
             src={Icon}
-            className="absolute lg:block hidden md:block md:mt-[470px] md:left-[50px] lg:mt-[450px] lg:left-[150px]"
+            className="absolute lg:block hidden md:block md:mt-[470px] md:left-[50px] lg:mt-[465px] lg:left-[200px]"
           />
           {/* second col */}
           <div className="flex flex-col">
@@ -67,7 +67,7 @@ export default function PhotoGalleryDemo() {
             <div>
               <Image
                 src={Pic9}
-                className="md:h-[55px] sm:mt-2 md:mt-5 md:w-[100%] sm:h-[26.09px] sm:w-[97.25px]"
+                className="md:h-[55px] sm:mt-2 md:mt-3 md:w-[100%] sm:h-[26.09px] sm:w-[97.25px]"
               />
             </div>
           </div>
@@ -75,7 +75,7 @@ export default function PhotoGalleryDemo() {
           <div>
             <Image
               src={MidGrid}
-              className="sm:h-[251.91px] sm:w-[119.55px] md:h-[521px] md:w-[100%]"
+              className="sm:h-[251.91px] sm:w-[119.55px] md:h-[505px] md:w-[100%]"
             />
           </div>
           {/* fourth col */}
@@ -92,7 +92,7 @@ export default function PhotoGalleryDemo() {
             <div>
               <Image
                 src={Pic7}
-                className="md:h-[190px] sm:mt-2 md:mt-5 md:w-[100%] sm:h-[101.05px] sm:w-[97.25px] rounded-[4px]"
+                className="md:h-[190px] sm:mt-2 md:mt-3 md:w-[100%] sm:h-[101.05px] sm:w-[97.25px] rounded-[4px]"
               />
             </div>
           </div>

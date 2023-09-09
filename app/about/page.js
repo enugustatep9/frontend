@@ -26,7 +26,10 @@ export default function About() {
     <>
       <MainLayout>
         <main className="sm:w-[100%] md:w-[95%] lg:w-[100%] lg:mx-auto md:mx-auto sm:mb-10 md:mb-[80px] md:top-[110px] top-[127px]">
-          <Image src={Svg5} className="absolute right-0 mt-0 md:block hidden" />
+          <Image
+            src={Svg5}
+            className="absolute right-0 mt-14 md:block hidden"
+          />
           <div className="text-center bg-[#F8F8F8] rounded-[19px] md:rounded-[33px] sm:h-[534px] md:w-[100%] lg:w-[1303px] md:h-[1000px] sm:w-[95%] mx-auto">
             <Image
               src={Svg2}
@@ -52,7 +55,7 @@ export default function About() {
           </div>
           <div className=" md:mt-0 mt-10 sm:mb-0 sm:ml-0  sm:flex sm:justify-center sm:mx-auto">
             <div className="md:mt-[80px] md:p-0 md:mx-0 md:ml-[100px] md:mr-auto mx-auto md:w-[50%] text-[#838384] font-bold text-[24px] md:text-[36px] sm:leading-[27.36px] md:leading-[41.04px] sm:text-[24px] font-[Clash Display] sm:w-[90%]">
-              <p>
+              <p className="font-bold">
                 Dive into Enugu's Enigmatic History: From Coal Hub to Biafra's
                 Heart, Unveil Mesmerizing Tales.
                 <br />
