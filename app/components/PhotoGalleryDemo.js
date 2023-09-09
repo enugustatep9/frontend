@@ -23,17 +23,14 @@ export default function PhotoGalleryDemo() {
         src={Svg3}
         className="absolute md:block md:left-20 md:mt-28 lg:left-32 lg:mt-[105px] hidden lg:block"
       />
-      <Image
-        src={Icon2}
-        className="absolute right-0 -mt-14 md:hidden sm:block"
-      />
+      <Image src={Icon2} className="absolute right-0 mt-0 md:hidden sm:block" />
       <Image
         src={Svg2}
         className="absolute md:block md:right-20 md:mt-28 lg:right-40 lg:mt-24 lg:block hidden"
       />
       <Image
         src={Svg2}
-        className="absolute w-10 left-5 -mt-5 sm:block md:hidden"
+        className="absolute w-10 left-5 -mt-14 sm:block md:hidden"
       />
       <div
         className="sm:overflow-x-auto md:overflow-x-auto"
@@ -43,7 +40,7 @@ export default function PhotoGalleryDemo() {
           msOverflowStyle: "none",
         }}
       >
-        <div className="grid grid-cols-5 sm:w-[487.611px] md:w-[100%] lg:w-[90%] md:mx-auto lg:mx-auto lg:gap-3 gap-2 md:mt-[100px] sm:mt-[100px]">
+        <div className="grid grid-cols-5 sm:w-[487.611px] md:w-[100%] lg:w-[90%] md:mx-auto lg:mx-auto lg:gap-3 gap-2 md:mt-[100px] sm:mt-[80px]">
           {/* first col */}
           <div className="flex items-center">
             <Image

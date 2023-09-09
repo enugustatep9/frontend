@@ -37,12 +37,12 @@ export default function About() {
             />
             <Image src={Svg4} className="absolute right-20 mt-4 sm:hidden" />
 
-            <h2 className="text-center font-semibold text-[32px] lg:text-[64px]  pt-10 tracking-tighter lg:p-10 p-5 leading-[35.68px] lg:leading-[71.36px] md:-[114px] md:pt-[136px] mx-auto md:w-[90%] lg:w-[841px] md:mx-auto sm:hidden xs:hidden md:block  justify-center font-[Clash Display]">
+            <h2 className="text-center font-semibold text-[32px] lg:text-[64px]  pt-10 tracking-tighter lg:p-10 p-5 leading-[35.68px] lg:leading-[71.36px] md:-[114px] md:pt-[136px] lg:pt-[100px] mx-auto md:w-[90%] lg:w-[841px] md:mx-auto sm:hidden xs:hidden md:block  justify-center font-[Clash Display]">
               Tracing Our Rich Heritage:
               <br /> A Journey Through Time.
             </h2>
 
-            <h2 className="text-center font-semibold text-[32px]  pt-10 tracking-tighter p-5 leading-[35.68px] md:hidden font-[Clash Display]  h-[93px] mx-auto top-[69px]">
+            <h2 className="text-center font-semibold text-[25px]  pt-10 tracking-tighter p-5 leading-[35.68px] md:hidden font-[Clash Display]  h-[93px] mx-auto top-[69px]">
               Tracing Our Rich Heritage: A Journey Through Time.
             </h2>
             {/* <PhotoGallery /> */}
