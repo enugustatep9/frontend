@@ -24,8 +24,11 @@ const TabsComponent = () => {
   ];
 
   return (
-    <div className="md:w-[1180px] mx-auto p-4 mt-5 md:mt-20">
-      <div className="grid grid-cols-3 md:grid-cols-8 gap-2 md:gap-4 mb-10 w-[100%] md:w-[80%]">
+    <div className="md:w-[1180px] mx-auto p-4 mt-5 md:mt-20" data-aos="fade-up">
+      <div
+        className="grid grid-cols-3 md:grid-cols-8 gap-2 md:gap-4 mb-10 w-[100%] md:w-[80%]"
+        data-aos="fade-up"
+      >
         {tabs.map((tab, index) => (
           <button
             key={index}
@@ -40,29 +43,53 @@ const TabsComponent = () => {
           </button>
         ))}
       </div>
-      <div className="mt-4">
-        <div className={activeTab === 0 ? "block" : "hidden"}>
+      <div className="mt-4" data-aos="fade-up">
+        <div
+          className={activeTab === 0 ? "block" : "hidden"}
+          data-aos="fade-up"
+        >
           <AllCard />
         </div>
-        <div className={activeTab === 1 ? "block" : "hidden"}>
+        <div
+          className={activeTab === 1 ? "block" : "hidden"}
+          data-aos="fade-up"
+        >
           <EducationCard />
         </div>
-        <div className={activeTab === 2 ? "block" : "hidden"}>
+        <div
+          className={activeTab === 2 ? "block" : "hidden"}
+          data-aos="fade-up"
+        >
           <TechCard />
         </div>
-        <div className={activeTab === 3 ? "block" : "hidden"}>
+        <div
+          className={activeTab === 3 ? "block" : "hidden"}
+          data-aos="fade-up"
+        >
           <AgricultureCard />
         </div>
-        <div className={activeTab === 4 ? "block" : "hidden"}>
+        <div
+          className={activeTab === 4 ? "block" : "hidden"}
+          data-aos="fade-up"
+        >
           <EconomyCard />
         </div>
-        <div className={activeTab === 5 ? "block" : "hidden"}>
+        <div
+          className={activeTab === 5 ? "block" : "hidden"}
+          data-aos="fade-up"
+        >
           <TourismCard />
         </div>
-        <div className={activeTab === 6 ? "block" : "hidden"}>
+        <div
+          className={activeTab === 6 ? "block" : "hidden"}
+          data-aos="fade-up"
+        >
           <RealEstateCard />
         </div>
-        <div className={activeTab === 7 ? "block" : "hidden"}>
+        <div
+          className={activeTab === 7 ? "block" : "hidden"}
+          data-aos="fade-up"
+        >
           <HealthCard />
         </div>
       </div>

@@ -17,7 +17,10 @@ export default function Card3() {
   return (
     <>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-16 sm:w-[97%] sm:mx-auto lg:mx-auto lg:w-[90%] md:mx-auto mt-20">
-        <div className="lg:w-[90%] xs:w-[90%] sm:w-[97%] sm:mx-auto md:w-[290px]">
+        <div
+          className="lg:w-[90%] xs:w-[90%] sm:w-[97%] sm:mx-auto md:w-[290px]"
+          data-aos="fade-up"
+        >
           <button className="bg-primary text-secondary py-2 items-center lg:text-[24px] sm:text-[14px]  font-bold sm:rounded-[9.47px] rounded-[12px] sm:w-[90%] lg:w-[100%] lg:h-[63px] flex justify-between sm:pr-0  sm:pl-10 lg:pr-5 lg:pl-5">
             Enugu Igbo
             <span className="md:hidden pl-20 lg:hidden">
@@ -53,7 +56,10 @@ export default function Card3() {
             />
           </div>
         </div>
-        <div className="col-span-2 bg-white p-3 md:p-7 mx-auto w-[100%] rounded-[14px] mdrounded-[26px]">
+        <div
+          className="col-span-2 bg-white p-3 md:p-7 mx-auto w-[100%] rounded-[14px] mdrounded-[26px]"
+          data-aos="fade-up"
+        >
           <div className="flex flex-col gap-2 md:gap-4">
             <div>
               <Image src={Img} className="w-full object-cover" />

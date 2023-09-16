@@ -10,12 +10,15 @@ import Pic4 from "@/public/images/park.png";
 export default function LandmarkCard() {
   return (
     <>
-      <div className="wrapper">
+      <div className="wrapper" data-aos="fade-up">
         <Image src={Svg1} className=" md:-ml-12 mb-[500px] md:mb-[600px]" />
-        <h1 className="md:text-6xl text-[28px] ml-10 font-bold ">
+        <h1
+          className="md:text-6xl text-[28px] ml-10 font-bold "
+          data-aos="fade-up"
+        >
           Landmarks in Enugu
         </h1>
-        <div className="item item1 p-10 z-50">
+        <div className="item item1 p-10 z-50" data-aos="fade-left">
           <h1 className="flex w-1/5 text-3xl font-bold mt-10">
             Nnamdi Azikiwe Stadium
           </h1>
@@ -30,7 +33,7 @@ export default function LandmarkCard() {
           </p>
         </div>
         {/* <Image src={Svg2} className="absolute -mt-10 z-20 hidden md:flex" /> */}
-        <div className="item item2 z-50 relative">
+        <div className="item item2 z-50 relative" data-aos="fade-left">
           <Image
             src={Pic1}
             className="object-cover h-[655px] rounded-[14px] z-50 w-full"
@@ -40,13 +43,13 @@ export default function LandmarkCard() {
             className="absolute md:bottom-14 md:left-20 object-cover"
           />
         </div>
-        <div className="item item3 ">
+        <div className="item item3 " data-aos="fade-left">
           <Image
             src={Pic2}
             className="object-cover z-50 h-[800px] rounded-[14px] w-full"
           />
         </div>
-        <div className="item item4 p-10 z-50">
+        <div className="item item4 p-10 z-50" data-aos="fade-left">
           <h1 className="flex w-1/5 text-3xl font-bold mt-10">
             National Museum of Unity
           </h1>
@@ -60,7 +63,7 @@ export default function LandmarkCard() {
             Nigerian ethnic groups, celebrating unity in diversity.
           </p>
         </div>
-        <div className="item item5 z-50">
+        <div className="item item5 z-50" data-aos="fade-left">
           <Image
             src={Pic3}
             className="object-cover h-[655px] rounded-[14px] z-50 w-full"
@@ -79,7 +82,7 @@ export default function LandmarkCard() {
             leisure reflects Enugu's dynamic blend of history and progress.
           </p>
         </div>
-        <div className="item item7">
+        <div className="item item7" data-aos="fade-left">
           <Image
             src={Pic4}
             className="object-cover h-[655px] rounded-[14px] z-50 w-full"

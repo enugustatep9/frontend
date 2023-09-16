@@ -50,21 +50,24 @@ export default function Feedback() {
     },
   ];
   return (
-    <section className={styles.invest}>
+    <section className={styles.invest} data-aos="fade-up">
       <div className={styles.invest_header}>
-        <h2>
+        <h2 data-aos="fade-left">
           What our
           <br /> Investors says
         </h2>
       </div>
-      <div className={styles.invest_cards}>
+      <div className={styles.invest_cards} data-aos="fade-right">
         <div className={styles.invest_cards_wrapper}>
           {cardData.map((item) => (
             <FeedBackCard data={item} />
           ))}
         </div>
       </div>
-      <div className="-mt-[135px] ml-[100px] lg:flex md:hidden lg:block sm:hidden xs:hidden">
+      <div
+        className="-mt-[135px] ml-[100px] lg:flex md:hidden lg:block sm:hidden xs:hidden"
+        data-aos="fade-up"
+      >
         <Image src={FeedBarkCd1} />
         <Image src={FeedBarkCd2} />
         <Image src={FeedBarkCd3} className="ml-20 mt-20" />

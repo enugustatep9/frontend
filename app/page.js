@@ -23,11 +23,11 @@ export default function Home() {
           <section className={styles.heritage}>
             <div className={styles.heritage_content}>
               <div className={styles.heritage_content_text}>
-                <h2>
+                <h2 data-aos="fade-up">
                   Where Heritage <br />
                   meets Progress
                 </h2>
-                <p>
+                <p data-aos="fade-up">
                   "Where vibrant culture thrives! Nestled in Nigeria, our rich
                   heritage resonates through traditional dances, captivating
                   festivals, and warm hospitality. Explore landmarks, savour
@@ -35,25 +35,43 @@ export default function Home() {
                   magic of our cherished cultural treasure."
                 </p>
               </div>
-              <div className={styles.heritage_content_img}>
-                <div className={styles.heritage_empty_box}>.</div>
+              <div className={styles.heritage_content_img} data-aos="fade-up">
+                <div className={styles.heritage_empty_box} data-aos="fade-up">
+                  .
+                </div>
                 <div className={styles.imgg}>
-                  <Image src={heritageImg} alt="enugu heritage" />
+                  <Image
+                    data-aos="fade-up"
+                    src={heritageImg}
+                    alt="enugu heritage"
+                  />
                 </div>
               </div>
             </div>
-            <div className={styles.heritage_stats}>
-              <div className={styles.heritage_stats_item}>
-                <p className={styles.number}>17</p>
-                <p className={styles.label}>LGAs</p>
+            <div className={styles.heritage_stats} data-aos="fade-up">
+              <div className={styles.heritage_stats_item} data-aos="fade-up">
+                <p className={styles.number} data-aos="fade-up">
+                  17
+                </p>
+                <p className={styles.label} data-aos="fade-up">
+                  LGAs
+                </p>
               </div>
-              <div className={styles.heritage_stats_item}>
-                <p className={styles.number}>25</p>
-                <p className={styles.label}>Ministries</p>
+              <div className={styles.heritage_stats_item} data-aos="fade-up">
+                <p className={styles.number} data-aos="fade-up">
+                  25
+                </p>
+                <p className={styles.label} data-aos="fade-up">
+                  Ministries
+                </p>
               </div>
-              <div className={styles.heritage_stats_item}>
-                <p className={styles.number}>107+</p>
-                <p className={styles.label}>MDAs</p>
+              <div className={styles.heritage_stats_item} data-aos="fade-up">
+                <p className={styles.number} data-aos="fade-up">
+                  107+
+                </p>
+                <p className={styles.label} data-aos="fade-up">
+                  MDAs
+                </p>
               </div>
             </div>
           </section>

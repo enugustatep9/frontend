@@ -12,7 +12,10 @@ import AllCardComp from "./AllCardComp";
 const AllCard = () => {
   return (
     <>
-      <div className="grid md:grid-cols-3 gap-5 grid-cols-1 sm:mb-10 md:mb-2">
+      <div
+        className="grid md:grid-cols-3 gap-5 grid-cols-1 sm:mb-10 md:mb-2"
+        data-aos="fade-up"
+      >
         <AllCardComp
           img_url={Frame1}
           roi="20%roi"

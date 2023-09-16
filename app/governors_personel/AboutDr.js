@@ -6,21 +6,34 @@ import Icon2 from "@/public/images/gov_icon2.svg";
 export default function AboutDr() {
   return (
     <>
-      <div className="w-[90%] mx-auto flex justify-end mt-10">
-        <h1 className="font-bold text-[24px] md:text-[64px] font-[Clash Display] ">
+      <div
+        className="w-[90%] mx-auto flex justify-end mt-10"
+        data-aos="fade-up"
+      >
+        <h1
+          className="font-bold text-[24px] md:text-[64px] font-[Clash Display] "
+          data-aos="fade-up"
+        >
           About Dr Peter Mbah
         </h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 w-[90%] mx-auto gap-10 mt-10">
         <div className="md:col-span-2 hidden md:block">
           <Image
+            data-aos="fade-up"
             src={Tech}
             className="h-[289px] md:h-[555px] md:w-[100%] object-cover rounded-[20px]"
           />
         </div>
         <div>
-          <div className="bg-white w-[100%] h-[288px] rounded-[14px] md:h-[552px] relative">
-            <p className="p-10 md:p-20 text-[9.373px]  md:text-[18px] leading-[12.607px]  md:leading-[24.21px]">
+          <div
+            className="bg-white w-[100%] h-[288px] rounded-[14px] md:h-[552px] relative"
+            data-aos="fade-up"
+          >
+            <p
+              className="p-10 md:p-20 text-[9.373px]  md:text-[18px] leading-[12.607px]  md:leading-[24.21px]"
+              data-aos="fade-up"
+            >
               <span className="font-bold">
                 Énugwú: Enugu State's Capital City in Nigeria, nestled in the
                 southeast.
@@ -42,6 +55,7 @@ export default function AboutDr() {
         </div>
         <div className="md:col-span-2 block md:hidden">
           <Image
+            data-aos="fade-up"
             src={Tech}
             className="h-[289px] md:h-[555px] md:w-[100%] object-cover rounded-[20px]"
           />

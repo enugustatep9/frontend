@@ -22,19 +22,28 @@ export default function Explore() {
           <Image src={svg2} className="absolute right-36 -mt-[430px]" />
           <div>
             <div className="flex justify-center mx-auto">
-              <h1 className="text-[30px] font-[Clash Display] leading-[32px] md:hidden  font-bold w-10/12">
+              <h1
+                className="text-[30px] font-[Clash Display] leading-[32px] md:hidden  font-bold w-10/12"
+                data-aos="fade-up"
+              >
                 Explore Investments Opportunities
               </h1>
             </div>
 
             <div className="">
-              <h1 className="hidden leading-[57px] md:block text-[64px] font-bold w-1/2">
+              <h1
+                className="hidden leading-[57px] md:block text-[64px] font-bold w-1/2"
+                data-aos="fade-up"
+              >
                 Explore Investments Opportunities
               </h1>
             </div>
           </div>
         </div>
-        <div className="flex justify-start md:justify-start ml-10 -mt-[40px] md:-mt-[60px] md:ml-40 z-10">
+        <div
+          className="flex justify-start md:justify-start ml-10 -mt-[40px] md:-mt-[60px] md:ml-40 z-10"
+          data-aos="fade-up"
+        >
           <ScrollToDownButton />
         </div>
         <TabComponent />

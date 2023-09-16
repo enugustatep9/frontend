@@ -7,13 +7,22 @@ export default function GovTech() {
   return (
     <>
       <div className="w-[90%] mx-auto mt-10">
-        <h1 className="font-bold text-[24px] md:text-[64px] font-[Clash Display]">
+        <h1
+          className="font-bold text-[24px] md:text-[64px] font-[Clash Display]"
+          data-aos="fade-up"
+        >
           Technology
         </h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 w-[90%] mx-auto gap-10 mt-10">
+      <div
+        className="grid grid-cols-1 md:grid-cols-3 w-[90%] mx-auto gap-10 mt-10"
+        data-aos="fade-up"
+      >
         <div className="md:col-span-2">
-          <div className="bg-white  rounded-[14px] h-[288px] md:h-[552px] relative w-[100%]">
+          <div
+            className="bg-white  rounded-[14px] h-[288px] md:h-[552px] relative w-[100%]"
+            data-aos="fade-up"
+          >
             <p className="p-10 md:p-20 text-[9.373px] md:text-[18px] leading-[12.607px] md:leading-[24.21px]">
               <span className="font-bold">
                 Énugwú: Enugu State's Capital City in Nigeria, nestled in the
@@ -36,6 +45,7 @@ export default function GovTech() {
         </div>
         <div>
           <Image
+            data-aos="fade-up"
             src={Tech}
             className="md:h-auto h-[289px] object-cover rounded-[10.415px]"
           />

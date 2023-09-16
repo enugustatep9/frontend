@@ -9,8 +9,8 @@ import slantArrow from "@/public/images/arrow_slant_green.svg";
 export default function Future() {
   return (
     <>
-      <section className={styles.future}>
-        <div className={styles.future_investor}>
+      <section className={styles.future} data-aos="fade-ip">
+        <div className={styles.future_investor} data-aos="fade-up">
           <Image src={invMan} alt="investor" className={styles.inv_img} />
           <div className={styles.future_cards}>
             <div className={styles.future_card_wrapper}>
@@ -23,7 +23,7 @@ export default function Future() {
             </div>
           </div>
         </div>
-        <div className={styles.future_text}>
+        <div className={styles.future_text} data-aos="fade-up">
           <h2>Invest in the Future of Enugu State</h2>
           <p>
             Be a part of Enugu's remarkable journey towards progress and
@@ -32,7 +32,7 @@ export default function Future() {
             chance to invest in these initiatives and reap the rewards of your
             partnership.
           </p>
-          <div className={styles.future_btn_group}>
+          <div className={styles.future_btn_group} data-aos="fade-up">
             <Button text="Invest in us" />
             <Image
               src={slantArrow}

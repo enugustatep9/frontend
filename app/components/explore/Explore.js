@@ -21,7 +21,7 @@ export default function Explore() {
   return (
     <section className={styles.explore}>
       <header className={styles.explore_header}>
-        <h2 className="relative">
+        <h2 className="relative" data-aos="fade-up">
           A Brief Exploration <br />
           <Image
             src={Icon}
@@ -29,13 +29,13 @@ export default function Explore() {
           />
           of Enugu State
         </h2>
-        <p>
+        <p data-aos="fade-up">
           Enugu State, located in southeastern Nigeria, has emerged as a
           promising investment destination with a multitude of opportunities
           across various sectors.
         </p>
       </header>
-      <div className={styles.explore_video}>
+      <div className={styles.explore_video} data-aos="fade-up">
         <video
           onPause={() => setPause(true)}
           onPlay={() => setPause(false)}

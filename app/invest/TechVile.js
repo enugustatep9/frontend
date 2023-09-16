@@ -16,30 +16,43 @@ import RealEstateTest from "../about/test";
 export default function TechVile() {
   return (
     <>
-      <h1 className="sm:text-[36px] sm:w-0 md:text-6xl flex  md:w-[331px] md:h-[43px] md:justify-normal  md:ml-[100px] font-bold font-[Clash Display] md:mb-20 mb-4 sm:mb-[60px] sm:mt-[150px] mt-[170px] text-[36px]  sm:mr-auto sm:pl-7">
+      <h1
+        className="sm:text-[36px] sm:w-0 md:text-6xl flex  md:w-[331px] md:h-[43px] md:justify-normal  md:ml-[100px] font-bold font-[Clash Display] md:mb-20 mb-4 sm:mb-[60px] sm:mt-[150px] mt-[170px] text-[36px]  sm:mr-auto sm:pl-7"
+        data-aos="fade-up"
+      >
         TechVile
       </h1>
-      <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 md:w-[90%] sm:w-[90%] gap-10 md:mr-auto sm:mr-auto">
+      <div
+        className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 md:w-[90%] sm:w-[90%] gap-10 md:mr-auto sm:mr-auto"
+        data-aos="fade-up"
+      >
         <div className="md:col-span-2 md:mt-10 bg-white md:w-[100%] sm:w-[95%] pb-10">
           <div className="flex gap-4 md:ml-28 ml-10">
-            <div>
+            <div data-aos="fade-up">
               <Image
+                data-aos="fade-up"
                 src={Pic1}
                 className="md:w-[100%] sm:w-[100%]  md:h-[530px] h-[300px] md:-mt-10 -mt-5 object-cover rounded-[12px]"
               />
             </div>
             <div className="md:-mt-10 sm:-mr-8 -mt-5 md:-mr-44">
-              <div>
+              <div data-aos="fade-up">
                 <ChildrenCard value={39} />
               </div>
-              <div className="mt-2">
+              <div className="mt-2" data-aos="fade-up">
                 <AgricCard value={50} />
               </div>
             </div>
           </div>
         </div>
-        <div className="md:w-[80%]  md:ml-16 sm:w-full  sm:-mr-3 lg:ml-20 md:mx-auto sm:mx-auto ">
-          <div className="bg-white  sm:h-[256.7px] md:h-[352px] lg:h-[552px] rounded-[14px] relative sm:w-[93%]">
+        <div
+          className="md:w-[80%]  md:ml-16 sm:w-full  sm:-mr-3 lg:ml-20 md:mx-auto sm:mx-auto"
+          data-aos="fade-up"
+        >
+          <div
+            className="bg-white  sm:h-[256.7px] md:h-[352px] lg:h-[552px] rounded-[14px] relative sm:w-[93%]"
+            data-aos="fade-up"
+          >
             <p className="md:p-10 sm:p-5 lg:p-10 md:text-[16px] lg:text-[18px] lg:leading-[24.21px]">
               Forge Enugu's Technological Frontier. Invest in the Tech Scene of
               Enugu, Where Innovation and Progress Intersect. Collaborate with
@@ -51,7 +64,7 @@ export default function TechVile() {
               className="absolute bottom-0 right-0 sm:hidden md:block lg:block"
             />
           </div>
-          <div className="mt-5">
+          <div className="mt-5" data-aos="fade-up">
             <Link href="/explore">
               {" "}
               <Button text="Invest in Techville" />

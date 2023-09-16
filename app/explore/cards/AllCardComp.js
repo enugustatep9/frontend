@@ -41,10 +41,14 @@ export default function AllCardComp({ img_url, roi, text }) {
           <p className="font-bold text-[20px] leading-[20px] mt-2">{text}</p>
           {buttonBox && (
             <div className="flex gap-2 mt-2 ">
-              <button className="bg-secondary text-primary text-[12px] rounded-[48px] pl-5 py-2 pr-5 font-bold transition-all duration-500">
+              <button
+                className="bg-secondary text-primary text-[12px] rounded-[48px] pl-5 py-2 pr-5 font-bold transition-all duration-500"
+                data-aos="fade-up"
+              >
                 Invest
               </button>
               <Image
+                data-aos="fade-up"
                 className="w-10 transition-all duration-700"
                 src={slantArrow}
                 alt="click to invest"

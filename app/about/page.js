@@ -1,3 +1,4 @@
+"use client";
 import Explore from "../components/explore/Explore";
 import MainLayout from "../layouts/includes/MainLayout";
 import Card from "./Card";
@@ -21,6 +22,8 @@ import ScrollToDownButton from "../components/arrowDownButton/ArrowDownBtn";
 import YourNextPage from "./TestCarousel";
 import PhotoGalleryDemo from "../components/PhotoGalleryDemo";
 import CardTest from "./test";
+import "animate.css";
+
 export default function About() {
   return (
     <>
@@ -54,12 +57,15 @@ export default function About() {
             />
           </div>
           <div className=" md:mt-0 mt-10 sm:mb-0 sm:ml-0  sm:flex sm:justify-center sm:mx-auto">
-            <div className="md:mt-[80px] md:p-0 md:mx-0 md:ml-[100px] md:mr-auto mx-auto md:w-[50%] text-[#838384] font-bold text-[24px] md:text-[36px] sm:leading-[27.36px] md:leading-[41.04px] sm:text-[24px] font-[Clash Display] sm:w-[90%]">
-              <p className="font-bold">
+            <div
+              className="md:mt-[80px] md:p-0 md:mx-0 md:ml-[100px] md:mr-auto mx-auto md:w-[50%] text-[#838384] font-bold text-[24px] md:text-[36px] sm:leading-[27.36px] md:leading-[41.04px] sm:text-[24px] font-[Clash Display] sm:w-[90%]"
+              data-aos="fade-up"
+            >
+              <p className="font-bold ">
                 Dive into Enugu's Enigmatic History: From Coal Hub to Biafra's
                 Heart, Unveil Mesmerizing Tales.
                 <br />
-                <span className="text-black">
+                <span className="text-black font-bold">
                   Immerse in Culture, Festivals, and Enduring Spirit. Explore
                   Enugu's Legacy - a Captivating Journey!
                 </span>
@@ -67,7 +73,7 @@ export default function About() {
             </div>
           </div>
         </main>
-        <section className="mb-40 ">
+        <section className="mb-40">
           <Card />
           <Card2 />
           <Card3 />

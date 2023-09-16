@@ -42,7 +42,7 @@ const FaqComp = () => {
   };
 
   return (
-    <div className="mt-10">
+    <div className="mt-10" data-aos="fade-up">
       {faqs.map((faq, index) => (
         <div
           key={index}
@@ -53,7 +53,9 @@ const FaqComp = () => {
             onClick={() => toggleAccordion(index)}
             className="w-full text-left p-4 focus:outline-none"
           >
-            <span className="text-lg font-semibold">{faq.question}</span>
+            <span className="text-lg font-semibold" data-aos="fade-up">
+              {faq.question}
+            </span>
             <svg
               className={`ml-auto h-6 w-6 transform ${
                 activeIndex === index ? "rotate-0" : "-rotate-90"
@@ -71,7 +73,7 @@ const FaqComp = () => {
             </svg>
           </button>
           {activeIndex === index && (
-            <div className="p-4">
+            <div className="p-4" data-aos="fade-up">
               <p>{faq.answer}</p>
             </div>
           )}
